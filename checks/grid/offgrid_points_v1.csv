@@ -1,0 +1,1890 @@
+cell,source,layer,x_um,y_um
+OPAD04,SCL library cell,8/0,146.4520,256.2000
+OPAD04,SCL library cell,8/0,143.0500,252.7980
+OPAD04,SCL library cell,8/0,183.3000,196.2070
+OPAD04,SCL library cell,8/0,182.5930,195.5000
+OPAD04,SCL library cell,8/0,166.0000,196.5090
+OPAD04,SCL library cell,8/0,165.4410,195.9500
+OPAD04,SCL library cell,8/0,159.8620,195.9500
+OPAD04,SCL library cell,8/0,159.4500,196.3620
+OPAD04,SCL library cell,8/0,145.5490,90.7000
+OPAD04,SCL library cell,8/0,145.8000,90.9510
+OPAD04,SCL library cell,8/0,149.1000,91.6010
+OPAD04,SCL library cell,8/0,150.0010,90.7000
+OPAD04,SCL library cell,8/0,159.8500,174.6440
+OPAD04,SCL library cell,8/0,160.6560,175.4500
+OPAD04,SCL library cell,8/0,165.2460,175.4500
+OPAD04,SCL library cell,8/0,166.4000,174.2960
+OPAD04,SCL library cell,8/0,1.7500,245.9490
+OPAD04,SCL library cell,8/0,3.3510,247.5500
+OPAD04,SCL library cell,8/0,127.3000,116.3870
+OPAD04,SCL library cell,8/0,121.7130,110.8000
+OPAD04,SCL library cell,8/0,151.1000,178.1980
+OPAD04,SCL library cell,8/0,151.8020,178.9000
+OPAD04,SCL library cell,8/0,156.9480,178.9000
+OPAD04,SCL library cell,8/0,157.8000,178.0480
+OPAD04,SCL library cell,8/0,157.8000,93.0520
+OPAD04,SCL library cell,8/0,157.1980,92.4500
+OPAD04,SCL library cell,8/0,169.6520,92.3500
+OPAD04,SCL library cell,8/0,168.7000,93.3020
+OPAD04,SCL library cell,8/0,168.7000,178.3490
+OPAD04,SCL library cell,8/0,169.4510,179.1000
+OPAD04,SCL library cell,8/0,185.6500,90.7020
+OPAD04,SCL library cell,8/0,185.6520,90.7000
+OPAD04,SCL library cell,8/0,156.8480,253.8000
+OPAD04,SCL library cell,8/0,157.6500,252.9980
+OPAD04,SCL library cell,8/0,186.5020,196.1500
+OPAD04,SCL library cell,8/0,185.7000,196.9520
+OPAD04,SCL library cell,8/0,185.7000,252.7970
+OPAD04,SCL library cell,8/0,186.1030,253.2000
+OPAD04,SCL library cell,8/0,168.4520,194.2500
+OPAD04,SCL library cell,8/0,167.7000,195.0020
+OPAD04,SCL library cell,3/0,2.3220,106.9500
+OPAD04,SCL library cell,3/0,-0.9500,110.2220
+OPAD04,SCL library cell,3/0,-0.9500,248.0780
+OPAD04,SCL library cell,3/0,1.7720,250.8000
+OPAD04,SCL library cell,3/0,126.0780,250.8000
+OPAD04,SCL library cell,3/0,129.4500,247.4280
+OPAD04,SCL library cell,3/0,129.4500,108.9220
+OPAD04,SCL library cell,3/0,127.4780,106.9500
+OPAD04,SCL library cell,2/0,1.0500,246.5630
+OPAD04,SCL library cell,2/0,2.0370,247.5500
+OPAD04,SCL library cell,2/0,14.2140,231.0000
+OPAD04,SCL library cell,2/0,8.7000,225.4860
+OPAD04,SCL library cell,2/0,8.7000,126.2040
+OPAD04,SCL library cell,2/0,14.4040,120.5000
+OPAD04,SCL library cell,2/0,114.4490,120.5000
+OPAD04,SCL library cell,2/0,119.0000,125.0510
+OPAD04,SCL library cell,2/0,125.5630,247.5500
+OPAD04,SCL library cell,2/0,127.3500,245.7630
+OPAD04,SCL library cell,2/0,127.3500,109.9520
+OPAD04,SCL library cell,2/0,126.6980,109.3000
+OPAD04,SCL library cell,2/0,3.8140,259.8500
+OPAD04,SCL library cell,2/0,2.8500,260.8140
+OPAD04,SCL library cell,8/7,0.0010,0.0010
+OPAD04,SCL library cell,10/0,14.7510,125.5500
+OPAD04,SCL library cell,10/0,13.8000,126.5010
+OPAD04,SCL library cell,10/0,111.0990,225.5500
+OPAD04,SCL library cell,10/0,115.1000,221.5490
+OPAD04,SCL library cell,10/0,115.1000,127.6520
+OPAD04,SCL library cell,10/0,112.9980,125.5500
+OPAD04,SCL library cell,10/0,183.2000,205.6510
+OPAD04,SCL library cell,10/0,181.9490,204.4000
+OPAD04,SCL library cell,10/0,166.0000,205.0580
+OPAD04,SCL library cell,10/0,165.3420,204.4000
+OPAD04,SCL library cell,10/0,151.6000,165.3490
+OPAD04,SCL library cell,10/0,150.1490,166.8000
+OPAD04,SCL library cell,10/0,149.7960,202.5500
+OPAD04,SCL library cell,10/0,150.9500,203.7040
+OPAD04,SCL library cell,10/0,150.9500,252.2880
+OPAD04,SCL library cell,10/0,151.6120,252.9500
+OPAD04,SCL library cell,10/0,156.5960,252.9500
+OPAD04,SCL library cell,10/0,157.6500,251.8960
+OPAD04,SCL library cell,10/0,166.2990,194.8000
+OPAD04,SCL library cell,10/0,167.7000,196.2010
+OPAD04,SCL library cell,10/0,167.7000,252.0990
+OPAD04,SCL library cell,10/0,168.3510,252.7500
+OPAD04,SCL library cell,10/0,184.0490,195.3500
+OPAD04,SCL library cell,10/0,185.7000,197.0010
+OPAD04,SCL library cell,10/0,192.0000,183.8010
+OPAD04,SCL library cell,10/0,190.9490,182.7500
+OPAD04,SCL library cell,10/0,176.6010,182.7500
+OPAD04,SCL library cell,10/0,175.0000,181.1490
+OPAD04,SCL library cell,10/0,175.0000,93.0530
+OPAD04,SCL library cell,10/0,174.5470,92.6000
+OPAD04,SCL library cell,10/0,168.7000,174.8460
+OPAD04,SCL library cell,10/0,166.5460,177.0000
+PVDD01,SCL library cell,8/0,10.1490,90.7000
+PVDD01,SCL library cell,8/0,12.5000,93.0510
+PVDD01,SCL library cell,8/0,12.5000,246.1390
+PVDD01,SCL library cell,8/0,13.5110,247.1500
+PVDD01,SCL library cell,8/0,116.1490,247.1500
+PVDD01,SCL library cell,8/0,117.2500,246.0490
+PVDD01,SCL library cell,8/0,117.2500,95.4520
+PVDD01,SCL library cell,8/0,122.0020,90.7000
+PVDD01,SCL library cell,1/0,114.0980,248.8000
+PVDD01,SCL library cell,1/0,114.9000,247.9980
+PVDD01,SCL library cell,1/0,114.9000,109.1610
+PVDD01,SCL library cell,1/0,114.6890,108.9500
+PVDD01,SCL library cell,3/0,6.9220,106.9500
+PVDD01,SCL library cell,3/0,5.4500,108.4220
+PVDD01,SCL library cell,3/0,5.4500,248.1280
+PVDD01,SCL library cell,3/0,8.1220,250.8000
+PVDD01,SCL library cell,3/0,114.9260,250.8000
+PVDD01,SCL library cell,3/0,116.9000,248.8260
+PVDD01,SCL library cell,3/0,116.9000,108.3330
+PVDD01,SCL library cell,3/0,115.5170,106.9500
+PVDD01,SCL library cell,2/0,17.8510,109.3000
+PVDD01,SCL library cell,2/0,15.9000,111.2510
+PVDD01,SCL library cell,2/0,106.2000,110.6010
+PVDD01,SCL library cell,2/0,104.8990,109.3000
+PVDD01,SCL library cell,2/0,11.9010,233.0500
+PVDD01,SCL library cell,2/0,10.1000,234.8510
+PVDD01,SCL library cell,2/0,10.1000,245.5480
+PVDD01,SCL library cell,2/0,12.1020,247.5500
+PVDD01,SCL library cell,2/0,113.4000,234.6010
+PVDD01,SCL library cell,2/0,111.8490,233.0500
+PVDD01,SCL library cell,8/7,3.6800,264.9480
+PVDD01,SCL library cell,8/7,0.0010,0.0010
+PVDD01,SCL library cell,10/0,15.9570,0.3500
+PVDD01,SCL library cell,10/0,12.9000,3.4070
+PVDD01,SCL library cell,10/0,12.9000,229.6790
+PVDD01,SCL library cell,10/0,15.4710,232.2500
+PVDD01,SCL library cell,10/0,108.8890,232.2500
+PVDD01,SCL library cell,10/0,113.0000,228.1390
+PVDD01,SCL library cell,10/0,113.0000,190.2180
+PVDD01,SCL library cell,10/0,112.9000,190.1180
+PVDD01,SCL library cell,38/0,114.0980,248.8000
+PVDD01,SCL library cell,38/0,114.9000,247.9980
+PVDD01,SCL library cell,38/0,114.9000,109.1610
+PVDD01,SCL library cell,38/0,114.6890,108.9500
+PVSS01,SCL library cell,1/0,114.0980,248.8000
+PVSS01,SCL library cell,1/0,114.9000,247.9980
+PVSS01,SCL library cell,3/0,6.7220,106.9500
+PVSS01,SCL library cell,3/0,5.4500,108.2220
+PVSS01,SCL library cell,3/0,5.4500,248.1280
+PVSS01,SCL library cell,3/0,8.1220,250.8000
+PVSS01,SCL library cell,3/0,114.9260,250.8000
+PVSS01,SCL library cell,3/0,116.9000,248.8260
+PVSS01,SCL library cell,3/0,116.9000,108.1720
+PVSS01,SCL library cell,3/0,115.6780,106.9500
+PVSS01,SCL library cell,2/0,17.8510,109.3000
+PVSS01,SCL library cell,2/0,15.9000,111.2510
+PVSS01,SCL library cell,2/0,106.2000,110.6010
+PVSS01,SCL library cell,2/0,104.8990,109.3000
+PVSS01,SCL library cell,2/0,11.9010,233.0500
+PVSS01,SCL library cell,2/0,10.1000,234.8510
+PVSS01,SCL library cell,2/0,10.1000,245.5480
+PVSS01,SCL library cell,2/0,12.1020,247.5500
+PVSS01,SCL library cell,2/0,113.4000,234.6010
+PVSS01,SCL library cell,2/0,111.8490,233.0500
+PVSS01,SCL library cell,8/7,0.0010,0.0010
+PVSS01,SCL library cell,10/0,113.0000,190.2180
+PVSS01,SCL library cell,10/0,112.9000,190.1180
+PVSS01,SCL library cell,10/0,112.9000,109.5010
+PVSS01,SCL library cell,10/0,104.3490,100.9500
+PVSS01,SCL library cell,38/0,114.0980,248.8000
+PVSS01,SCL library cell,38/0,114.9000,247.9980
+IPAD00,SCL library cell,8/0,187.7000,254.3940
+IPAD00,SCL library cell,8/0,185.8940,256.2000
+IPAD00,SCL library cell,8/0,160.2520,256.2000
+IPAD00,SCL library cell,8/0,159.5500,255.4980
+IPAD00,SCL library cell,8/0,159.5500,97.0660
+IPAD00,SCL library cell,8/0,157.8340,95.3500
+IPAD00,SCL library cell,8/0,1.7500,245.9490
+IPAD00,SCL library cell,8/0,3.3510,247.5500
+IPAD00,SCL library cell,8/0,127.3500,116.4370
+IPAD00,SCL library cell,8/0,121.7130,110.8000
+IPAD00,SCL library cell,8/0,160.6890,90.7000
+IPAD00,SCL library cell,8/0,161.1500,91.1610
+IPAD00,SCL library cell,8/0,164.1970,234.2500
+IPAD00,SCL library cell,8/0,164.6500,233.7970
+IPAD00,SCL library cell,8/0,170.1500,108.2480
+IPAD00,SCL library cell,8/0,170.6520,108.7500
+IPAD00,SCL library cell,8/0,181.6500,233.8470
+IPAD00,SCL library cell,8/0,182.0530,234.2500
+IPAD00,SCL library cell,8/0,185.1500,91.2020
+IPAD00,SCL library cell,8/0,185.6520,90.7000
+IPAD00,SCL library cell,8/0,148.5480,250.2500
+IPAD00,SCL library cell,8/0,149.3500,249.4480
+IPAD00,SCL library cell,8/0,166.1500,135.3940
+IPAD00,SCL library cell,8/0,166.1570,135.4120
+IPAD00,SCL library cell,8/0,166.2370,135.5310
+IPAD00,SCL library cell,8/0,166.9560,136.2500
+IPAD00,SCL library cell,8/0,179.3480,136.2500
+IPAD00,SCL library cell,8/0,180.1500,135.4480
+IPAD00,SCL library cell,8/0,169.6010,110.2500
+IPAD00,SCL library cell,8/0,168.6500,109.2990
+IPAD00,SCL library cell,8/0,166.1500,248.4980
+IPAD00,SCL library cell,8/0,166.8020,249.1500
+IPAD00,SCL library cell,8/0,179.7470,249.1500
+IPAD00,SCL library cell,8/0,180.1150,248.7820
+IPAD00,SCL library cell,8/0,180.1500,248.6970
+IPAD00,SCL library cell,8/0,180.1500,140.1560
+IPAD00,SCL library cell,8/0,179.2440,139.2500
+IPAD00,SCL library cell,5/0,161.4510,256.9500
+IPAD00,SCL library cell,5/0,160.2500,255.7490
+IPAD00,SCL library cell,6/0,161.4510,256.9500
+IPAD00,SCL library cell,6/0,160.2500,255.7490
+IPAD00,SCL library cell,1/0,127.4000,179.6520
+IPAD00,SCL library cell,1/0,128.0020,179.0500
+IPAD00,SCL library cell,1/0,128.0580,134.0500
+IPAD00,SCL library cell,1/0,127.4500,133.4420
+IPAD00,SCL library cell,3/0,160.6720,103.2500
+IPAD00,SCL library cell,3/0,159.1500,104.7720
+IPAD00,SCL library cell,3/0,159.1500,234.7780
+IPAD00,SCL library cell,3/0,160.6220,236.2500
+IPAD00,SCL library cell,3/0,185.8280,236.2500
+IPAD00,SCL library cell,3/0,187.1500,234.9280
+IPAD00,SCL library cell,3/0,187.1500,104.7720
+IPAD00,SCL library cell,3/0,185.6280,103.2500
+IPAD00,SCL library cell,3/0,2.3220,106.9500
+IPAD00,SCL library cell,3/0,-0.9500,110.2220
+IPAD00,SCL library cell,3/0,-0.9500,248.0780
+IPAD00,SCL library cell,3/0,1.7720,250.8000
+IPAD00,SCL library cell,3/0,126.0780,250.8000
+IPAD00,SCL library cell,3/0,129.4000,247.4780
+IPAD00,SCL library cell,3/0,148.2780,181.0500
+IPAD00,SCL library cell,3/0,151.1000,178.2280
+IPAD00,SCL library cell,3/0,151.1000,134.8720
+IPAD00,SCL library cell,3/0,148.2780,132.0500
+IPAD00,SCL library cell,3/0,129.4500,108.9220
+IPAD00,SCL library cell,3/0,127.4780,106.9500
+IPAD00,SCL library cell,2/0,137.1010,105.9500
+IPAD00,SCL library cell,2/0,136.1000,106.9510
+IPAD00,SCL library cell,2/0,136.1000,127.5490
+IPAD00,SCL library cell,2/0,136.9510,128.4000
+IPAD00,SCL library cell,2/0,140.9870,128.4000
+IPAD00,SCL library cell,2/0,141.8500,129.2630
+IPAD00,SCL library cell,2/0,141.8500,185.9990
+IPAD00,SCL library cell,2/0,140.8490,187.0000
+IPAD00,SCL library cell,2/0,136.9060,187.0000
+IPAD00,SCL library cell,2/0,136.0000,187.9060
+IPAD00,SCL library cell,2/0,150.9000,108.0020
+IPAD00,SCL library cell,2/0,148.8480,105.9500
+IPAD00,SCL library cell,2/0,153.4500,259.2480
+IPAD00,SCL library cell,2/0,152.8480,259.8500
+IPAD00,SCL library cell,2/0,3.8140,259.8500
+IPAD00,SCL library cell,2/0,2.8500,260.8140
+IPAD00,SCL library cell,2/0,160.7040,257.6500
+IPAD00,SCL library cell,2/0,159.5500,256.4960
+IPAD00,SCL library cell,2/0,159.5500,101.4520
+IPAD00,SCL library cell,2/0,159.5520,101.4500
+IPAD00,SCL library cell,2/0,162.1010,105.2500
+IPAD00,SCL library cell,2/0,161.1500,106.2010
+IPAD00,SCL library cell,2/0,161.1500,233.3440
+IPAD00,SCL library cell,2/0,162.0560,234.2500
+IPAD00,SCL library cell,2/0,165.5360,230.7500
+IPAD00,SCL library cell,2/0,164.6500,229.8640
+IPAD00,SCL library cell,2/0,185.1500,106.0520
+IPAD00,SCL library cell,2/0,184.3480,105.2500
+IPAD00,SCL library cell,2/0,1.0500,246.5630
+IPAD00,SCL library cell,2/0,2.0370,247.5500
+IPAD00,SCL library cell,2/0,14.2140,231.0000
+IPAD00,SCL library cell,2/0,8.7000,225.4860
+IPAD00,SCL library cell,2/0,8.7000,126.2040
+IPAD00,SCL library cell,2/0,14.4040,120.5000
+IPAD00,SCL library cell,2/0,114.4490,120.5000
+IPAD00,SCL library cell,2/0,119.0000,125.0510
+IPAD00,SCL library cell,2/0,125.5630,247.5500
+IPAD00,SCL library cell,2/0,127.3500,245.7630
+IPAD00,SCL library cell,2/0,127.3500,109.9520
+IPAD00,SCL library cell,2/0,126.6980,109.3000
+IPAD00,SCL library cell,2/0,166.7520,139.2500
+IPAD00,SCL library cell,2/0,166.1500,139.8520
+IPAD00,SCL library cell,2/0,179.4480,229.2500
+IPAD00,SCL library cell,2/0,180.1500,228.5480
+IPAD00,SCL library cell,2/0,180.1500,140.1560
+IPAD00,SCL library cell,2/0,179.2440,139.2500
+IPAD00,SCL library cell,10/0,14.7510,125.5500
+IPAD00,SCL library cell,10/0,13.8000,126.5010
+IPAD00,SCL library cell,10/0,108.7490,225.5500
+IPAD00,SCL library cell,10/0,132.1500,248.9510
+IPAD00,SCL library cell,10/0,179.5470,249.1500
+IPAD00,SCL library cell,10/0,180.2000,248.4970
+IPAD00,SCL library cell,10/0,152.2980,228.6000
+IPAD00,SCL library cell,10/0,125.0480,201.3500
+IPAD00,SCL library cell,10/0,125.0320,201.3500
+IPAD00,SCL library cell,10/0,113.8000,190.1180
+IPAD00,SCL library cell,10/0,113.8000,126.3520
+IPAD00,SCL library cell,10/0,112.9980,125.5500
+IPAD00,SCL library cell,10/7,27.5840,272.6860
+IPAD00,SCL library cell,10/7,50.8570,162.8000
+IPAD00,SCL library cell,10/7,169.5350,42.7340
+IPAD00,SCL library cell,38/0,127.4000,179.6520
+IPAD00,SCL library cell,38/0,128.0020,179.0500
+IPAD00,SCL library cell,38/0,128.0580,134.0500
+IPAD00,SCL library cell,38/0,127.4500,133.4420
+IPAD00,SCL library cell,39/0,137.1010,105.9500
+IPAD00,SCL library cell,39/0,136.1000,106.9510
+IPAD00,SCL library cell,39/0,136.1000,127.5490
+IPAD00,SCL library cell,39/0,136.9510,128.4000
+IPAD00,SCL library cell,39/0,140.9870,128.4000
+IPAD00,SCL library cell,39/0,141.8500,129.2630
+IPAD00,SCL library cell,39/0,141.8500,185.9990
+IPAD00,SCL library cell,39/0,140.8490,187.0000
+IPAD00,SCL library cell,39/0,136.9060,187.0000
+IPAD00,SCL library cell,39/0,136.0000,187.9060
+IPAD00,SCL library cell,39/0,150.9000,108.0020
+IPAD00,SCL library cell,39/0,148.8480,105.9500
+IPAD00,SCL library cell,37/0,166.7520,139.2500
+IPAD00,SCL library cell,37/0,166.1500,139.8520
+IPAD00,SCL library cell,37/0,179.4480,229.2500
+IPAD00,SCL library cell,37/0,180.1500,228.5480
+IPAD00,SCL library cell,37/0,180.1500,140.1560
+IPAD00,SCL library cell,37/0,179.2440,139.2500
+AIPAD00,SCL library cell,8/0,187.7000,254.3940
+AIPAD00,SCL library cell,8/0,185.8940,256.2000
+AIPAD00,SCL library cell,8/0,160.2520,256.2000
+AIPAD00,SCL library cell,8/0,159.5500,255.4980
+AIPAD00,SCL library cell,8/0,159.5500,97.0660
+AIPAD00,SCL library cell,8/0,157.8340,95.3500
+AIPAD00,SCL library cell,8/0,1.7500,245.9490
+AIPAD00,SCL library cell,8/0,3.3510,247.5500
+AIPAD00,SCL library cell,8/0,127.3500,116.4370
+AIPAD00,SCL library cell,8/0,121.7130,110.8000
+AIPAD00,SCL library cell,8/0,160.6890,90.7000
+AIPAD00,SCL library cell,8/0,161.1500,91.1610
+AIPAD00,SCL library cell,8/0,164.1970,234.2500
+AIPAD00,SCL library cell,8/0,164.6500,233.7970
+AIPAD00,SCL library cell,8/0,170.1500,108.2480
+AIPAD00,SCL library cell,8/0,170.6520,108.7500
+AIPAD00,SCL library cell,8/0,181.6500,233.8470
+AIPAD00,SCL library cell,8/0,182.0530,234.2500
+AIPAD00,SCL library cell,8/0,185.1500,91.2020
+AIPAD00,SCL library cell,8/0,185.6520,90.7000
+AIPAD00,SCL library cell,8/0,148.5480,250.2500
+AIPAD00,SCL library cell,8/0,149.3500,249.4480
+AIPAD00,SCL library cell,8/0,166.1500,135.3940
+AIPAD00,SCL library cell,8/0,166.1570,135.4120
+AIPAD00,SCL library cell,8/0,166.2370,135.5310
+AIPAD00,SCL library cell,8/0,166.9560,136.2500
+AIPAD00,SCL library cell,8/0,179.3480,136.2500
+AIPAD00,SCL library cell,8/0,180.1500,135.4480
+AIPAD00,SCL library cell,8/0,169.6010,110.2500
+AIPAD00,SCL library cell,8/0,168.6500,109.2990
+AIPAD00,SCL library cell,8/0,166.1500,248.4980
+AIPAD00,SCL library cell,8/0,166.8020,249.1500
+AIPAD00,SCL library cell,8/0,179.7470,249.1500
+AIPAD00,SCL library cell,8/0,180.1150,248.7820
+AIPAD00,SCL library cell,8/0,180.1500,248.6970
+AIPAD00,SCL library cell,8/0,180.1500,140.1560
+AIPAD00,SCL library cell,8/0,179.2440,139.2500
+AIPAD00,SCL library cell,5/0,161.4510,256.9500
+AIPAD00,SCL library cell,5/0,160.2500,255.7490
+AIPAD00,SCL library cell,6/0,161.4510,256.9500
+AIPAD00,SCL library cell,6/0,160.2500,255.7490
+AIPAD00,SCL library cell,1/0,127.4000,179.6520
+AIPAD00,SCL library cell,1/0,128.0020,179.0500
+AIPAD00,SCL library cell,1/0,128.0580,134.0500
+AIPAD00,SCL library cell,1/0,127.4500,133.4420
+AIPAD00,SCL library cell,3/0,160.6720,103.2500
+AIPAD00,SCL library cell,3/0,159.1500,104.7720
+AIPAD00,SCL library cell,3/0,159.1500,234.7780
+AIPAD00,SCL library cell,3/0,160.6220,236.2500
+AIPAD00,SCL library cell,3/0,185.8280,236.2500
+AIPAD00,SCL library cell,3/0,187.1500,234.9280
+AIPAD00,SCL library cell,3/0,187.1500,104.7720
+AIPAD00,SCL library cell,3/0,185.6280,103.2500
+AIPAD00,SCL library cell,3/0,2.3220,106.9500
+AIPAD00,SCL library cell,3/0,-0.9500,110.2220
+AIPAD00,SCL library cell,3/0,-0.9500,248.0780
+AIPAD00,SCL library cell,3/0,1.7720,250.8000
+AIPAD00,SCL library cell,3/0,126.0780,250.8000
+AIPAD00,SCL library cell,3/0,129.4000,247.4780
+AIPAD00,SCL library cell,3/0,148.2780,181.0500
+AIPAD00,SCL library cell,3/0,151.1000,178.2280
+AIPAD00,SCL library cell,3/0,151.1000,134.8720
+AIPAD00,SCL library cell,3/0,148.2780,132.0500
+AIPAD00,SCL library cell,3/0,129.4500,108.9220
+AIPAD00,SCL library cell,3/0,127.4780,106.9500
+AIPAD00,SCL library cell,2/0,137.1010,105.9500
+AIPAD00,SCL library cell,2/0,136.1000,106.9510
+AIPAD00,SCL library cell,2/0,136.1000,127.5490
+AIPAD00,SCL library cell,2/0,136.9510,128.4000
+AIPAD00,SCL library cell,2/0,140.9870,128.4000
+AIPAD00,SCL library cell,2/0,141.8500,129.2630
+AIPAD00,SCL library cell,2/0,141.8500,185.9990
+AIPAD00,SCL library cell,2/0,140.8490,187.0000
+AIPAD00,SCL library cell,2/0,136.9060,187.0000
+AIPAD00,SCL library cell,2/0,136.0000,187.9060
+AIPAD00,SCL library cell,2/0,150.9000,108.0020
+AIPAD00,SCL library cell,2/0,148.8480,105.9500
+AIPAD00,SCL library cell,2/0,153.4500,259.2480
+AIPAD00,SCL library cell,2/0,152.8480,259.8500
+AIPAD00,SCL library cell,2/0,3.8140,259.8500
+AIPAD00,SCL library cell,2/0,2.8500,260.8140
+AIPAD00,SCL library cell,2/0,160.7040,257.6500
+AIPAD00,SCL library cell,2/0,159.5500,256.4960
+AIPAD00,SCL library cell,2/0,159.5500,101.4520
+AIPAD00,SCL library cell,2/0,159.5520,101.4500
+AIPAD00,SCL library cell,2/0,162.1010,105.2500
+AIPAD00,SCL library cell,2/0,161.1500,106.2010
+AIPAD00,SCL library cell,2/0,161.1500,233.3440
+AIPAD00,SCL library cell,2/0,162.0560,234.2500
+AIPAD00,SCL library cell,2/0,165.5360,230.7500
+AIPAD00,SCL library cell,2/0,164.6500,229.8640
+AIPAD00,SCL library cell,2/0,185.1500,106.0520
+AIPAD00,SCL library cell,2/0,184.3480,105.2500
+AIPAD00,SCL library cell,2/0,1.0500,246.5630
+AIPAD00,SCL library cell,2/0,2.0370,247.5500
+AIPAD00,SCL library cell,2/0,14.2140,231.0000
+AIPAD00,SCL library cell,2/0,8.7000,225.4860
+AIPAD00,SCL library cell,2/0,8.7000,126.2040
+AIPAD00,SCL library cell,2/0,14.4040,120.5000
+AIPAD00,SCL library cell,2/0,114.4490,120.5000
+AIPAD00,SCL library cell,2/0,119.0000,125.0510
+AIPAD00,SCL library cell,2/0,125.5630,247.5500
+AIPAD00,SCL library cell,2/0,127.3500,245.7630
+AIPAD00,SCL library cell,2/0,127.3500,109.9520
+AIPAD00,SCL library cell,2/0,126.6980,109.3000
+AIPAD00,SCL library cell,2/0,166.7520,139.2500
+AIPAD00,SCL library cell,2/0,166.1500,139.8520
+AIPAD00,SCL library cell,2/0,179.4480,229.2500
+AIPAD00,SCL library cell,2/0,180.1500,228.5480
+AIPAD00,SCL library cell,2/0,180.1500,140.1560
+AIPAD00,SCL library cell,2/0,179.2440,139.2500
+AIPAD00,SCL library cell,10/0,14.7510,125.5500
+AIPAD00,SCL library cell,10/0,13.8000,126.5010
+AIPAD00,SCL library cell,10/0,108.7490,225.5500
+AIPAD00,SCL library cell,10/0,132.1500,248.9510
+AIPAD00,SCL library cell,10/0,179.5470,249.1500
+AIPAD00,SCL library cell,10/0,180.2000,248.4970
+AIPAD00,SCL library cell,10/0,152.2980,228.6000
+AIPAD00,SCL library cell,10/0,125.0480,201.3500
+AIPAD00,SCL library cell,10/0,125.0320,201.3500
+AIPAD00,SCL library cell,10/0,113.8000,190.1180
+AIPAD00,SCL library cell,10/0,113.8000,126.3520
+AIPAD00,SCL library cell,10/0,112.9980,125.5500
+AIPAD00,SCL library cell,10/0,45.9580,0.0000
+AIPAD00,SCL library cell,10/0,80.9580,125.5500
+AIPAD00,SCL library cell,10/7,27.5840,272.6860
+AIPAD00,SCL library cell,10/7,50.8570,162.8000
+AIPAD00,SCL library cell,38/0,127.4000,179.6520
+AIPAD00,SCL library cell,38/0,128.0020,179.0500
+AIPAD00,SCL library cell,38/0,128.0580,134.0500
+AIPAD00,SCL library cell,38/0,127.4500,133.4420
+AIPAD00,SCL library cell,39/0,137.1010,105.9500
+AIPAD00,SCL library cell,39/0,136.1000,106.9510
+AIPAD00,SCL library cell,39/0,136.1000,127.5490
+AIPAD00,SCL library cell,39/0,136.9510,128.4000
+AIPAD00,SCL library cell,39/0,140.9870,128.4000
+AIPAD00,SCL library cell,39/0,141.8500,129.2630
+AIPAD00,SCL library cell,39/0,141.8500,185.9990
+AIPAD00,SCL library cell,39/0,140.8490,187.0000
+AIPAD00,SCL library cell,39/0,136.9060,187.0000
+AIPAD00,SCL library cell,39/0,136.0000,187.9060
+AIPAD00,SCL library cell,39/0,150.9000,108.0020
+AIPAD00,SCL library cell,39/0,148.8480,105.9500
+AIPAD00,SCL library cell,37/0,166.7520,139.2500
+AIPAD00,SCL library cell,37/0,166.1500,139.8520
+AIPAD00,SCL library cell,37/0,179.4480,229.2500
+AIPAD00,SCL library cell,37/0,180.1500,228.5480
+AIPAD00,SCL library cell,37/0,180.1500,140.1560
+AIPAD00,SCL library cell,37/0,179.2440,139.2500
+CDRI01,SCL library cell,8/7,0.0010,0.0010
+CDRI01,SCL library cell,8/7,0.0020,45.0000
+VDDCON,SCL library cell,8/7,0.0010,0.0010
+VDDCON,SCL library cell,8/7,0.0020,45.0000
+DFCL11,SCL library cell,8/0,59.1930,20.0000
+DFCL11,SCL library cell,8/0,59.9500,20.7570
+DFCL11,SCL library cell,8/0,66.3500,17.1010
+DFCL11,SCL library cell,8/0,62.5490,13.3000
+DFCL11,SCL library cell,4/0,70.3490,23.2500
+DFCL11,SCL library cell,4/0,71.2500,24.1510
+DFCL11,SCL library cell,4/0,73.1000,22.8510
+DFCL11,SCL library cell,4/0,71.4490,21.2000
+DFCL11,SCL library cell,4/0,67.6520,21.2000
+DFCL11,SCL library cell,4/0,67.0500,20.5980
+DFCL11,SCL library cell,4/0,60.1000,24.5490
+DFCL11,SCL library cell,4/0,63.1500,27.5990
+DFCL11,SCL library cell,4/0,56.9000,30.2470
+DFCL11,SCL library cell,4/0,57.7500,31.0970
+DFCL11,SCL library cell,4/0,32.1620,29.5000
+DFCL11,SCL library cell,4/0,32.0500,29.6120
+DFCL11,SCL library cell,4/0,80.4500,23.5020
+DFCL11,SCL library cell,4/0,78.1500,21.2020
+DFCL11,SCL library cell,4/0,78.1500,20.1510
+DFCL11,SCL library cell,4/0,75.4490,17.4500
+DFCL11,SCL library cell,8/7,0.0010,0.0010
+DFCL11,SCL library cell,8/7,0.0020,45.0000
+DFCL11,SCL library cell,10/0,47.9500,10.8680
+DFCL11,SCL library cell,10/0,50.4500,13.3680
+DFCL11,SCL library cell,10/0,69.6000,13.3680
+DFCL11,SCL library cell,10/0,72.1000,10.8680
+DFCL11,SCL library cell,10/0,17.1500,32.2010
+DFCL11,SCL library cell,10/0,20.1500,32.2010
+MX2101,SCL library cell,8/0,24.8500,17.7020
+MX2101,SCL library cell,8/0,23.4520,19.1000
+MX2101,SCL library cell,8/0,24.7000,21.2480
+MX2101,SCL library cell,8/0,25.9480,20.0000
+MX2101,SCL library cell,8/7,0.0010,0.0010
+MX2101,SCL library cell,8/7,0.0020,45.0000
+NOR501,SCL library cell,8/7,0.0010,0.0010
+NOR501,SCL library cell,8/7,0.0020,45.0000
+NOR301,SCL library cell,8/7,0.0010,0.0010
+NOR301,SCL library cell,8/7,0.0020,45.0000
+NOR301,SCL library cell,8/7,1.5450,23.1830
+XNR201,SCL library cell,8/7,0.0010,0.0010
+XNR201,SCL library cell,8/7,0.0020,45.0000
+AND301,SCL library cell,8/0,17.7110,20.3500
+AND301,SCL library cell,8/0,19.2500,18.6990
+AND301,SCL library cell,8/0,20.8500,19.8880
+AND301,SCL library cell,8/0,20.2530,20.6000
+AND301,SCL library cell,8/0,23.3220,20.8000
+AND301,SCL library cell,8/7,0.0010,0.0010
+AND301,SCL library cell,8/7,0.0020,45.0000
+XOR201,SCL library cell,8/7,0.0010,0.0010
+XOR201,SCL library cell,8/7,0.0020,45.0000
+ORND01,SCL library cell,8/7,0.0010,0.0010
+ORND01,SCL library cell,8/7,0.0020,45.0000
+AOI401,SCL library cell,8/7,0.0010,0.0010
+AOI401,SCL library cell,8/7,0.0020,45.0000
+NND601,SCL library cell,8/7,0.0010,0.0010
+NND601,SCL library cell,8/7,0.0020,45.0000
+NND601,SCL library cell,8/7,1.5090,21.5970
+NND601,SCL library cell,8/7,9.9530,21.4730
+NND601,SCL library cell,8/7,14.2570,21.3270
+NND601,SCL library cell,8/7,22.5240,14.2890
+NND601,SCL library cell,8/7,31.1010,18.3810
+NND601,SCL library cell,8/7,39.4630,17.5760
+NOR201,SCL library cell,8/7,0.0010,0.0010
+NOR201,SCL library cell,8/7,0.0020,45.0000
+OR2101,SCL library cell,8/0,12.1040,28.7000
+OR2101,SCL library cell,8/0,11.8500,28.9540
+OR2101,SCL library cell,8/7,0.0010,0.0010
+OR2101,SCL library cell,8/7,0.0020,45.0000
+AND201,SCL library cell,8/7,0.0010,0.0010
+AND201,SCL library cell,8/7,0.0020,45.0000
+AND201,SCL library cell,8/7,0.0000,43.3770
+AND201,SCL library cell,8/7,0.0000,4.4580
+NOR300,SCL library cell,8/7,0.0010,0.0010
+NOR300,SCL library cell,8/7,0.0020,45.0000
+ADNR01,SCL library cell,8/7,0.0010,0.0010
+ADNR01,SCL library cell,8/7,0.0020,45.0000
+NND201,SCL library cell,8/7,0.0010,0.0010
+NND201,SCL library cell,8/7,0.0020,45.0000
+NOR200,SCL library cell,8/7,0.0010,0.0010
+NOR200,SCL library cell,8/7,0.0020,45.0000
+INVR05,SCL library cell,8/0,11.4730,21.4500
+INVR05,SCL library cell,8/0,9.2000,24.4690
+INVR05,SCL library cell,8/0,11.7000,25.3040
+INVR05,SCL library cell,8/0,12.5320,24.2000
+INVR05,SCL library cell,8/7,0.0010,0.0010
+INVR05,SCL library cell,8/7,0.0020,45.0000
+INVR04,SCL library cell,8/7,0.0010,0.0010
+INVR04,SCL library cell,8/7,0.0020,45.0000
+INVR03,SCL library cell,8/7,0.0010,0.0010
+INVR03,SCL library cell,8/7,0.0020,45.0000
+INVR02,SCL library cell,8/7,0.0010,0.0010
+INVR02,SCL library cell,8/7,0.0020,45.0000
+INVR01,SCL library cell,8/7,0.0010,0.0010
+INVR01,SCL library cell,8/7,0.0020,45.0000
+char_I7,SCL Silicon No. block (char cell),8/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),8/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),8/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),8/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),8/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),8/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),8/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),8/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),8/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),8/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),8/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),8/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),7/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),7/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),7/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),7/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),7/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),7/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),7/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),7/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),7/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),7/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),7/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),7/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),5/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),5/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),5/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),5/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),5/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),5/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),5/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),5/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),5/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),5/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),5/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),5/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),6/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),6/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),6/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),6/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),6/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),6/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),6/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),6/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),6/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),6/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),6/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),6/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),1/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),1/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),1/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),1/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),1/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),1/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),1/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),1/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),1/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),1/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),1/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),1/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),3/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),3/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),3/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),3/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),3/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),3/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),3/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),3/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),3/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),3/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),3/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),3/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),2/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),2/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),2/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),2/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),2/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),2/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),2/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),2/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),2/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),2/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),2/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),2/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),4/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),4/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),4/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),4/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),4/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),4/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),4/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),4/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),4/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),4/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),4/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),4/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),10/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),10/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),10/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),10/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),10/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),10/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),10/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),10/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),10/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),10/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),10/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),10/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),9/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),9/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),9/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),9/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),9/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),9/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),9/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),9/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),9/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),9/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),9/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),9/0,8.0280,0.0000
+char_I7,SCL Silicon No. block (char cell),11/0,4.0590,0.0000
+char_I7,SCL Silicon No. block (char cell),11/0,4.0590,4.1180
+char_I7,SCL Silicon No. block (char cell),11/0,10.0120,19.0790
+char_I7,SCL Silicon No. block (char cell),11/0,10.0120,21.0000
+char_I7,SCL Silicon No. block (char cell),11/0,4.0590,21.0000
+char_I7,SCL Silicon No. block (char cell),11/0,4.0590,19.0790
+char_I7,SCL Silicon No. block (char cell),11/0,0.0000,19.0790
+char_I7,SCL Silicon No. block (char cell),11/0,0.0000,25.1180
+char_I7,SCL Silicon No. block (char cell),11/0,13.9810,25.1180
+char_I7,SCL Silicon No. block (char cell),11/0,13.9810,19.0790
+char_I7,SCL Silicon No. block (char cell),11/0,8.0280,3.0200
+char_I7,SCL Silicon No. block (char cell),11/0,8.0280,0.0000
+char_I0,SCL Silicon No. block (char cell),8/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),8/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),8/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),8/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),8/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),8/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),8/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),8/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),8/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),8/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),8/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),8/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),8/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),8/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),8/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),8/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),8/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),8/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),7/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),7/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),7/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),7/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),7/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),7/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),7/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),7/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),7/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),7/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),7/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),7/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),7/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),7/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),7/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),7/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),7/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),7/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),5/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),5/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),5/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),5/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),5/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),5/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),5/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),5/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),5/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),5/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),5/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),5/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),5/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),5/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),5/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),5/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),5/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),5/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),6/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),6/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),6/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),6/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),6/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),6/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),6/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),6/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),6/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),6/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),6/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),6/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),6/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),6/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),6/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),6/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),6/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),6/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),1/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),1/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),1/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),1/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),1/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),1/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),1/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),1/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),1/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),1/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),1/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),1/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),1/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),1/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),1/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),1/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),1/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),1/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),3/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),3/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),3/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),3/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),3/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),3/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),3/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),3/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),3/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),3/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),3/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),3/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),3/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),3/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),3/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),3/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),3/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),3/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),2/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),2/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),2/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),2/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),2/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),2/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),2/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),2/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),2/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),2/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),2/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),2/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),2/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),2/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),2/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),2/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),2/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),2/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),4/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),4/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),4/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),4/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),4/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),4/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),4/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),4/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),4/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),4/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),4/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),4/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),4/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),4/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),4/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),4/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),4/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),4/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),10/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),10/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),10/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),10/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),10/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),10/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),10/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),10/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),10/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),10/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),10/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),10/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),10/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),10/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),10/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),10/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),10/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),10/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),9/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),9/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),9/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),9/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),9/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),9/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),9/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),9/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),9/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),9/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),9/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),9/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),9/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),9/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),9/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),9/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),9/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),9/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),11/0,0.0000,2.0590
+char_I0,SCL Silicon No. block (char cell),11/0,0.0000,23.0590
+char_I0,SCL Silicon No. block (char cell),11/0,1.9850,25.1180
+char_I0,SCL Silicon No. block (char cell),11/0,11.9970,25.1180
+char_I0,SCL Silicon No. block (char cell),11/0,13.9810,23.0590
+char_I0,SCL Silicon No. block (char cell),11/0,13.9810,2.0590
+char_I0,SCL Silicon No. block (char cell),11/0,11.9970,0.0000
+char_I0,SCL Silicon No. block (char cell),11/0,7.0360,0.0000
+char_I0,SCL Silicon No. block (char cell),11/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),11/0,9.0200,4.1180
+char_I0,SCL Silicon No. block (char cell),11/0,10.0120,5.0790
+char_I0,SCL Silicon No. block (char cell),11/0,10.0120,20.0390
+char_I0,SCL Silicon No. block (char cell),11/0,5.0510,21.0000
+char_I0,SCL Silicon No. block (char cell),11/0,4.0590,20.0390
+char_I0,SCL Silicon No. block (char cell),11/0,4.0590,5.0790
+char_I0,SCL Silicon No. block (char cell),11/0,5.0510,4.1180
+char_I0,SCL Silicon No. block (char cell),11/0,7.0360,4.1180
+char_I0,SCL Silicon No. block (char cell),11/0,7.0360,0.0000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),8/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),7/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),5/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),6/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),1/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),3/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),2/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),4/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),10/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),9/0,623.8910,399.4270
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,369.2930,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,369.2920,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,369.2040,389.5920
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,366.2940,392.5440
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,366.2260,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,372.4400,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,370.2850,395.4890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,372.4360,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,378.1830,393.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,380.1490,395.7200
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,380.1490,408.6000
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,378.0770,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,366.2260,410.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,366.2260,411.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,366.2270,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,369.2040,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,381.1410,414.7100
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,381.1420,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,381.2300,414.7090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,384.1400,411.7570
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,384.2080,411.6900
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,384.2080,392.6120
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,384.2070,392.6110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,381.2300,389.5910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,395.6930,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,392.6260,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,392.6260,396.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,397.6770,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,401.6460,394.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,402.6380,395.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,402.6380,400.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,401.6460,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,395.6930,401.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,392.6260,403.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,392.6260,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,395.6930,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,403.6300,415.1090
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,406.6070,412.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,406.6070,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,402.6380,409.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,402.6380,410.0300
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,401.6460,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,397.6770,410.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,397.6770,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,403.6300,405.0890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,406.6070,402.0700
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,406.6070,393.0110
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,403.6300,389.9910
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,615.2490,398.3800
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,607.5060,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,615.1090,413.7240
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,622.8490,405.9810
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,620.7270,403.8590
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,615.1080,409.4820
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,611.7490,406.1220
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,617.3710,400.5020
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,616.2890,391.8250
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,608.5470,399.5670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,610.6690,401.6890
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,616.2890,396.0670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,619.6490,399.4260
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,616.1470,407.1670
+OS0097,SCL Silicon No. block (top-cell shapes, as issued),11/0,623.8910,399.4270

@@ -1,0 +1,5 @@
+create_clock -name CLK -period 100 [get_ports clk]
+set_input_delay 10 -clock CLK [get_ports in*]
+set_output_delay 10 -clock CLK [get_ports out*]
+set_false_path -from [get_ports rst_n]
+set_load 1.0 [all_outputs]

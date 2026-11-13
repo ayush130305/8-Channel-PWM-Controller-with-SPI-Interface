@@ -1,0 +1,20 @@
+# cells that fail flow/audit_route_lef.py (no DRC-legal via site on a pin); generated from checks/lef_audit_all.txt
+LTPC11
+ADOR16
+NND300
+NND501
+NND701
+NOR601
+NOR701
+NOR801
+OR3101
+OR4101
+OR5101
+OR7101
+OR8101
+AND401
+AND501
+AND601
+AND701
+AND801
+MX4122

@@ -1,0 +1,71 @@
+Startpoint: _1370_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _1296_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _1370_/C (DFCL11)
+   1.94    1.94 ^ _1370_/Q (DFCL11)
+   1.89    3.83 v _1014_/OUT1 (AOI401)
+   0.52    4.35 ^ _1017_/OUT1 (ORND01)
+   0.75    5.10 v _1021_/OUT1 (NND300)
+   1.43    6.53 ^ _1025_/OUT1 (AOI401)
+   0.79    7.33 ^ _1026_/OUT1 (OR2101)
+   2.20    9.52 v _1029_/OUT1 (AOI401)
+   1.40   10.92 v _1063_/OUT1 (AND501)
+   9.77   20.69 ^ _1078_/OUT1 (ADNR01)
+   4.12   24.81 v _1079_/OUT1 (MX2101)
+   0.00   24.81 v _1296_/D (DFCL11)
+          24.81   data arrival time
+
+ 100.00  100.00   clock CLK (rise edge)
+   0.00  100.00   clock network delay (ideal)
+   0.00  100.00   clock reconvergence pessimism
+         100.00 ^ _1296_/C (DFCL11)
+  -2.52   97.48   library setup time
+          97.48   data required time
+---------------------------------------------------------
+          97.48   data required time
+         -24.81   data arrival time
+---------------------------------------------------------
+          72.67   slack (MET)
+
+
+Startpoint: _1432_ (rising edge-triggered flip-flop clocked by SCLK)
+Endpoint: _1449_ (rising edge-triggered flip-flop clocked by SCLK')
+Path Group: SCLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock SCLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _1432_/C (DFCL11)
+   1.99    1.99 ^ _1432_/Q (DFCL11)
+   1.71    3.70 ^ _0804_/OUT1 (OR3101)
+   1.51    5.21 ^ _0815_/OUT1 (OR3101)
+   2.12    7.33 v _0818_/OUT1 (NOR300)
+   1.34    8.67 v _0819_/OUT1 (AND201)
+   2.12   10.79 v _0824_/OUT1 (OR4101)
+   1.45   12.24 v _0826_/OUT1 (OR3101)
+   0.54   12.78 ^ _0827_/OUT1 (ADNR01)
+   1.10   13.88 v _0828_/OUT1 (NOR200)
+   0.00   13.88 v _1449_/D (DFCL11)
+          13.88   data arrival time
+
+ 200.00  200.00   clock SCLK' (rise edge)
+   0.00  200.00   clock network delay (ideal)
+   0.00  200.00   clock reconvergence pessimism
+         200.00 ^ _1449_/C (DFCL11)
+  -0.79  199.21   library setup time
+         199.21   data required time
+---------------------------------------------------------
+         199.21   data required time
+         -13.88   data arrival time
+---------------------------------------------------------
+         185.33   slack (MET)
+
+

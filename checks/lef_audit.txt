@@ -1,0 +1,26 @@
+ADNR01  OK
+AND201  OK
+AND301  OK
+AND401  OK
+AND501  pin IN5: 42 of 45 via positions illegal
+AOI401  pin C: 36 of 36 via positions illegal
+DFCL11  OK  [pin D: metal2-only access (lane x=18.40 up); pin CLRB: metal2-only access (lane x=49.20 up)]
+INVR01  OK
+INVR05  OK
+MX2101  OK  [pin D0: metal2-only access (lane x=13.70 up); pin OUT1: metal2-only access (lane x=22.10 up)]
+NND300  pin IN1: 32 of 32 via positions illegal
+NOR200  OK
+NOR300  OK
+OR2101  pin IN2: 21 of 23 via positions illegal
+OR3101  OK
+ORND01  OK
+VDDCON  OK
+XNR201  OK
+XOR201  OK
+CDRI01  OK
+INVR02  OK
+INVR04  OK
+INVR06  OK
+NOR201  OK
+NOR301  OK
+AUDIT: 4 of 25 cells with issues

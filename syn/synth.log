@@ -1,0 +1,1046 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.52 (git sha1 fee39a3284c90249e1d9684cf6944ffbbcbb8f90)
+
+-- Executing script file `syn/synth_pwm8_core.ys' --
+
+1. Executing Liberty frontend: /home/ayush-jain/scl/my_dtech/Open_Source_SCL_1.2micron_PDK_digital/open_source_scl_c1d/open_pdks/sclc1d/digital_c1d/lib/c1d_core_typ.lib
+Imported 63 cell types from liberty file.
+
+2. Executing Verilog-2005 frontend: rtl/cdc_sync.v
+Parsing Verilog input from `rtl/cdc_sync.v' to AST representation.
+Generating RTLIL representation for module `\cdc_sync'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: rtl/reset_sync.v
+Parsing Verilog input from `rtl/reset_sync.v' to AST representation.
+Generating RTLIL representation for module `\reset_sync'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: rtl/spi_slave.v
+Parsing Verilog input from `rtl/spi_slave.v' to AST representation.
+Generating RTLIL representation for module `\spi_slave'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: rtl/reg_bank.v
+Parsing Verilog input from `rtl/reg_bank.v' to AST representation.
+Generating RTLIL representation for module `\reg_bank'.
+Warning: Replacing memory \duty_reg with list of registers. See rtl/reg_bank.v:37
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: rtl/pwm_core.v
+Parsing Verilog input from `rtl/pwm_core.v' to AST representation.
+Generating RTLIL representation for module `\pwm_core'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: rtl/pwm8_spi_top.v
+Parsing Verilog input from `rtl/pwm8_spi_top.v' to AST representation.
+Generating RTLIL representation for module `\pwm8_spi_top'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: rtl/chip/pwm8_spi_core.v
+Parsing Verilog input from `rtl/chip/pwm8_spi_core.v' to AST representation.
+Generating RTLIL representation for module `\pwm8_spi_core'.
+Successfully finished Verilog frontend.
+
+9. Executing HIERARCHY pass (managing design hierarchy).
+
+9.1. Analyzing design hierarchy..
+Top module:  \pwm8_spi_core
+Used module:     \pwm8_spi_top
+Used module:         \pwm_core
+Used module:         \reg_bank
+Used module:         \cdc_sync
+Used module:         \spi_slave
+Used module:         \reset_sync
+
+9.2. Analyzing design hierarchy..
+Top module:  \pwm8_spi_core
+Used module:     \pwm8_spi_top
+Used module:         \pwm_core
+Used module:         \reg_bank
+Used module:         \cdc_sync
+Used module:         \spi_slave
+Used module:         \reset_sync
+Removed 0 unused modules.
+
+10. Executing SYNTH pass.
+
+10.1. Executing HIERARCHY pass (managing design hierarchy).
+
+10.1.1. Analyzing design hierarchy..
+Top module:  \pwm8_spi_core
+Used module:     \pwm8_spi_top
+Used module:         \pwm_core
+Used module:         \reg_bank
+Used module:         \cdc_sync
+Used module:         \spi_slave
+Used module:         \reset_sync
+
+10.1.2. Analyzing design hierarchy..
+Top module:  \pwm8_spi_core
+Used module:     \pwm8_spi_top
+Used module:         \pwm_core
+Used module:         \reg_bank
+Used module:         \cdc_sync
+Used module:         \spi_slave
+Used module:         \reset_sync
+Removed 0 unused modules.
+
+10.2. Executing PROC pass (convert processes to netlists).
+
+10.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+10.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$rtl/pwm8_spi_top.v:52$52 in module pwm8_spi_top.
+Marked 1 switch rules as full_case in process $proc$rtl/pwm_core.v:58$48 in module pwm_core.
+Marked 4 switch rules as full_case in process $proc$rtl/pwm_core.v:24$24 in module pwm_core.
+Marked 1 switch rules as full_case in process $proc$rtl/reg_bank.v:56$22 in module reg_bank.
+Marked 1 switch rules as full_case in process $proc$rtl/reg_bank.v:32$20 in module reg_bank.
+Marked 3 switch rules as full_case in process $proc$rtl/spi_slave.v:58$14 in module spi_slave.
+Marked 1 switch rules as full_case in process $proc$rtl/spi_slave.v:45$10 in module spi_slave.
+Marked 2 switch rules as full_case in process $proc$rtl/spi_slave.v:31$7 in module spi_slave.
+Marked 1 switch rules as full_case in process $proc$rtl/reset_sync.v:16$3 in module reset_sync.
+Marked 1 switch rules as full_case in process $proc$rtl/cdc_sync.v:13$1 in module cdc_sync.
+Removed a total of 0 dead cases.
+
+10.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 11 redundant assignments.
+Promoted 11 assignments to connections.
+
+10.2.4. Executing PROC_INIT pass (extract init attributes).
+
+10.2.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst_clk_n in `\pwm8_spi_top.$proc$rtl/pwm8_spi_top.v:52$52'.
+Found async reset \rst_n in `\pwm_core.$proc$rtl/pwm_core.v:58$48'.
+Found async reset \rst_n in `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+Found async reset \rst_n in `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+Found async reset \rst_n in `\spi_slave.$proc$rtl/spi_slave.v:58$14'.
+Found async reset \cs_n in `\spi_slave.$proc$rtl/spi_slave.v:58$14'.
+Found async reset \rst_n in `\spi_slave.$proc$rtl/spi_slave.v:45$10'.
+Found async reset \rst_n in `\spi_slave.$proc$rtl/spi_slave.v:31$7'.
+Found async reset \cs_n in `\spi_slave.$proc$rtl/spi_slave.v:31$7'.
+Found async reset \rst_n in `\reset_sync.$proc$rtl/reset_sync.v:16$3'.
+Found async reset \rst_n in `\cdc_sync.$proc$rtl/cdc_sync.v:13$1'.
+
+10.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~9 debug messages>
+
+10.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\pwm8_spi_top.$proc$rtl/pwm8_spi_top.v:52$52'.
+     1/1: $0\wr_toggle_seen[0:0]
+Creating decoders for process `\pwm_core.$proc$rtl/pwm_core.v:58$48'.
+     1/2: $0\sync[0:0]
+     2/2: $0\pwm_out[7:0]
+Creating decoders for process `\pwm_core.$proc$rtl/pwm_core.v:52$31'.
+Creating decoders for process `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+     1/4: $0\prescale_count[7:0]
+     2/4: $0\wrap[0:0]
+     3/4: $0\duty_active[63:0]
+     4/4: $0\phase[7:0]
+Creating decoders for process `\reg_bank.$proc$rtl/reg_bank.v:56$22'.
+     1/1: $1\rd_data[7:0]
+Creating decoders for process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+     1/11: $1\i[31:0]
+     2/11: $0\duty_reg[7][7:0]
+     3/11: $0\duty_reg[6][7:0]
+     4/11: $0\duty_reg[5][7:0]
+     5/11: $0\duty_reg[4][7:0]
+     6/11: $0\duty_reg[3][7:0]
+     7/11: $0\duty_reg[2][7:0]
+     8/11: $0\duty_reg[1][7:0]
+     9/11: $0\duty_reg[0][7:0]
+    10/11: $0\presc_reg[7:0]
+    11/11: $0\ctrl_en[0:0]
+Creating decoders for process `\spi_slave.$proc$rtl/spi_slave.v:58$14'.
+     1/1: $0\shift_out[7:0]
+Creating decoders for process `\spi_slave.$proc$rtl/spi_slave.v:45$10'.
+     1/3: $0\wr_toggle[0:0]
+     2/3: $0\wr_data[7:0]
+     3/3: $0\wr_addr[6:0]
+Creating decoders for process `\spi_slave.$proc$rtl/spi_slave.v:31$7'.
+     1/2: $0\bit_cnt[3:0]
+     2/2: $0\shift_in[14:0]
+Creating decoders for process `\reset_sync.$proc$rtl/reset_sync.v:16$3'.
+     1/2: $0\rst_ff2[0:0]
+     2/2: $0\rst_ff1[0:0]
+Creating decoders for process `\cdc_sync.$proc$rtl/cdc_sync.v:13$1'.
+     1/2: $0\sync_ff2[0:0]
+     2/2: $0\sync_ff1[0:0]
+
+10.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\pwm_core.\pwm_next' from process `\pwm_core.$proc$rtl/pwm_core.v:52$31'.
+No latch inferred for signal `\pwm_core.\ch' from process `\pwm_core.$proc$rtl/pwm_core.v:52$31'.
+No latch inferred for signal `\reg_bank.\rd_data' from process `\reg_bank.$proc$rtl/reg_bank.v:56$22'.
+
+10.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\pwm8_spi_top.\wr_toggle_seen' using process `\pwm8_spi_top.$proc$rtl/pwm8_spi_top.v:52$52'.
+  created $adff cell `$procdff$200' with positive edge clock and positive level reset.
+Creating register for signal `\pwm_core.\pwm_out' using process `\pwm_core.$proc$rtl/pwm_core.v:58$48'.
+  created $adff cell `$procdff$205' with positive edge clock and positive level reset.
+Creating register for signal `\pwm_core.\sync' using process `\pwm_core.$proc$rtl/pwm_core.v:58$48'.
+  created $adff cell `$procdff$210' with positive edge clock and positive level reset.
+Creating register for signal `\pwm_core.\prescale_count' using process `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+  created $adff cell `$procdff$215' with positive edge clock and positive level reset.
+Creating register for signal `\pwm_core.\phase' using process `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+  created $adff cell `$procdff$220' with positive edge clock and positive level reset.
+Creating register for signal `\pwm_core.\duty_active' using process `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+  created $adff cell `$procdff$225' with positive edge clock and positive level reset.
+Creating register for signal `\pwm_core.\wrap' using process `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+  created $adff cell `$procdff$230' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\ctrl_en' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$235' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\presc_reg' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$240' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\i' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$245' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[0]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$250' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[1]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$255' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[2]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$260' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[3]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$265' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[4]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$270' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[5]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$275' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[6]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$280' with positive edge clock and positive level reset.
+Creating register for signal `\reg_bank.\duty_reg[7]' using process `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+  created $adff cell `$procdff$285' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\shift_out' using process `\spi_slave.$proc$rtl/spi_slave.v:58$14'.
+  created $adff cell `$procdff$290' with negative edge clock and positive level reset.
+Creating register for signal `\spi_slave.\wr_addr' using process `\spi_slave.$proc$rtl/spi_slave.v:45$10'.
+  created $adff cell `$procdff$295' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\wr_data' using process `\spi_slave.$proc$rtl/spi_slave.v:45$10'.
+  created $adff cell `$procdff$300' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\wr_toggle' using process `\spi_slave.$proc$rtl/spi_slave.v:45$10'.
+  created $adff cell `$procdff$305' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\bit_cnt' using process `\spi_slave.$proc$rtl/spi_slave.v:31$7'.
+  created $adff cell `$procdff$310' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\shift_in' using process `\spi_slave.$proc$rtl/spi_slave.v:31$7'.
+  created $adff cell `$procdff$315' with positive edge clock and positive level reset.
+Creating register for signal `\reset_sync.\rst_ff1' using process `\reset_sync.$proc$rtl/reset_sync.v:16$3'.
+  created $adff cell `$procdff$320' with positive edge clock and positive level reset.
+Creating register for signal `\reset_sync.\rst_ff2' using process `\reset_sync.$proc$rtl/reset_sync.v:16$3'.
+  created $adff cell `$procdff$325' with positive edge clock and positive level reset.
+Creating register for signal `\cdc_sync.\sync_ff1' using process `\cdc_sync.$proc$rtl/cdc_sync.v:13$1'.
+  created $adff cell `$procdff$330' with positive edge clock and positive level reset.
+Creating register for signal `\cdc_sync.\sync_ff2' using process `\cdc_sync.$proc$rtl/cdc_sync.v:13$1'.
+  created $adff cell `$procdff$335' with positive edge clock and positive level reset.
+
+10.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+10.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `pwm8_spi_top.$proc$rtl/pwm8_spi_top.v:52$52'.
+Removing empty process `pwm_core.$proc$rtl/pwm_core.v:58$48'.
+Removing empty process `pwm_core.$proc$rtl/pwm_core.v:52$31'.
+Found and cleaned up 3 empty switches in `\pwm_core.$proc$rtl/pwm_core.v:24$24'.
+Removing empty process `pwm_core.$proc$rtl/pwm_core.v:24$24'.
+Found and cleaned up 1 empty switch in `\reg_bank.$proc$rtl/reg_bank.v:56$22'.
+Removing empty process `reg_bank.$proc$rtl/reg_bank.v:56$22'.
+Found and cleaned up 2 empty switches in `\reg_bank.$proc$rtl/reg_bank.v:32$20'.
+Removing empty process `reg_bank.$proc$rtl/reg_bank.v:32$20'.
+Found and cleaned up 2 empty switches in `\spi_slave.$proc$rtl/spi_slave.v:58$14'.
+Removing empty process `spi_slave.$proc$rtl/spi_slave.v:58$14'.
+Found and cleaned up 1 empty switch in `\spi_slave.$proc$rtl/spi_slave.v:45$10'.
+Removing empty process `spi_slave.$proc$rtl/spi_slave.v:45$10'.
+Removing empty process `spi_slave.$proc$rtl/spi_slave.v:31$7'.
+Removing empty process `reset_sync.$proc$rtl/reset_sync.v:16$3'.
+Removing empty process `cdc_sync.$proc$rtl/cdc_sync.v:13$1'.
+Cleaned up 9 empty switches.
+
+10.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+Optimizing module pwm8_spi_top.
+<suppressed ~2 debug messages>
+Optimizing module pwm_core.
+<suppressed ~16 debug messages>
+Optimizing module reg_bank.
+<suppressed ~24 debug messages>
+Optimizing module spi_slave.
+<suppressed ~6 debug messages>
+Optimizing module reset_sync.
+<suppressed ~4 debug messages>
+Optimizing module cdc_sync.
+<suppressed ~4 debug messages>
+
+10.3. Executing FLATTEN pass (flatten design).
+Deleting now unused module pwm8_spi_top.
+Deleting now unused module pwm_core.
+Deleting now unused module reg_bank.
+Deleting now unused module spi_slave.
+Deleting now unused module reset_sync.
+Deleting now unused module cdc_sync.
+<suppressed ~6 debug messages>
+
+10.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 36 unused cells and 132 unused wires.
+<suppressed ~38 debug messages>
+
+10.6. Executing CHECK pass (checking for obvious problems).
+Checking module pwm8_spi_core...
+Found and reported 0 problems.
+
+10.7. Executing OPT pass (performing simple optimizations).
+
+10.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+<suppressed ~12 debug messages>
+Removed a total of 4 cells.
+
+10.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~18 debug messages>
+
+10.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.7.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 0 unused cells and 4 unused wires.
+<suppressed ~1 debug messages>
+
+10.7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+10.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~18 debug messages>
+
+10.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.7.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.7.16. Finished OPT passes. (There is nothing left to do.)
+
+10.8. Executing FSM pass (extract and optimize FSM).
+
+10.8.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+10.8.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+10.8.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+10.8.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.8.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+10.8.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+10.8.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+10.8.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+10.9. Executing OPT pass (performing simple optimizations).
+
+10.9.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.9.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.9.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~18 debug messages>
+
+10.9.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.9.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.9.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $flatten\u_pwm.\u_spi.$procdff$305 ($adff) from module pwm8_spi_core (D = $flatten\u_pwm.\u_spi.$not$rtl/spi_slave.v:53$13_Y, Q = \u_pwm.u_spi.wr_toggle).
+Adding EN signal on $flatten\u_pwm.\u_spi.$procdff$300 ($adff) from module pwm8_spi_core (D = { \u_pwm.u_spi.shift_in [6:0] \mosi }, Q = \u_pwm.u_spi.wr_data).
+Adding EN signal on $flatten\u_pwm.\u_spi.$procdff$295 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.shift_in [13:7], Q = \u_pwm.u_spi.wr_addr).
+Adding EN signal on $flatten\u_pwm.\u_spi.$procdff$290 ($adff) from module pwm8_spi_core (D = $flatten\u_pwm.\u_spi.$0\shift_out[7:0], Q = \u_pwm.u_spi.shift_out).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$285 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[7]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$280 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[6]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$275 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[5]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$270 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[4]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$265 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[3]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$260 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[2]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$255 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[1]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$250 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.duty_reg[0]).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$240 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data, Q = \u_pwm.u_reg_bank.presc_reg).
+Adding EN signal on $flatten\u_pwm.\u_reg_bank.$procdff$235 ($adff) from module pwm8_spi_core (D = \u_pwm.u_spi.wr_data [0], Q = \u_pwm.u_reg_bank.ctrl_en).
+Adding EN signal on $flatten\u_pwm.\u_pwm_core.$procdff$225 ($adff) from module pwm8_spi_core (D = $flatten\u_pwm.\u_pwm_core.$0\duty_active[63:0], Q = \u_pwm.u_pwm_core.duty_active).
+Adding EN signal on $flatten\u_pwm.\u_pwm_core.$procdff$220 ($adff) from module pwm8_spi_core (D = $flatten\u_pwm.\u_pwm_core.$0\phase[7:0], Q = \u_pwm.u_pwm_core.phase).
+
+10.9.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 23 unused cells and 23 unused wires.
+<suppressed ~24 debug messages>
+
+10.9.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+<suppressed ~1 debug messages>
+
+10.9.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+10.9.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~5 debug messages>
+
+10.9.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.9.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+<suppressed ~3 debug messages>
+Removed a total of 1 cells.
+
+10.9.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.9.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+10.9.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.9.16. Rerunning OPT passes. (Maybe there is more to do..)
+
+10.9.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~5 debug messages>
+
+10.9.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.9.19. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.9.20. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.9.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.9.22. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.9.23. Finished OPT passes. (There is nothing left to do.)
+
+10.10. Executing WREDUCE pass (reducing word size of cells).
+Removed top 7 bits (of 8) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:43$29 ($add).
+Removed top 7 bits (of 8) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:46$30 ($add).
+Removed top 3 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$89_CMP0 ($eq).
+Removed top 3 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$90_CMP0 ($eq).
+Removed top 3 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$91_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$92_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$93_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$94_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$95_CMP0 ($eq).
+Removed top 5 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$96_CMP0 ($eq).
+Removed top 5 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$97_CMP0 ($eq).
+Removed top 6 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$98_CMP0 ($eq).
+Removed top 3 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$101_CMP0 ($eq).
+Removed top 3 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$106_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$112_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$119_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$127_CMP0 ($eq).
+Removed top 4 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$136_CMP0 ($eq).
+Removed top 5 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$146_CMP0 ($eq).
+Removed top 5 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$157_CMP0 ($eq).
+Removed top 6 bits (of 7) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_reg_bank.$procmux$169_CMP0 ($eq).
+Removed top 3 bits (of 4) from port B of cell pwm8_spi_core.$flatten\u_pwm.\u_spi.$add$rtl/spi_slave.v:40$9 ($add).
+
+10.11. Executing PEEPOPT pass (run peephole optimizers).
+
+10.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.13. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module pwm8_spi_core:
+  creating $macc model for $flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:43$29 ($add).
+  creating $macc model for $flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:46$30 ($add).
+  creating $macc model for $flatten\u_pwm.\u_spi.$add$rtl/spi_slave.v:40$9 ($add).
+  creating $alu model for $macc $flatten\u_pwm.\u_spi.$add$rtl/spi_slave.v:40$9.
+  creating $alu model for $macc $flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:46$30.
+  creating $alu model for $macc $flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:43$29.
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$ge$rtl/pwm_core.v:36$27 ($ge): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$32 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$34 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$36 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$38 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$40 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$42 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$44 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$46 ($lt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_spi.$gt$rtl/spi_slave.v:65$18 ($gt): new $alu
+  creating $alu model for $flatten\u_pwm.\u_spi.$eq$rtl/spi_slave.v:63$16 ($eq): merged with $flatten\u_pwm.\u_spi.$gt$rtl/spi_slave.v:65$18.
+  creating $alu cell for $flatten\u_pwm.\u_spi.$gt$rtl/spi_slave.v:65$18, $flatten\u_pwm.\u_spi.$eq$rtl/spi_slave.v:63$16: $auto$alumacc.cc:495:replace_alu$398
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$46: $auto$alumacc.cc:495:replace_alu$409
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$44: $auto$alumacc.cc:495:replace_alu$414
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$42: $auto$alumacc.cc:495:replace_alu$419
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$40: $auto$alumacc.cc:495:replace_alu$424
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$38: $auto$alumacc.cc:495:replace_alu$429
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$36: $auto$alumacc.cc:495:replace_alu$434
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$34: $auto$alumacc.cc:495:replace_alu$439
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$lt$rtl/pwm_core.v:54$32: $auto$alumacc.cc:495:replace_alu$444
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$ge$rtl/pwm_core.v:36$27: $auto$alumacc.cc:495:replace_alu$449
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:43$29: $auto$alumacc.cc:495:replace_alu$462
+  creating $alu cell for $flatten\u_pwm.\u_pwm_core.$add$rtl/pwm_core.v:46$30: $auto$alumacc.cc:495:replace_alu$465
+  creating $alu cell for $flatten\u_pwm.\u_spi.$add$rtl/spi_slave.v:40$9: $auto$alumacc.cc:495:replace_alu$468
+  created 13 $alu and 0 $macc cells.
+
+10.14. Executing SHARE pass (SAT-based resource sharing).
+
+10.15. Executing OPT pass (performing simple optimizations).
+
+10.15.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+<suppressed ~1 debug messages>
+
+10.15.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.15.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~5 debug messages>
+
+10.15.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.15.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.15.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.15.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 0 unused cells and 11 unused wires.
+<suppressed ~1 debug messages>
+
+10.15.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.15.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+10.15.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~5 debug messages>
+
+10.15.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.15.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.15.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.15.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.15.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.15.16. Finished OPT passes. (There is nothing left to do.)
+
+10.16. Executing MEMORY pass.
+
+10.16.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+10.16.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+10.16.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+10.16.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+10.16.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+10.16.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.16.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+10.16.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+10.16.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.16.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+10.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.18. Executing OPT pass (performing simple optimizations).
+
+10.18.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+<suppressed ~9 debug messages>
+
+10.18.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.18.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.18.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 0 unused cells and 9 unused wires.
+<suppressed ~1 debug messages>
+
+10.18.5. Finished fast OPT passes.
+
+10.19. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+10.20. Executing OPT pass (performing simple optimizations).
+
+10.20.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.20.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.20.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \pwm8_spi_core..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~3 debug messages>
+
+10.20.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \pwm8_spi_core.
+Performed a total of 0 changes.
+
+10.20.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.20.6. Executing OPT_SHARE pass.
+
+10.20.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.20.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+
+10.20.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+
+10.20.10. Finished OPT passes. (There is nothing left to do.)
+
+10.21. Executing TECHMAP pass (map to technology primitives).
+
+10.21.1. Executing Verilog-2005 frontend: /usr/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+10.21.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $not.
+Using template $paramod$fc972a7a46956c1788f3cb5257b53c8f1df2d0cc\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $reduce_and.
+Using extmapper simplemap for cells of type $or.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $ne.
+Using extmapper simplemap for cells of type $adffe.
+Using extmapper simplemap for cells of type $reduce_bool.
+Using template $paramod$c3cd1564c35d873179656addd6052d7ea8b6d991\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $eq.
+Using template $paramod$32a7b7b86c07519b7537abc18e96f0331f97914d\_90_alu for cells of type $alu.
+Using template $paramod$a1bc51c02ce12ac21eb18988e83292af48ed7d72\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $logic_and.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $adff.
+Using template $paramod$e1270c504307e9914695c839a36c0c6fc6336d88\_90_pmux for cells of type $pmux.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000001 for cells of type $lcu.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000001000 for cells of type $lcu.
+Using template $paramod\_90_lcu_brent_kung\WIDTH=32'00000000000000000000000000000100 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~1059 debug messages>
+
+10.22. Executing OPT pass (performing simple optimizations).
+
+10.22.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+<suppressed ~398 debug messages>
+
+10.22.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+<suppressed ~345 debug messages>
+Removed a total of 115 cells.
+
+10.22.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.22.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 159 unused cells and 577 unused wires.
+<suppressed ~160 debug messages>
+
+10.22.5. Finished fast OPT passes.
+
+10.23. Executing ABC pass (technology mapping using ABC).
+
+10.23.1. Extracting gate netlist of module `\pwm8_spi_core' to `<abc-temp-dir>/input.blif'..
+Extracted 798 gates and 985 wires to a netlist network with 186 inputs and 54 outputs.
+
+10.23.1.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+10.23.1.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        9
+ABC RESULTS:            ANDNOT cells:      291
+ABC RESULTS:               MUX cells:        7
+ABC RESULTS:              NAND cells:       24
+ABC RESULTS:               NOR cells:        5
+ABC RESULTS:               NOT cells:        3
+ABC RESULTS:                OR cells:      145
+ABC RESULTS:             ORNOT cells:       77
+ABC RESULTS:              XNOR cells:       48
+ABC RESULTS:               XOR cells:       34
+ABC RESULTS:        internal signals:      745
+ABC RESULTS:           input signals:      186
+ABC RESULTS:          output signals:       54
+Removing temp directory.
+
+10.24. Executing OPT pass (performing simple optimizations).
+
+10.24.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module pwm8_spi_core.
+<suppressed ~7 debug messages>
+
+10.24.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\pwm8_spi_core'.
+Removed a total of 0 cells.
+
+10.24.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.24.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 0 unused cells and 548 unused wires.
+<suppressed ~8 debug messages>
+
+10.24.5. Finished fast OPT passes.
+
+10.25. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `pwm8_spi_core'. Setting top module to pwm8_spi_core.
+
+10.25.1. Analyzing design hierarchy..
+Top module:  \pwm8_spi_core
+
+10.25.2. Analyzing design hierarchy..
+Top module:  \pwm8_spi_core
+Removed 0 unused modules.
+
+10.26. Printing statistics.
+
+=== pwm8_spi_core ===
+
+   Number of wires:                716
+   Number of wire bits:           1219
+   Number of public wires:          83
+   Number of public wire bits:     580
+   Number of ports:                  8
+   Number of port bits:             15
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                870
+     $_ANDNOT_                     291
+     $_AND_                          9
+     $_DFFE_NP0P_                    8
+     $_DFFE_PN0P_                  161
+     $_DFF_PN0_                     23
+     $_DFF_PP0_                     19
+     $_MUX_                          7
+     $_NAND_                        24
+     $_NOR_                          5
+     $_NOT_                          3
+     $_ORNOT_                       77
+     $_OR_                         145
+     $_XNOR_                        48
+     $_XOR_                         34
+     $scopeinfo                      6
+     INVR05                         10
+
+10.27. Executing CHECK pass (checking for obvious problems).
+Checking module pwm8_spi_core...
+Found and reported 0 problems.
+
+11. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell DFFL11 (noninv, pins=4, area=6.67) is a direct match for cell type $_DFF_P_.
+  cell DFCL11 (noninv, pins=5, area=8.00) is a direct match for cell type $_DFF_PN0_.
+  cell DFPR11 (noninv, pins=5, area=8.40) is a direct match for cell type $_DFF_PN1_.
+  cell DFPC11 (noninv, pins=6, area=9.67) is a direct match for cell type $_DFFSR_PNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \DFFL11 _DFF_P_ (.C( C), .D( D), .Q( Q), .QB(~Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \DFCL11 _DFF_PN0_ (.C( C), .CLRB( R), .D( D), .Q( Q), .QB(~Q));
+    \DFPR11 _DFF_PN1_ (.C( C), .D( D), .PRB( R), .Q( Q), .QB(~Q));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    unmapped dff cell: $_DFFE_NN_
+    unmapped dff cell: $_DFFE_NP_
+    unmapped dff cell: $_DFFE_PN_
+    unmapped dff cell: $_DFFE_PP_
+    unmapped dff cell: $_DFFSR_NNN_
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    \DFPC11 _DFFSR_PNN_ (.C( C), .CLRB( R), .D( D), .PRB( S), .Q( Q), .QB(~Q));
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+11.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\pwm8_spi_core':
+  mapped 211 $_DFF_PN0_ cells to \DFCL11 cells.
+
+12. Executing ABC pass (technology mapping using ABC).
+
+12.1. Extracting gate netlist of module `\pwm8_spi_core' to `<abc-temp-dir>/input.blif'..
+Extracted 847 gates and 1051 wires to a netlist network with 204 inputs and 225 outputs.
+
+12.1.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /home/ayush-jain/Desktop/pwm8_spi/syn/c1d_core_typ_routable.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.00 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFCL11".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFL11".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFPC11".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFPR11".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LTCH11".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LTCL11".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LTPR11".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF01".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV01".
+ABC: Library "c1d_core_typ" from "/home/ayush-jain/Desktop/pwm8_spi/syn/c1d_core_typ_routable.lib" has 35 cells (9 skipped: 7 seq; 2 tri-state; 0 no func; 0 dont_use).  Time =     0.00 sec
+ABC: Memory =    1.15 MB. Time =     0.00 sec
+ABC: Gates with more than 2 outputs are not supported.
+ABC: Gates with more than 2 outputs are not supported.
+ABC: Gates with more than 2 outputs are not supported.
+ABC: Gates with more than 2 outputs are not supported.
+ABC: Warning: Detected 9 multi-output gates (for example, "CDRI02").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+12.1.2. Re-integrating ABC results.
+ABC RESULTS:            ADNR01 cells:       47
+ABC RESULTS:            AND201 cells:        8
+ABC RESULTS:            AND301 cells:        2
+ABC RESULTS:            AOI401 cells:       19
+ABC RESULTS:            INVR01 cells:       44
+ABC RESULTS:            MX2101 cells:      153
+ABC RESULTS:            NND201 cells:      133
+ABC RESULTS:            NND301 cells:        1
+ABC RESULTS:            NND601 cells:        6
+ABC RESULTS:            NOR200 cells:      142
+ABC RESULTS:            NOR300 cells:       47
+ABC RESULTS:            NOR501 cells:        1
+ABC RESULTS:            OR2101 cells:        7
+ABC RESULTS:            ORND01 cells:       22
+ABC RESULTS:            XNR201 cells:        3
+ABC RESULTS:            XOR201 cells:        2
+ABC RESULTS:        internal signals:      622
+ABC RESULTS:           input signals:      204
+ABC RESULTS:          output signals:      225
+Removing temp directory.
+
+13. Executing TECHMAP pass (map to technology primitives).
+
+13.1. Executing Verilog-2005 frontend: syn/map_nnd301.v
+Parsing Verilog input from `syn/map_nnd301.v' to AST representation.
+Generating RTLIL representation for module `\_nnd301_'.
+Successfully finished Verilog frontend.
+
+13.2. Continuing TECHMAP pass.
+Using template _nnd301_ for cells of type NND301.
+No more expansions possible.
+<suppressed ~4 debug messages>
+
+14. Executing HILOMAP pass (mapping to constant drivers).
+
+15. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \pwm8_spi_core..
+Removed 38 unused cells and 1141 unused wires.
+<suppressed ~91 debug messages>
+
+16. Executing CHECK pass (checking for obvious problems).
+Checking module pwm8_spi_core...
+Found and reported 0 problems.
+
+17. Printing statistics.
+
+=== pwm8_spi_core ===
+
+   Number of wires:                871
+   Number of wire bits:           1088
+   Number of public wires:          31
+   Number of public wire bits:     242
+   Number of ports:                  8
+   Number of port bits:             15
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                860
+     ADNR01                         47
+     AND201                          8
+     AND301                          3
+     AOI401                         19
+     DFCL11                        211
+     INVR01                         45
+     INVR05                         10
+     MX2101                        153
+     NND201                        133
+     NND601                          6
+     NOR200                        142
+     NOR300                         47
+     NOR501                          1
+     OR2101                          7
+     ORND01                         22
+     VDDCON                          1
+     XNR201                          3
+     XOR201                          2
+
+   Chip area for module '\pwm8_spi_core': 2892.213300
+     of which used for sequential elements: 1688.000000 (58.36%)
+
+18. Executing Verilog backend.
+
+18.1. Executing BMUXMAP pass.
+
+18.2. Executing DEMUXMAP pass.
+Dumping module `\pwm8_spi_core'.
+
+Warnings: 1 unique messages, 1 total
+End of script. Logfile hash: 118e4a88b4, CPU: user 0.15s system 0.01s, MEM: 22.81 MB peak
+Yosys 0.52 (git sha1 fee39a3284c90249e1d9684cf6944ffbbcbb8f90)
+Time spent: 55% 2x abc (0 sec), 10% 21x opt_clean (0 sec), ...

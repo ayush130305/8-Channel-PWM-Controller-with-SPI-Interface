@@ -1,0 +1,21 @@
+# ABC mapping library exclusions = syn/dont_use.txt minus NND301 (yosys-abc asserts in Mio_*Compare when no
+# 3-input NAND is left); syn/map_nnd301.v rewrites any NND301. The synth script then asserts no syn/dont_use.txt cell is left.
+LTPC11
+ADOR16
+NND300
+NND501
+NND701
+NOR601
+NOR701
+NOR801
+OR3101
+OR4101
+OR5101
+OR7101
+OR8101
+AND401
+AND501
+AND601
+AND701
+AND801
+MX4122

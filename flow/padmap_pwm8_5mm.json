@@ -1,0 +1,51 @@
+{
+  "_comment": "Pad map for pwm8_spi in SCL's 5 mm frame (frame5mmx5mm_opad: the 10 output pads listed here swapped from AIPAD00 to OPAD04, everything else as SCL placed it). Core-block port -> frame net. Matches rtl/chip/pwm8_spi_chip.v and docs/spec.md 'Chip pinout'. PAD11 and PAD23 (frame corners) are not usable: their core-side pins do not reach the ring's inner edge.",
+  "design": "pwm8_spi_core",
+  "netlist": "syn/pwm8_core_netlist.v",
+  "sdc": "syn/pwm8_core.sdc",
+  "frame_gds": "layout/frame/frame5mmx5mm_opad.gds",
+  "frame_cdl": "layout/frame/frame5mmx5mm_opad.cdl",
+  "core_origin": [
+    700.0,
+    700.0
+  ],
+  "die_size": [
+    3600.0,
+    3600.0
+  ],
+  "core_margin": 100.0,
+  "pin_span": [
+    150.0,
+    3450.0
+  ],
+  "power_width": 20.0,
+  "signal_width": 3.0,
+  "power": {
+    "_comment": "stripe_y_frame = frame y of the 20 um M1 stripe centre; must be a row-gap centre (core-local 219.15 + 97.4*k). To be checked at chip assembly.",
+    "VDD": {
+      "stripe_y_frame": 2087.95
+    },
+    "VSS": {
+      "stripe_y_frame": 2477.55
+    }
+  },
+  "pins": {
+    "miso_pn": "PAD1_IN",
+    "clk": "PAD2_OUT",
+    "sync_pn": "PAD3_IN",
+    "rst_n": "PAD4_OUT",
+    "sclk": "PAD6_OUT",
+    "cs_n": "PAD8_OUT",
+    "mosi": "PAD10_OUT",
+    "pwm_pn[0]": "PAD13_IN",
+    "pwm_pn[1]": "PAD15_IN",
+    "pwm_pn[2]": "PAD17_IN",
+    "pwm_pn[3]": "PAD19_IN",
+    "pwm_pn[4]": "PAD21_IN",
+    "pwm_pn[5]": "PAD25_IN",
+    "pwm_pn[6]": "PAD27_IN",
+    "pwm_pn[7]": "PAD29_IN"
+  },
+  "opad_list": "PAD1,PAD3,PAD13,PAD15,PAD17,PAD19,PAD21,PAD25,PAD27,PAD29",
+  "frame": "5mmx5mm"
+}

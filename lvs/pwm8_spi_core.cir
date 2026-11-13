@@ -1,0 +1,1333 @@
+* pwm8_spi_core from pnr/pwm8_spi_core/pwm8_spi_core_rt.v by flow/v2spice.py
+.SUBCKT pwm8_spi_core clk cs_n miso_pn mosi rst_n sclk sync_pn pwm_pn[7] pwm_pn[6] pwm_pn[5] pwm_pn[4] pwm_pn[3] pwm_pn[2] pwm_pn[1] pwm_pn[0] VDD VSS
+X_0840_ u_pwm.u_spi.shift_out[6] _0225_ VDD VSS INVR01
+X_0841_ u_pwm.u_spi.shift_out[5] _0226_ VDD VSS INVR01
+X_0842_ u_pwm.u_spi.shift_out[4] _0227_ VDD VSS INVR01
+X_0843_ u_pwm.u_spi.shift_out[3] _0228_ VDD VSS INVR01
+X_0844_ u_pwm.u_spi.shift_out[2] _0229_ VDD VSS INVR01
+X_0845_ u_pwm.u_spi.shift_out[1] _0230_ VDD VSS INVR01
+X_0846_ rst_n _0231_ VSS VDD INVR02
+X_0847_ u_pwm.u_reg_bank.wr_addr[1] _0232_ VDD VSS INVR01
+X_0848_ u_pwm.u_reg_bank.wr_addr[2] _0233_ VDD VSS INVR01
+X_0849_ u_pwm.prescaler[7] _0234_ VDD VSS INVR01
+X_0850_ u_pwm.u_pwm_core.prescale_count[6] _0235_ VDD VSS INVR01
+X_0851_ u_pwm.prescaler[5] _0236_ VDD VSS INVR01
+X_0852_ net354 _0237_ VDD VSS INVR01
+X_0853_ u_pwm.u_pwm_core.prescale_count[3] _0238_ VDD VSS INVR01
+X_0854_ u_pwm.u_pwm_core.prescale_count[2] _0239_ VDD VSS INVR01
+X_0855_ u_pwm.u_pwm_core.prescale_count[1] _0240_ VDD VSS INVR01
+X_0856_ u_pwm.u_pwm_core.prescale_count[0] _0241_ VDD VSS INVR01
+X_0857_ net375 _0242_ VSS VDD INVR02
+X_0858_ u_pwm.u_pwm_core.phase[1] _0243_ VSS VDD INVR03
+X_0859_ u_pwm.u_pwm_core.phase[0] _0244_ VSS VDD INVR02
+X_0860_ net74 _0245_ VSS VDD INVR04
+X_0861_ u_pwm.u_pwm_core.phase[2] _0246_ VSS VDD INVR04
+X_0862_ u_pwm.u_pwm_core.phase[5] _0247_ VSS VDD INVR04
+X_0863_ u_pwm.u_pwm_core.phase[4] _0248_ VDD VSS INVR05
+X_0864_ net73 _0249_ VSS VDD INVR03
+X_0865_ u_pwm.u_pwm_core.phase[7] _0250_ VDD VSS INVR05
+X_0866_ net128 _0251_ VSS VDD INVR02
+X_0867_ u_pwm.u_pwm_core.duty_active[19] _0252_ VDD VSS INVR01
+X_0868_ u_pwm.u_pwm_core.duty_active[46] _0253_ VDD VSS INVR01
+X_0869_ u_pwm.u_pwm_core.duty_active[49] _0254_ VDD VSS INVR01
+X_0870_ u_pwm.u_pwm_core.duty_active[62] _0255_ VDD VSS INVR01
+X_0871_ net260 _0256_ VDD VSS INVR01
+X_0872_ net258 _0257_ VDD VSS INVR01
+X_0873_ u_pwm.rd_addr[3] _0258_ VDD VSS INVR01
+X_0874_ clknet_2_3__leaf_sclk _0028_ VDD VSS INVR01
+X_0875_ cs_n net447 _0041_ VDD VSS NOR200
+X_0876_ miso u_pwm.u_spi.bit_cnt[3] _0259_ VDD VSS NOR200
+X_0877_ u_pwm.u_spi.bit_cnt[0] u_pwm.u_spi.bit_cnt[1] _0260_ VDD VSS NOR200
+X_0878_ u_pwm.u_spi.bit_cnt[2] net63 _0261_ VDD VSS NOR200
+X_0879_ _0260_ _0261_ _0262_ VSS VDD NND201
+X_0880_ _0262_ _0263_ VDD VSS INVR01
+X_0881_ _0225_ net128 _0263_ _0264_ VDD VSS ADNR01
+X_0882_ u_pwm.u_spi.shift_in[7] _0263_ _0265_ VSS VDD NND201
+X_0883_ net262 _0256_ _0266_ VSS VDD NND201
+X_0884_ net255 net256 u_pwm.rd_addr[6] _0267_ VDD VSS NOR300
+X_0885_ _0257_ _0267_ _0268_ VSS VDD AND201
+X_0886_ u_pwm.rd_addr[3] _0268_ _0269_ VSS VDD NND201
+X_0887_ _0266_ _0269_ _0270_ VDD VSS NOR200
+X_0888_ u_pwm.duty[63] net56 _0271_ VSS VDD NND201
+X_0889_ net262 net260 _0272_ VSS VDD OR2101
+X_0890_ _0269_ _0272_ _0273_ VDD VSS NOR201
+X_0891_ net428 net54 _0274_ VSS VDD NND201
+X_0892_ _0258_ _0268_ _0275_ VSS VDD NND201
+X_0893_ net262 _0256_ _0276_ VSS VDD OR2101
+X_0894_ _0275_ _0276_ _0277_ VDD VSS NOR201
+X_0895_ u_pwm.duty[7] net53 _0278_ VSS VDD NND201
+X_0896_ net262 net260 _0279_ VSS VDD NND201
+X_0897_ _0275_ _0279_ _0280_ VDD VSS NOR200
+X_0898_ u_pwm.duty[15] net52 _0281_ VSS VDD NND201
+X_0899_ _0257_ u_pwm.rd_addr[3] _0282_ VDD VSS NOR200
+X_0900_ _0267_ _0282_ _0283_ VSS VDD NND201
+X_0901_ _0266_ _0283_ _0284_ VDD VSS NOR201
+X_0902_ net339 net50 _0285_ VSS VDD NND201
+X_0903_ _0269_ _0276_ _0286_ VDD VSS NOR201
+X_0904_ _0279_ _0283_ _0287_ VDD VSS NOR201
+X_0905_ net359 net48 _0286_ _0288_ VDD VSS ADNR01
+X_0906_ _0266_ _0275_ _0289_ VDD VSS NOR200
+X_0907_ _0234_ _0266_ _0275_ _0290_ VDD VSS NOR300
+X_0908_ _0276_ _0283_ _0291_ VDD VSS NOR201
+X_0909_ net294 net45 _0292_ VSS VDD NND201
+X_0910_ _0272_ _0283_ _0293_ VDD VSS NOR201
+X_0911_ u_pwm.duty[23] net44 _0294_ VSS VDD NND201
+X_0912_ _0278_ _0285_ _0295_ VSS VDD NND201
+X_0913_ _0271_ _0274_ _0281_ _0294_ _0292_ _0288_ _0296_ VSS VDD NND601
+X_0914_ _0290_ _0295_ _0296_ _0297_ VDD VSS NOR300
+X_0915_ _0265_ _0297_ _0298_ VDD VSS NOR200
+X_0916_ _0264_ _0298_ _0299_ VDD VSS NOR200
+X_0917_ _0259_ _0299_ _0191_ VDD VSS NOR200
+X_0918_ _0226_ net128 _0263_ _0300_ VDD VSS ADNR01
+X_0919_ u_pwm.duty[54] net54 _0301_ VSS VDD NND201
+X_0920_ net326 net53 _0302_ VSS VDD NND201
+X_0921_ _0301_ _0302_ _0303_ VSS VDD NND201
+X_0922_ u_pwm.duty[14] net51 _0303_ _0304_ VDD VSS ADNR01
+X_0923_ net361 net48 _0305_ VSS VDD NND201
+X_0924_ net281 net44 _0306_ VSS VDD NND201
+X_0925_ _0305_ _0306_ _0307_ VSS VDD NND201
+X_0926_ u_pwm.duty[38] net46 _0308_ VSS VDD NND201
+X_0927_ net341 net50 _0309_ VSS VDD NND201
+X_0928_ _0308_ _0309_ _0310_ VSS VDD NND201
+X_0929_ u_pwm.prescaler[6] _0289_ _0311_ VSS VDD NND201
+X_0930_ net265 net56 _0312_ VSS VDD NND201
+X_0931_ _0311_ _0312_ _0313_ VSS VDD NND201
+X_0932_ _0307_ _0310_ _0313_ _0314_ VDD VSS NOR300
+X_0933_ _0304_ _0314_ _0265_ _0315_ VDD VSS ADNR01
+X_0934_ _0300_ _0315_ _0316_ VDD VSS NOR200
+X_0935_ _0225_ _0251_ _0316_ _0190_ VDD VSS ADNR01
+X_0936_ _0227_ net128 _0263_ _0317_ VDD VSS ADNR01
+X_0937_ u_pwm.duty[53] net54 _0318_ VSS VDD NND201
+X_0938_ net314 net52 _0319_ VSS VDD NND201
+X_0939_ u_pwm.duty[45] net48 _0320_ VSS VDD NND201
+X_0940_ net298 net45 _0321_ VSS VDD NND201
+X_0941_ net283 net44 _0322_ VSS VDD NND201
+X_0942_ u_pwm.prescaler[5] net47 _0323_ VSS VDD NND201
+X_0943_ net328 net53 _0284_ net344 _0324_ VDD VSS AOI401
+X_0944_ _0323_ _0324_ _0325_ VSS VDD NND201
+X_0945_ u_pwm.duty[61] net56 _0286_ _0326_ VDD VSS ADNR01
+X_0946_ _0318_ _0319_ _0320_ _0326_ _0322_ _0321_ _0327_ VSS VDD NND601
+X_0947_ _0325_ _0327_ _0328_ VDD VSS NOR200
+X_0948_ _0265_ _0328_ _0329_ VDD VSS NOR200
+X_0949_ _0317_ _0329_ _0330_ VDD VSS NOR200
+X_0950_ _0226_ _0251_ _0330_ _0189_ VDD VSS ADNR01
+X_0951_ _0228_ net128 _0263_ _0331_ VDD VSS ADNR01
+X_0952_ u_pwm.prescaler[4] net47 _0332_ VSS VDD NND201
+X_0953_ net330 net53 _0333_ VSS VDD NND201
+X_0954_ net285 net44 _0334_ VSS VDD NND201
+X_0955_ u_pwm.duty[44] net49 _0335_ VSS VDD NND201
+X_0956_ net300 net45 _0336_ VSS VDD NND201
+X_0957_ u_pwm.duty[52] net54 _0337_ VSS VDD NND201
+X_0958_ u_pwm.duty[60] net56 _0338_ VSS VDD NND201
+X_0959_ net316 net52 net50 net345 _0339_ VDD VSS AOI401
+X_0960_ _0335_ _0339_ _0340_ VSS VDD NND201
+X_0961_ _0332_ _0333_ _0334_ _0338_ _0337_ _0336_ _0341_ VSS VDD NND601
+X_0962_ _0340_ _0341_ _0342_ VDD VSS NOR200
+X_0963_ _0265_ _0342_ _0343_ VDD VSS NOR200
+X_0964_ _0331_ _0343_ _0344_ VDD VSS NOR200
+X_0965_ _0227_ _0251_ _0344_ _0188_ VDD VSS ADNR01
+X_0966_ _0229_ net128 _0263_ _0345_ VDD VSS ADNR01
+X_0967_ u_pwm.prescaler[3] net47 _0346_ VSS VDD NND201
+X_0968_ net332 net53 _0347_ VSS VDD NND201
+X_0969_ net286 net44 _0348_ VSS VDD NND201
+X_0970_ net367 net49 _0349_ VSS VDD NND201
+X_0971_ net302 net45 _0350_ VSS VDD NND201
+X_0972_ u_pwm.duty[51] net54 _0351_ VSS VDD NND201
+X_0973_ u_pwm.duty[59] net56 _0352_ VSS VDD NND201
+X_0974_ net317 net51 _0284_ net346 _0353_ VDD VSS AOI401
+X_0975_ _0349_ _0353_ _0354_ VSS VDD NND201
+X_0976_ _0346_ _0347_ _0348_ _0352_ _0351_ _0350_ _0355_ VSS VDD NND601
+X_0977_ _0354_ _0355_ _0356_ VDD VSS NOR200
+X_0978_ _0265_ _0356_ _0357_ VDD VSS NOR200
+X_0979_ _0345_ _0357_ _0358_ VDD VSS NOR200
+X_0980_ _0228_ net63 _0358_ _0187_ VDD VSS ADNR01
+X_0981_ _0230_ u_pwm.u_spi.bit_cnt[3] _0263_ _0359_ VDD VSS ADNR01
+X_0982_ u_pwm.duty[50] net55 _0360_ VSS VDD NND201
+X_0983_ net319 net51 _0361_ VSS VDD NND201
+X_0984_ net369 net48 _0362_ VSS VDD NND201
+X_0985_ net304 net45 _0363_ VSS VDD NND201
+X_0986_ u_pwm.duty[18] _0293_ _0364_ VSS VDD NND201
+X_0987_ u_pwm.prescaler[2] net47 _0365_ VSS VDD NND201
+X_0988_ net334 _0277_ _0284_ net348 _0366_ VDD VSS AOI401
+X_0989_ _0365_ _0366_ _0367_ VSS VDD NND201
+X_0990_ u_pwm.duty[58] net56 _0286_ _0368_ VDD VSS ADNR01
+X_0991_ _0360_ _0361_ _0362_ _0368_ _0364_ _0363_ _0369_ VSS VDD NND601
+X_0992_ _0367_ _0369_ _0370_ VDD VSS NOR200
+X_0993_ _0265_ _0370_ _0371_ VDD VSS NOR200
+X_0994_ _0359_ _0371_ _0372_ VDD VSS NOR200
+X_0995_ _0229_ _0251_ _0372_ _0186_ VDD VSS ADNR01
+X_0996_ u_pwm.u_spi.shift_out[0] net63 _0373_ VSS VDD OR2101
+X_0997_ u_pwm.duty[49] net55 _0374_ VSS VDD NND201
+X_0998_ net335 _0277_ _0375_ VSS VDD NND201
+X_0999_ u_pwm.duty[33] _0291_ _0376_ VSS VDD NND201
+X_1000_ net350 net50 _0377_ VSS VDD NND201
+X_1001_ net370 _0287_ _0378_ VSS VDD NND201
+X_1002_ u_pwm.duty[57] _0270_ _0379_ VSS VDD NND201
+X_1003_ u_pwm.prescaler[1] net47 _0380_ VSS VDD NND201
+X_1004_ net321 _0280_ _0293_ u_pwm.duty[17] _0381_ VDD VSS AOI401
+X_1005_ _0379_ _0381_ _0382_ VSS VDD NND201
+X_1006_ _0374_ _0375_ _0376_ _0380_ _0378_ _0377_ _0383_ VSS VDD NND601
+X_1007_ _0382_ _0383_ _0384_ VDD VSS NOR200
+X_1008_ _0265_ _0384_ _0385_ VDD VSS NOR200
+X_1009_ _0262_ _0373_ _0385_ _0386_ VDD VSS ADNR01
+X_1010_ _0230_ net63 _0386_ _0185_ VDD VSS ADNR01
+X_1011_ u_pwm.u_spi.shift_out[0] net63 _0387_ VSS VDD NND201
+X_1012_ u_pwm.duty[48] net55 _0289_ u_pwm.prescaler[0] _0388_ VDD VSS AOI401
+X_1013_ u_pwm.duty[56] _0270_ _0277_ u_pwm.duty[0] _0389_ VDD VSS AOI401
+X_1014_ _0388_ _0389_ _0390_ VSS VDD NND201
+X_1015_ net351 net50 net49 net371 _0391_ VDD VSS AOI401
+X_1016_ net72 _0272_ _0275_ _0392_ VDD VSS NOR300
+X_1017_ u_pwm.duty[32] net46 _0392_ _0393_ VDD VSS ADNR01
+X_1018_ _0391_ _0393_ _0394_ VSS VDD NND201
+X_1019_ net323 net52 _0395_ VSS VDD NND201
+X_1020_ u_pwm.duty[16] _0293_ _0286_ _0396_ VDD VSS ADNR01
+X_1021_ _0395_ _0396_ _0397_ VSS VDD NND201
+X_1022_ _0390_ _0394_ _0397_ _0398_ VDD VSS NOR300
+X_1023_ _0265_ _0398_ _0387_ _0184_ VSS VDD ORND01
+X_1024_ net71 u_pwm.u_pwm_core.duty_active[1] u_pwm.u_pwm_core.duty_active[0] net70 _0399_ VDD VSS AOI401
+X_1025_ net68 u_pwm.u_pwm_core.duty_active[2] _0400_ VDD VSS NOR200
+X_1026_ net71 u_pwm.u_pwm_core.duty_active[1] _0401_ VDD VSS NOR200
+X_1027_ _0399_ _0400_ _0401_ _0402_ VDD VSS NOR300
+X_1028_ net68 u_pwm.u_pwm_core.duty_active[2] _0403_ VSS VDD NND201
+X_1029_ net69 net425 _0404_ VSS VDD NND201
+X_1030_ _0403_ _0404_ _0405_ VSS VDD NND201
+X_1031_ _0402_ _0405_ _0406_ VDD VSS NOR200
+X_1032_ net66 net424 _0407_ VDD VSS NOR200
+X_1033_ net69 u_pwm.u_pwm_core.duty_active[3] _0408_ VDD VSS NOR200
+X_1034_ _0406_ _0407_ _0408_ _0409_ VDD VSS NOR300
+X_1035_ net67 u_pwm.u_pwm_core.duty_active[5] _0410_ VSS VDD NND201
+X_1036_ net66 u_pwm.u_pwm_core.duty_active[4] _0411_ VSS VDD NND201
+X_1037_ _0410_ _0411_ _0412_ VSS VDD NND201
+X_1038_ _0409_ _0412_ _0413_ VDD VSS NOR200
+X_1039_ net67 u_pwm.u_pwm_core.duty_active[5] _0414_ VDD VSS NOR200
+X_1040_ net65 u_pwm.u_pwm_core.duty_active[6] _0415_ VDD VSS NOR200
+X_1041_ _0413_ _0414_ _0415_ _0416_ VDD VSS NOR300
+X_1042_ net64 u_pwm.u_pwm_core.duty_active[7] _0417_ VSS VDD NND201
+X_1043_ net65 u_pwm.u_pwm_core.duty_active[6] _0416_ _0418_ VDD VSS ADNR01
+X_1044_ net64 u_pwm.u_pwm_core.duty_active[7] net372 _0419_ VSS VDD ORND01
+X_1045_ _0417_ _0418_ _0419_ u_pwm.u_pwm_core.pwm_next[0] VDD VSS ADNR01
+X_1046_ net69 u_pwm.u_pwm_core.duty_active[11] _0420_ VSS VDD NND201
+X_1047_ net68 u_pwm.u_pwm_core.duty_active[10] _0421_ VDD VSS NOR200
+X_1048_ net68 u_pwm.u_pwm_core.duty_active[10] _0422_ VSS VDD NND201
+X_1049_ net71 u_pwm.u_pwm_core.duty_active[9] u_pwm.u_pwm_core.duty_active[8] net70 _0423_ VDD VSS AOI401
+X_1050_ net71 u_pwm.u_pwm_core.duty_active[9] _0424_ VDD VSS NOR200
+X_1051_ _0421_ _0423_ _0424_ _0425_ VDD VSS NOR300
+X_1052_ _0420_ _0422_ _0426_ VSS VDD NND201
+X_1053_ _0425_ _0426_ _0427_ VDD VSS NOR200
+X_1054_ net66 net417 _0428_ VDD VSS NOR200
+X_1055_ net69 u_pwm.u_pwm_core.duty_active[11] _0429_ VDD VSS NOR200
+X_1056_ _0427_ _0428_ _0429_ _0430_ VDD VSS NOR300
+X_1057_ net67 net416 _0431_ VSS VDD NND201
+X_1058_ net66 u_pwm.u_pwm_core.duty_active[12] _0432_ VSS VDD NND201
+X_1059_ _0431_ _0432_ _0433_ VSS VDD NND201
+X_1060_ _0430_ _0433_ _0434_ VDD VSS NOR200
+X_1061_ net65 u_pwm.u_pwm_core.duty_active[14] _0435_ VDD VSS NOR200
+X_1062_ net67 u_pwm.u_pwm_core.duty_active[13] _0436_ VDD VSS NOR200
+X_1063_ _0434_ _0435_ _0436_ _0437_ VDD VSS NOR300
+X_1064_ net64 u_pwm.u_pwm_core.duty_active[15] _0438_ VSS VDD NND201
+X_1065_ net65 u_pwm.u_pwm_core.duty_active[14] _0437_ _0439_ VDD VSS ADNR01
+X_1066_ net64 u_pwm.u_pwm_core.duty_active[15] net372 _0440_ VSS VDD ORND01
+X_1067_ _0438_ _0439_ _0440_ u_pwm.u_pwm_core.pwm_next[1] VDD VSS ADNR01
+X_1068_ _0246_ u_pwm.u_pwm_core.duty_active[18] _0441_ VDD VSS NOR200
+X_1069_ _0243_ u_pwm.u_pwm_core.duty_active[17] u_pwm.u_pwm_core.duty_active[16] net70 _0442_ VDD VSS AOI401
+X_1070_ _0243_ u_pwm.u_pwm_core.duty_active[17] _0443_ VDD VSS NOR200
+X_1071_ _0441_ _0442_ _0443_ _0444_ VDD VSS NOR300
+X_1072_ _0246_ u_pwm.u_pwm_core.duty_active[18] _0444_ _0445_ VDD VSS ADNR01
+X_1073_ net74 _0252_ _0445_ _0446_ VSS VDD ORND01
+X_1074_ net66 u_pwm.u_pwm_core.duty_active[20] _0447_ VDD VSS NOR200
+X_1075_ net74 _0252_ _0447_ _0448_ VDD VSS ADNR01
+X_1076_ net67 net410 _0449_ VSS VDD NND201
+X_1077_ net66 u_pwm.u_pwm_core.duty_active[20] _0450_ VSS VDD NND201
+X_1078_ _0449_ _0450_ _0451_ VSS VDD NND201
+X_1079_ _0446_ _0448_ _0451_ _0452_ VDD VSS ADNR01
+X_1080_ net67 u_pwm.u_pwm_core.duty_active[21] _0453_ VDD VSS NOR200
+X_1081_ net65 u_pwm.u_pwm_core.duty_active[22] _0454_ VDD VSS NOR200
+X_1082_ _0452_ _0453_ _0454_ _0455_ VDD VSS NOR300
+X_1083_ net64 u_pwm.u_pwm_core.duty_active[23] _0456_ VSS VDD NND201
+X_1084_ net65 u_pwm.u_pwm_core.duty_active[22] _0455_ _0457_ VDD VSS ADNR01
+X_1085_ net64 u_pwm.u_pwm_core.duty_active[23] net372 _0458_ VSS VDD ORND01
+X_1086_ _0456_ _0457_ _0458_ u_pwm.u_pwm_core.pwm_next[2] VDD VSS ADNR01
+X_1087_ net68 u_pwm.u_pwm_core.duty_active[26] _0459_ VDD VSS NOR200
+X_1088_ net71 u_pwm.u_pwm_core.duty_active[25] _0460_ VDD VSS NOR200
+X_1089_ net71 u_pwm.u_pwm_core.duty_active[25] u_pwm.u_pwm_core.duty_active[24] net70 _0461_ VDD VSS AOI401
+X_1090_ _0459_ _0460_ _0461_ _0462_ VDD VSS NOR300
+X_1091_ net68 u_pwm.u_pwm_core.duty_active[26] _0463_ VSS VDD NND201
+X_1092_ net69 u_pwm.u_pwm_core.duty_active[27] _0464_ VSS VDD NND201
+X_1093_ _0463_ _0464_ _0465_ VSS VDD NND201
+X_1094_ _0462_ _0465_ _0466_ VDD VSS NOR200
+X_1095_ net66 net404 _0467_ VDD VSS NOR200
+X_1096_ net69 u_pwm.u_pwm_core.duty_active[27] _0468_ VDD VSS NOR200
+X_1097_ _0466_ _0467_ _0468_ _0469_ VDD VSS NOR300
+X_1098_ net67 u_pwm.u_pwm_core.duty_active[29] _0470_ VSS VDD NND201
+X_1099_ net66 u_pwm.u_pwm_core.duty_active[28] _0471_ VSS VDD NND201
+X_1100_ _0470_ _0471_ _0472_ VSS VDD NND201
+X_1101_ _0469_ _0472_ _0473_ VDD VSS NOR200
+X_1102_ net67 u_pwm.u_pwm_core.duty_active[29] _0474_ VDD VSS NOR200
+X_1103_ net65 u_pwm.u_pwm_core.duty_active[30] _0475_ VDD VSS NOR200
+X_1104_ _0473_ _0474_ _0475_ _0476_ VDD VSS NOR300
+X_1105_ net64 u_pwm.u_pwm_core.duty_active[31] _0477_ VSS VDD NND201
+X_1106_ net65 u_pwm.u_pwm_core.duty_active[30] _0476_ _0478_ VDD VSS ADNR01
+X_1107_ net64 u_pwm.u_pwm_core.duty_active[31] net372 _0479_ VSS VDD ORND01
+X_1108_ _0477_ _0478_ _0479_ u_pwm.u_pwm_core.pwm_next[3] VDD VSS ADNR01
+X_1109_ net69 net398 _0480_ VSS VDD NND201
+X_1110_ net68 net399 _0481_ VDD VSS NOR200
+X_1111_ net68 u_pwm.u_pwm_core.duty_active[34] _0482_ VSS VDD NND201
+X_1112_ net71 u_pwm.u_pwm_core.duty_active[33] u_pwm.u_pwm_core.duty_active[32] net70 _0483_ VDD VSS AOI401
+X_1113_ net71 u_pwm.u_pwm_core.duty_active[33] _0484_ VDD VSS NOR200
+X_1114_ _0480_ _0482_ _0485_ VSS VDD NND201
+X_1115_ _0481_ _0483_ _0484_ _0486_ VDD VSS NOR300
+X_1116_ _0485_ _0486_ _0487_ VDD VSS NOR200
+X_1117_ net69 u_pwm.u_pwm_core.duty_active[35] _0488_ VDD VSS NOR200
+X_1118_ net66 net397 _0489_ VDD VSS NOR200
+X_1119_ _0487_ _0488_ _0489_ _0490_ VDD VSS NOR300
+X_1120_ net67 u_pwm.u_pwm_core.duty_active[37] _0491_ VSS VDD NND201
+X_1121_ _0248_ u_pwm.u_pwm_core.duty_active[36] _0492_ VSS VDD NND201
+X_1122_ _0491_ _0492_ _0493_ VSS VDD NND201
+X_1123_ _0490_ _0493_ _0494_ VDD VSS NOR200
+X_1124_ _0249_ u_pwm.u_pwm_core.duty_active[38] _0495_ VDD VSS NOR200
+X_1125_ net67 u_pwm.u_pwm_core.duty_active[37] _0496_ VDD VSS NOR200
+X_1126_ _0494_ _0495_ _0496_ _0497_ VDD VSS NOR300
+X_1127_ net64 u_pwm.u_pwm_core.duty_active[39] _0498_ VSS VDD NND201
+X_1128_ _0249_ u_pwm.u_pwm_core.duty_active[38] _0497_ _0499_ VDD VSS ADNR01
+X_1129_ net64 u_pwm.u_pwm_core.duty_active[39] net374 _0500_ VSS VDD ORND01
+X_1130_ _0498_ _0499_ _0500_ u_pwm.u_pwm_core.pwm_next[4] VDD VSS ADNR01
+X_1131_ net68 u_pwm.u_pwm_core.duty_active[42] _0501_ VDD VSS NOR200
+X_1132_ net71 u_pwm.u_pwm_core.duty_active[41] _0502_ VDD VSS NOR200
+X_1133_ net71 u_pwm.u_pwm_core.duty_active[41] u_pwm.u_pwm_core.duty_active[40] net70 _0503_ VDD VSS AOI401
+X_1134_ _0501_ _0502_ _0503_ _0504_ VDD VSS NOR300
+X_1135_ net68 u_pwm.u_pwm_core.duty_active[42] _0505_ VSS VDD NND201
+X_1136_ net69 u_pwm.u_pwm_core.duty_active[43] _0506_ VSS VDD NND201
+X_1137_ _0505_ _0506_ _0507_ VSS VDD NND201
+X_1138_ _0504_ _0507_ _0508_ VDD VSS NOR200
+X_1139_ net66 u_pwm.u_pwm_core.duty_active[44] _0509_ VDD VSS NOR200
+X_1140_ net69 u_pwm.u_pwm_core.duty_active[43] _0510_ VDD VSS NOR200
+X_1141_ _0508_ _0509_ _0510_ _0511_ VDD VSS NOR300
+X_1142_ _0247_ u_pwm.u_pwm_core.duty_active[45] _0512_ VSS VDD NND201
+X_1143_ net66 u_pwm.u_pwm_core.duty_active[44] _0513_ VSS VDD NND201
+X_1144_ _0512_ _0513_ _0514_ VSS VDD NND201
+X_1145_ _0247_ u_pwm.u_pwm_core.duty_active[45] _0515_ VDD VSS NOR200
+X_1146_ net73 _0253_ _0515_ _0516_ VDD VSS ADNR01
+X_1147_ _0511_ _0514_ _0516_ _0517_ VSS VDD ORND01
+X_1148_ net73 _0253_ _0518_ VDD VSS NOR200
+X_1149_ _0250_ u_pwm.u_pwm_core.duty_active[47] _0518_ _0519_ VDD VSS ADNR01
+X_1150_ _0250_ u_pwm.u_pwm_core.duty_active[47] net374 _0520_ VSS VDD ORND01
+X_1151_ _0517_ _0519_ _0520_ u_pwm.u_pwm_core.pwm_next[5] VDD VSS ADNR01
+X_1152_ _0250_ u_pwm.u_pwm_core.duty_active[55] _0521_ VSS VDD NND201
+X_1153_ _0245_ u_pwm.u_pwm_core.duty_active[51] _0522_ VDD VSS NOR200
+X_1154_ _0246_ net386 _0523_ VDD VSS NOR200
+X_1155_ _0244_ net387 _0524_ VSS VDD NND201
+X_1156_ u_pwm.u_pwm_core.phase[1] _0254_ _0524_ _0525_ VSS VDD ORND01
+X_1157_ u_pwm.u_pwm_core.phase[1] _0254_ _0523_ _0526_ VDD VSS ADNR01
+X_1158_ _0246_ net386 _0525_ _0526_ _0527_ VDD VSS AOI401
+X_1159_ _0248_ net385 u_pwm.u_pwm_core.duty_active[51] _0245_ _0528_ VDD VSS AOI401
+X_1160_ _0522_ _0527_ _0528_ _0529_ VSS VDD ORND01
+X_1161_ _0248_ u_pwm.u_pwm_core.duty_active[52] _0530_ VDD VSS NOR200
+X_1162_ _0247_ u_pwm.u_pwm_core.duty_active[53] _0529_ _0531_ VSS VDD ORND01
+X_1163_ _0249_ u_pwm.u_pwm_core.duty_active[54] u_pwm.u_pwm_core.duty_active[53] _0247_ _0532_ VDD VSS AOI401
+X_1164_ _0530_ _0531_ _0532_ _0533_ VSS VDD ORND01
+X_1165_ _0249_ u_pwm.u_pwm_core.duty_active[54] _0533_ _0534_ VSS VDD ORND01
+X_1166_ _0250_ u_pwm.u_pwm_core.duty_active[55] net374 _0535_ VSS VDD ORND01
+X_1167_ _0521_ _0534_ _0535_ u_pwm.u_pwm_core.pwm_next[6] VDD VSS ADNR01
+X_1168_ _0246_ u_pwm.u_pwm_core.duty_active[58] _0536_ VDD VSS NOR200
+X_1169_ _0243_ u_pwm.u_pwm_core.duty_active[57] _0537_ VDD VSS NOR200
+X_1170_ _0243_ u_pwm.u_pwm_core.duty_active[57] u_pwm.u_pwm_core.duty_active[56] _0244_ _0538_ VDD VSS AOI401
+X_1171_ _0536_ _0537_ _0538_ _0539_ VDD VSS NOR300
+X_1172_ _0246_ u_pwm.u_pwm_core.duty_active[58] _0540_ VSS VDD NND201
+X_1173_ _0245_ net380 _0541_ VSS VDD NND201
+X_1174_ _0540_ _0541_ _0542_ VSS VDD NND201
+X_1175_ _0539_ _0542_ _0543_ VDD VSS NOR200
+X_1176_ _0248_ u_pwm.u_pwm_core.duty_active[60] _0544_ VDD VSS NOR200
+X_1177_ _0245_ u_pwm.u_pwm_core.duty_active[59] _0545_ VDD VSS NOR200
+X_1178_ _0543_ _0544_ _0545_ _0546_ VDD VSS NOR300
+X_1179_ _0247_ u_pwm.u_pwm_core.duty_active[61] _0547_ VSS VDD NND201
+X_1180_ _0248_ u_pwm.u_pwm_core.duty_active[60] _0548_ VSS VDD NND201
+X_1181_ _0547_ _0548_ _0549_ VSS VDD NND201
+X_1182_ _0247_ u_pwm.u_pwm_core.duty_active[61] _0550_ VDD VSS NOR200
+X_1183_ net73 _0255_ _0550_ _0551_ VDD VSS ADNR01
+X_1184_ _0546_ _0549_ _0551_ _0552_ VSS VDD ORND01
+X_1185_ net73 _0255_ _0553_ VDD VSS NOR200
+X_1186_ _0250_ u_pwm.u_pwm_core.duty_active[63] _0553_ _0554_ VDD VSS ADNR01
+X_1187_ _0250_ u_pwm.u_pwm_core.duty_active[63] net374 _0555_ VSS VDD ORND01
+X_1188_ _0552_ _0554_ _0555_ u_pwm.u_pwm_core.pwm_next[7] VDD VSS ADNR01
+X_1189_ u_pwm.u_pwm_core.prescale_count[7] _0234_ _0556_ VDD VSS NOR200
+X_1190_ _0235_ u_pwm.prescaler[6] _0557_ VSS VDD NND201
+X_1191_ u_pwm.u_pwm_core.prescale_count[5] _0236_ _0558_ VSS VDD NND201
+X_1192_ _0240_ u_pwm.prescaler[1] _0559_ VDD VSS NOR200
+X_1193_ _0238_ u_pwm.prescaler[3] _0560_ VSS VDD NND201
+X_1194_ _0239_ u_pwm.prescaler[2] _0561_ VDD VSS NOR200
+X_1195_ _0240_ u_pwm.prescaler[1] _0241_ u_pwm.prescaler[0] _0562_ VDD VSS AOI401
+X_1196_ u_pwm.u_pwm_core.prescale_count[2] u_pwm.prescaler[2] _0563_ VSS VDD XOR201
+X_1197_ _0238_ u_pwm.prescaler[3] _0563_ _0564_ VDD VSS ADNR01
+X_1198_ _0559_ _0562_ _0564_ _0565_ VSS VDD ORND01
+X_1199_ _0238_ u_pwm.prescaler[3] _0566_ VDD VSS NOR200
+X_1200_ u_pwm.u_pwm_core.prescale_count[4] _0237_ _0567_ VSS VDD NND201
+X_1201_ _0560_ _0561_ _0566_ _0568_ VDD VSS ADNR01
+X_1202_ _0568_ _0567_ _0565_ _0569_ VDD VSS AND301
+X_1203_ u_pwm.u_pwm_core.prescale_count[5] _0236_ _0570_ VDD VSS NOR200
+X_1204_ u_pwm.u_pwm_core.prescale_count[4] _0237_ _0571_ VDD VSS NOR200
+X_1205_ _0570_ _0571_ _0572_ VSS VDD OR2101
+X_1206_ _0569_ _0572_ _0558_ _0573_ VSS VDD ORND01
+X_1207_ u_pwm.u_pwm_core.prescale_count[7] _0234_ _0574_ VSS VDD NND201
+X_1208_ _0235_ u_pwm.prescaler[6] _0574_ _0575_ VSS VDD ORND01
+X_1209_ _0557_ _0573_ _0575_ _0576_ VDD VSS ADNR01
+X_1210_ _0556_ _0576_ _0577_ VDD VSS NOR200
+X_1211_ net72 _0577_ _0578_ VSS VDD OR2101
+X_1212_ u_pwm.u_pwm_core.prescale_count[0] _0578_ _0000_ VDD VSS NOR200
+X_1213_ _0240_ _0241_ _0579_ VDD VSS NOR200
+X_1214_ u_pwm.u_pwm_core.prescale_count[1] u_pwm.u_pwm_core.prescale_count[0] _0580_ VDD VSS NOR200
+X_1215_ _0578_ _0579_ _0580_ _0001_ VDD VSS NOR300
+X_1216_ _0239_ _0240_ _0241_ _0581_ VDD VSS NOR300
+X_1217_ u_pwm.u_pwm_core.prescale_count[2] _0579_ _0582_ VDD VSS NOR200
+X_1218_ _0578_ _0581_ _0582_ _0002_ VDD VSS NOR300
+X_1219_ u_pwm.u_pwm_core.prescale_count[3] _0581_ _0583_ VSS VDD AND201
+X_1220_ u_pwm.u_pwm_core.prescale_count[3] _0581_ _0584_ VDD VSS NOR200
+X_1221_ _0578_ _0583_ _0584_ _0003_ VDD VSS NOR300
+X_1222_ u_pwm.u_pwm_core.prescale_count[4] _0583_ _0585_ VSS VDD AND201
+X_1223_ u_pwm.u_pwm_core.prescale_count[4] _0583_ _0586_ VDD VSS NOR200
+X_1224_ _0578_ _0585_ _0586_ _0004_ VDD VSS NOR300
+X_1225_ u_pwm.u_pwm_core.prescale_count[5] _0585_ _0587_ VSS VDD AND201
+X_1226_ u_pwm.u_pwm_core.prescale_count[5] _0585_ _0588_ VDD VSS NOR200
+X_1227_ _0578_ _0587_ _0588_ _0005_ VDD VSS NOR300
+X_1228_ u_pwm.u_pwm_core.prescale_count[6] _0587_ _0589_ VSS VDD AND201
+X_1229_ u_pwm.u_pwm_core.prescale_count[6] _0587_ _0590_ VDD VSS NOR200
+X_1230_ _0578_ _0589_ _0590_ _0006_ VDD VSS NOR300
+X_1231_ u_pwm.u_pwm_core.prescale_count[7] _0589_ _0591_ VSS VDD XNR201
+X_1232_ _0578_ _0591_ _0007_ VDD VSS NOR200
+X_1233_ u_pwm.u_spi.bit_cnt[0] u_pwm.u_spi.bit_cnt[1] _0592_ VSS VDD AND201
+X_1234_ _0260_ _0592_ _0629_[1] VDD VSS NOR200
+X_1235_ u_pwm.u_spi.bit_cnt[2] _0592_ _0593_ VSS VDD NND201
+X_1236_ u_pwm.u_spi.bit_cnt[2] _0592_ _0629_[2] VSS VDD XOR201
+X_1237_ u_pwm.u_spi.bit_cnt[3] _0593_ _0629_[3] VSS VDD XNR201
+X_1238_ u_pwm.pwm_en u_pwm.u_pwm_core.wrap _0008_ VSS VDD AND201
+X_1239_ u_pwm.u_pwm_core.phase[1] u_pwm.u_pwm_core.phase[0] _0594_ VSS VDD NND201
+X_1240_ u_pwm.u_pwm_core.phase[3] u_pwm.u_pwm_core.phase[2] _0595_ VSS VDD NND201
+X_1241_ _0244_ _0556_ _0576_ _0596_ VDD VSS NOR300
+X_1242_ _0594_ _0556_ _0576_ _0597_ VDD VSS NOR301
+X_1243_ _0597_ u_pwm.u_pwm_core.phase[2] u_pwm.u_pwm_core.phase[3] _0598_ VDD VSS AND301
+X_1244_ _0595_ _0594_ _0576_ _0556_ _0248_ _0599_ VDD VSS NOR501
+X_1245_ u_pwm.u_pwm_core.phase[5] _0599_ _0600_ VSS VDD AND201
+X_1246_ _0599_ u_pwm.u_pwm_core.phase[6] u_pwm.u_pwm_core.phase[5] _0011_ VDD VSS AND301
+X_1247_ _0011_ _0601_ VDD VSS INVR01
+X_1248_ _0242_ _0250_ _0601_ _0009_ VDD VSS NOR300
+X_1249_ u_pwm.u_reg_bank.wr_addr[1] u_pwm.u_reg_bank.wr_addr[0] _0602_ VDD VSS NOR200
+X_1250_ u_pwm.u_reg_bank.wr_addr[5] u_pwm.u_reg_bank.wr_addr[6] _0603_ VSS VDD OR2101
+X_1251_ u_pwm.wr_toggle_seen u_pwm.u_wr_toggle_sync.sync_ff2 _0604_ VSS VDD XNR201
+X_1252_ _0604_ u_pwm.u_reg_bank.wr_addr[4] _0603_ _0605_ VDD VSS NOR301
+X_1253_ _0605_ _0606_ VDD VSS INVR01
+X_1254_ _0602_ _0605_ _0607_ VSS VDD NND201
+X_1255_ _0233_ u_pwm.u_reg_bank.wr_addr[3] _0608_ VSS VDD NND201
+X_1256_ _0607_ _0608_ _0609_ VDD VSS NOR200
+X_1257_ _0609_ net443 _0047_ net228 VDD VSS MX2101
+X_1258_ net43 net441 _0048_ net216 VDD VSS MX2101
+X_1259_ net43 net439 _0049_ net206 VDD VSS MX2101
+X_1260_ net42 net437 _0050_ net191 VDD VSS MX2101
+X_1261_ net42 net435 _0051_ net177 VDD VSS MX2101
+X_1262_ net42 net433 _0052_ net160 VDD VSS MX2101
+X_1263_ net42 net431 _0053_ net144 VDD VSS MX2101
+X_1264_ net42 net428 _0054_ net130 VDD VSS MX2101
+X_1265_ _0250_ _0601_ net375 _0610_ VSS VDD ORND01
+X_1266_ net3 u_pwm.u_pwm_core.duty_active[0] _0055_ net337 VDD VSS MX2101
+X_1267_ net3 net427 _0056_ net335 VDD VSS MX2101
+X_1268_ net2 net426 _0057_ u_pwm.duty[2] VDD VSS MX2101
+X_1269_ net9 net425 _0058_ net333 VDD VSS MX2101
+X_1270_ net9 net424 _0059_ net331 VDD VSS MX2101
+X_1271_ net10 net423 _0060_ net328 VDD VSS MX2101
+X_1272_ net10 net422 _0061_ net326 VDD VSS MX2101
+X_1273_ net10 net421 _0062_ net325 VDD VSS MX2101
+X_1274_ net2 u_pwm.u_pwm_core.duty_active[8] _0063_ u_pwm.duty[8] VDD VSS MX2101
+X_1275_ net2 net420 _0064_ net322 VDD VSS MX2101
+X_1276_ net2 net419 _0065_ net320 VDD VSS MX2101
+X_1277_ net11 net418 _0066_ net317 VDD VSS MX2101
+X_1278_ net13 net417 _0067_ u_pwm.duty[12] VDD VSS MX2101
+X_1279_ net12 net416 _0068_ net315 VDD VSS MX2101
+X_1280_ net10 net415 _0069_ net313 VDD VSS MX2101
+X_1281_ net12 net414 _0070_ net311 VDD VSS MX2101
+X_1282_ net3 u_pwm.u_pwm_core.duty_active[16] _0071_ net292 VDD VSS MX2101
+X_1283_ net6 net413 _0072_ net290 VDD VSS MX2101
+X_1284_ net5 net412 _0073_ net288 VDD VSS MX2101
+X_1285_ net8 u_pwm.u_pwm_core.duty_active[19] _0074_ net287 VDD VSS MX2101
+X_1286_ net15 net411 _0075_ u_pwm.duty[20] VDD VSS MX2101
+X_1287_ net18 net410 _0076_ net284 VDD VSS MX2101
+X_1288_ net18 net409 _0077_ net282 VDD VSS MX2101
+X_1289_ net18 net408 _0078_ net280 VDD VSS MX2101
+X_1290_ net14 u_pwm.u_pwm_core.duty_active[24] _0079_ u_pwm.duty[24] VDD VSS MX2101
+X_1291_ net14 net407 _0080_ u_pwm.duty[25] VDD VSS MX2101
+X_1292_ net9 net406 _0081_ net349 VDD VSS MX2101
+X_1293_ net11 net405 _0082_ net347 VDD VSS MX2101
+X_1294_ net13 net404 _0083_ net345 VDD VSS MX2101
+X_1295_ net12 net403 _0084_ net343 VDD VSS MX2101
+X_1296_ net15 net402 _0085_ net342 VDD VSS MX2101
+X_1297_ net15 net401 _0086_ net340 VDD VSS MX2101
+X_1298_ net5 u_pwm.u_pwm_core.duty_active[32] _0087_ net308 VDD VSS MX2101
+X_1299_ net5 net400 _0088_ net307 VDD VSS MX2101
+X_1300_ net19 net399 _0089_ net305 VDD VSS MX2101
+X_1301_ net19 net398 _0090_ net303 VDD VSS MX2101
+X_1302_ net18 net397 _0091_ net301 VDD VSS MX2101
+X_1303_ net20 net396 _0092_ net299 VDD VSS MX2101
+X_1304_ net20 net395 _0093_ net297 VDD VSS MX2101
+X_1305_ net20 net394 _0094_ net295 VDD VSS MX2101
+X_1306_ net17 u_pwm.u_pwm_core.duty_active[40] _0095_ u_pwm.duty[40] VDD VSS MX2101
+X_1307_ net17 net393 _0096_ u_pwm.duty[41] VDD VSS MX2101
+X_1308_ net17 net392 _0097_ u_pwm.duty[42] VDD VSS MX2101
+X_1309_ net17 net391 _0098_ net368 VDD VSS MX2101
+X_1310_ net17 net390 _0099_ net365 VDD VSS MX2101
+X_1311_ net21 net389 _0100_ net363 VDD VSS MX2101
+X_1312_ net20 u_pwm.u_pwm_core.duty_active[46] _0101_ net362 VDD VSS MX2101
+X_1313_ net16 net388 _0102_ net360 VDD VSS MX2101
+X_1314_ net7 net387 _0103_ net442 VDD VSS MX2101
+X_1315_ net7 u_pwm.u_pwm_core.duty_active[49] _0104_ net440 VDD VSS MX2101
+X_1316_ net7 net386 _0105_ net438 VDD VSS MX2101
+X_1317_ net4 u_pwm.u_pwm_core.duty_active[51] _0106_ net436 VDD VSS MX2101
+X_1318_ net4 net385 _0107_ net434 VDD VSS MX2101
+X_1319_ net4 net384 _0108_ net432 VDD VSS MX2101
+X_1320_ net4 net383 _0109_ net430 VDD VSS MX2101
+X_1321_ net16 net382 _0110_ net429 VDD VSS MX2101
+X_1322_ net1 u_pwm.u_pwm_core.duty_active[56] _0111_ net277 VDD VSS MX2101
+X_1323_ net6 u_pwm.u_pwm_core.duty_active[57] _0112_ net275 VDD VSS MX2101
+X_1324_ net23 net381 _0113_ net273 VDD VSS MX2101
+X_1325_ net25 net380 _0114_ net271 VDD VSS MX2101
+X_1326_ net23 net379 _0115_ net269 VDD VSS MX2101
+X_1327_ net25 net378 _0116_ net267 VDD VSS MX2101
+X_1328_ net25 u_pwm.u_pwm_core.duty_active[62] _0117_ net266 VDD VSS MX2101
+X_1329_ net26 net377 _0118_ net263 VDD VSS MX2101
+X_1330_ u_pwm.u_reg_bank.wr_addr[2] u_pwm.u_reg_bank.wr_addr[3] _0607_ _0611_ VDD VSS NOR300
+X_1331_ _0611_ net373 _0119_ net230 VDD VSS MX2101
+X_1332_ _0233_ u_pwm.u_reg_bank.wr_addr[3] _0612_ VDD VSS NOR200
+X_1333_ _0605_ _0612_ _0613_ VSS VDD NND201
+X_1334_ u_pwm.u_reg_bank.wr_addr[1] u_pwm.u_reg_bank.wr_addr[0] _0614_ VSS VDD NND201
+X_1335_ _0613_ _0614_ _0615_ VDD VSS NOR200
+X_1336_ net40 net371 _0120_ net237 VDD VSS MX2101
+X_1337_ net41 net370 _0121_ net220 VDD VSS MX2101
+X_1338_ net39 net369 _0122_ net201 VDD VSS MX2101
+X_1339_ net40 net367 _0123_ net195 VDD VSS MX2101
+X_1340_ net40 net366 _0124_ net181 VDD VSS MX2101
+X_1341_ net39 net364 _0125_ net161 VDD VSS MX2101
+X_1342_ net39 net361 _0126_ net145 VDD VSS MX2101
+X_1343_ net39 net359 _0127_ net131 VDD VSS MX2101
+X_1344_ _0232_ u_pwm.u_reg_bank.wr_addr[0] _0616_ VSS VDD NND201
+X_1345_ u_pwm.u_reg_bank.wr_addr[2] u_pwm.u_reg_bank.wr_addr[3] _0616_ _0617_ VDD VSS NOR300
+X_1346_ _0605_ _0617_ _0618_ VSS VDD NND201
+X_1347_ _0618_ net229 _0128_ net358 VDD VSS MX2101
+X_1348_ _0618_ net215 _0129_ net357 VDD VSS MX2101
+X_1349_ _0618_ net208 _0130_ net356 VDD VSS MX2101
+X_1350_ net38 net188 _0131_ net355 VDD VSS MX2101
+X_1351_ net38 net174 _0132_ net354 VDD VSS MX2101
+X_1352_ net38 net170 _0133_ net353 VDD VSS MX2101
+X_1353_ net38 net155 _0134_ net352 VDD VSS MX2101
+X_1354_ net38 net141 _0135_ u_pwm.prescaler[7] VDD VSS MX2101
+X_1355_ _0613_ _0616_ _0619_ VDD VSS NOR201
+X_1356_ net36 net351 _0136_ net236 VDD VSS MX2101
+X_1357_ _0619_ net350 _0137_ net221 VDD VSS MX2101
+X_1358_ net37 net348 _0138_ net211 VDD VSS MX2101
+X_1359_ net37 net346 _0139_ net198 VDD VSS MX2101
+X_1360_ net36 u_pwm.duty[28] _0140_ net182 VDD VSS MX2101
+X_1361_ net37 net344 _0141_ net167 VDD VSS MX2101
+X_1362_ net36 net341 _0142_ net150 VDD VSS MX2101
+X_1363_ net36 net339 _0143_ net136 VDD VSS MX2101
+X_1364_ _0232_ u_pwm.u_reg_bank.wr_addr[0] _0620_ VSS VDD OR2101
+X_1365_ u_pwm.u_reg_bank.wr_addr[2] u_pwm.u_reg_bank.wr_addr[3] _0620_ _0621_ VDD VSS NOR300
+X_1366_ _0605_ _0621_ _0622_ VSS VDD NND201
+X_1367_ _0622_ net231 _0144_ net338 VDD VSS MX2101
+X_1368_ _0622_ net226 _0145_ net336 VDD VSS MX2101
+X_1369_ net34 net212 _0146_ net334 VDD VSS MX2101
+X_1370_ net35 net197 _0147_ net332 VDD VSS MX2101
+X_1371_ net35 net185 _0148_ net330 VDD VSS MX2101
+X_1372_ net34 net168 _0149_ net329 VDD VSS MX2101
+X_1373_ net34 net153 _0150_ net327 VDD VSS MX2101
+X_1374_ net34 net139 _0151_ net324 VDD VSS MX2101
+X_1375_ u_pwm.u_reg_bank.wr_addr[2] u_pwm.u_reg_bank.wr_addr[3] _0614_ _0623_ VDD VSS NOR300
+X_1376_ _0605_ _0623_ _0624_ VSS VDD NND201
+X_1377_ net61 net239 _0152_ net323 VDD VSS MX2101
+X_1378_ _0624_ net224 _0153_ net321 VDD VSS MX2101
+X_1379_ net62 net213 _0154_ net319 VDD VSS MX2101
+X_1380_ net62 net199 _0155_ net318 VDD VSS MX2101
+X_1381_ net61 net184 _0156_ net316 VDD VSS MX2101
+X_1382_ net61 net166 _0157_ net314 VDD VSS MX2101
+X_1383_ net62 net151 _0158_ net312 VDD VSS MX2101
+X_1384_ net61 net138 _0159_ net310 VDD VSS MX2101
+X_1385_ _0613_ _0620_ _0625_ VDD VSS NOR200
+X_1386_ net33 net309 _0160_ net235 VDD VSS MX2101
+X_1387_ net33 net306 _0161_ net219 VDD VSS MX2101
+X_1388_ net32 net304 _0162_ net202 VDD VSS MX2101
+X_1389_ net32 net302 _0163_ net192 VDD VSS MX2101
+X_1390_ net31 net300 _0164_ net178 VDD VSS MX2101
+X_1391_ net31 net298 _0165_ net163 VDD VSS MX2101
+X_1392_ net31 net296 _0166_ net146 VDD VSS MX2101
+X_1393_ net31 net294 _0167_ net133 VDD VSS MX2101
+X_1394_ _0613_ u_pwm.u_reg_bank.wr_addr[1] u_pwm.u_reg_bank.wr_addr[0] _0626_ VDD VSS NOR301
+X_1395_ _0626_ net293 _0168_ net234 VDD VSS MX2101
+X_1396_ _0626_ net291 _0169_ net218 VDD VSS MX2101
+X_1397_ net30 net289 _0170_ net203 VDD VSS MX2101
+X_1398_ net30 net286 _0171_ net193 VDD VSS MX2101
+X_1399_ net29 net285 _0172_ net179 VDD VSS MX2101
+X_1400_ net29 net283 _0173_ net164 VDD VSS MX2101
+X_1401_ net29 net281 _0174_ net148 VDD VSS MX2101
+X_1402_ net29 net279 _0175_ net134 VDD VSS MX2101
+X_1403_ _0606_ _0608_ _0616_ _0627_ VDD VSS NOR300
+X_1404_ net28 net278 _0176_ net233 VDD VSS MX2101
+X_1405_ net28 net276 _0177_ net217 VDD VSS MX2101
+X_1406_ net28 net274 _0178_ net204 VDD VSS MX2101
+X_1407_ net27 net272 _0179_ net190 VDD VSS MX2101
+X_1408_ net27 net270 _0180_ net173 VDD VSS MX2101
+X_1409_ net27 net268 _0181_ net159 VDD VSS MX2101
+X_1410_ net27 net265 _0182_ net154 VDD VSS MX2101
+X_1411_ net27 net264 _0183_ net129 VDD VSS MX2101
+X_1412_ _0593_ net63 u_pwm.u_spi.shift_in[14] _0216_ VDD VSS NOR301
+X_1413_ net59 net246 _0192_ net253 VDD VSS MX2101
+X_1414_ net58 net245 _0193_ net252 VDD VSS MX2101
+X_1415_ net57 net244 _0194_ net251 VDD VSS MX2101
+X_1416_ net57 net243 _0195_ net250 VDD VSS MX2101
+X_1417_ net59 u_pwm.u_reg_bank.wr_addr[4] _0196_ net249 VDD VSS MX2101
+X_1418_ net59 u_pwm.u_reg_bank.wr_addr[5] _0197_ net248 VDD VSS MX2101
+X_1419_ _0216_ u_pwm.u_reg_bank.wr_addr[6] _0198_ net247 VDD VSS MX2101
+X_1420_ net60 net242 _0199_ mosi VDD VSS MX2101
+X_1421_ net57 net227 _0200_ net261 VDD VSS MX2101
+X_1422_ net57 net209 _0201_ net259 VDD VSS MX2101
+X_1423_ net58 net189 _0202_ net258 VDD VSS MX2101
+X_1424_ net57 net176 _0203_ net257 VDD VSS MX2101
+X_1425_ net58 net171 _0204_ net256 VDD VSS MX2101
+X_1426_ net60 net157 _0205_ net255 VDD VSS MX2101
+X_1427_ net60 net142 _0206_ net254 VDD VSS MX2101
+X_1428_ net59 net75 _0207_ _0010_ VDD VSS MX2101
+X_1429_ u_pwm.u_pwm_core.phase[0] _0577_ _0217_ VDD VSS NOR200
+X_1430_ net72 _0596_ _0217_ _0208_ VDD VSS NOR300
+X_1431_ u_pwm.u_pwm_core.phase[1] _0596_ _0218_ VDD VSS NOR200
+X_1432_ net72 _0597_ _0218_ _0209_ VDD VSS NOR300
+X_1433_ u_pwm.u_pwm_core.phase[2] _0597_ u_pwm.pwm_en _0219_ VSS VDD ORND01
+X_1434_ u_pwm.u_pwm_core.phase[2] _0597_ _0219_ _0210_ VDD VSS ADNR01
+X_1435_ u_pwm.u_pwm_core.phase[2] _0597_ u_pwm.u_pwm_core.phase[3] _0220_ VDD VSS ADNR01
+X_1436_ net72 _0598_ _0220_ _0211_ VDD VSS NOR300
+X_1437_ u_pwm.u_pwm_core.phase[4] _0598_ _0221_ VDD VSS NOR200
+X_1438_ net72 _0599_ _0221_ _0212_ VDD VSS NOR300
+X_1439_ u_pwm.u_pwm_core.phase[5] _0599_ _0222_ VDD VSS NOR200
+X_1440_ _0242_ _0600_ _0222_ _0213_ VDD VSS NOR300
+X_1441_ u_pwm.u_pwm_core.phase[6] _0600_ _0223_ VDD VSS NOR200
+X_1442_ net375 _0601_ _0224_ VSS VDD NND201
+X_1443_ _0223_ _0224_ _0214_ VDD VSS NOR200
+X_1444_ _0250_ _0601_ net22 _0215_ VDD VSS ADNR01
+X_1445_ cs_n net447 _0039_ VDD VSS NOR200
+X_1446_ cs_n net447 _0037_ VDD VSS NOR200
+X_1447_ cs_n net447 _0035_ VDD VSS NOR200
+X_1448_ cs_n net447 _0033_ VDD VSS NOR200
+X_1449_ cs_n net447 _0031_ VDD VSS NOR200
+X_1450_ cs_n net448 _0029_ VDD VSS NOR200
+X_1451_ cs_n net448 _0027_ VDD VSS NOR200
+X_1452_ cs_n net446 _0012_ VDD VSS NOR200
+X_1453_ cs_n net445 _0013_ VDD VSS NOR200
+X_1454_ cs_n net445 _0014_ VDD VSS NOR200
+X_1455_ cs_n net446 _0015_ VDD VSS NOR200
+X_1456_ cs_n net446 _0016_ VDD VSS NOR200
+X_1457_ cs_n net446 _0017_ VDD VSS NOR200
+X_1458_ cs_n net446 _0018_ VDD VSS NOR200
+X_1459_ cs_n _0231_ _0019_ VDD VSS NOR200
+X_1460_ cs_n net445 _0020_ VDD VSS NOR200
+X_1461_ cs_n net445 _0021_ VDD VSS NOR200
+X_1462_ cs_n net445 _0022_ VDD VSS NOR200
+X_1463_ cs_n net445 _0023_ VDD VSS NOR200
+X_1464_ cs_n net445 _0024_ VDD VSS NOR200
+X_1465_ cs_n net445 _0025_ VDD VSS NOR200
+X_1466_ cs_n net444 _0026_ VDD VSS NOR200
+X_1467_ clknet_2_2__leaf_sclk _0030_ VDD VSS INVR01
+X_1468_ clknet_2_3__leaf_sclk _0032_ VDD VSS INVR01
+X_1469_ clknet_2_2__leaf_sclk _0034_ VDD VSS INVR01
+X_1470_ clknet_2_3__leaf_sclk _0036_ VDD VSS INVR01
+X_1471_ clknet_2_3__leaf_sclk _0038_ VDD VSS INVR01
+X_1472_ clknet_2_3__leaf_sclk _0040_ VDD VSS INVR01
+X_1473_ clknet_2_2__leaf_sclk _0042_ VDD VSS INVR01
+X_1474_ cs_n net448 _0043_ VDD VSS NOR200
+X_1475_ cs_n net448 _0044_ VDD VSS NOR200
+X_1476_ cs_n net448 _0045_ VDD VSS NOR200
+X_1477_ cs_n net448 _0046_ VDD VSS NOR200
+X_1478_ clknet_4_8_0_clk _0047_ net78 _0816_ u_pwm.duty[48] VSS VDD DFCL11
+X_1479_ clknet_4_8_0_clk _0048_ net95 _0815_ u_pwm.duty[49] VSS VDD DFCL11
+X_1480_ clknet_4_10_0_clk _0049_ net105 _0814_ u_pwm.duty[50] VSS VDD DFCL11
+X_1481_ clknet_4_14_0_clk _0050_ net112 _0813_ u_pwm.duty[51] VSS VDD DFCL11
+X_1482_ clknet_4_14_0_clk _0051_ net116 _0812_ u_pwm.duty[52] VSS VDD DFCL11
+X_1483_ clknet_4_11_0_clk _0052_ net101 _0811_ u_pwm.duty[53] VSS VDD DFCL11
+X_1484_ clknet_4_14_0_clk _0053_ net116 _0810_ u_pwm.duty[54] VSS VDD DFCL11
+X_1485_ clknet_4_14_0_clk _0054_ net116 _0809_ u_pwm.duty[55] VSS VDD DFCL11
+X_1486_ clknet_4_1_0_clk _0055_ net77 _0808_ u_pwm.u_pwm_core.duty_active[0] VSS VDD DFCL11
+X_1487_ clknet_4_3_0_clk _0056_ net77 _0807_ u_pwm.u_pwm_core.duty_active[1] VSS VDD DFCL11
+X_1488_ clknet_4_4_0_clk _0057_ net94 _0806_ u_pwm.u_pwm_core.duty_active[2] VSS VDD DFCL11
+X_1489_ clknet_4_6_0_clk _0058_ net88 _0805_ u_pwm.u_pwm_core.duty_active[3] VSS VDD DFCL11
+X_1490_ clknet_4_6_0_clk _0059_ net87 _0804_ u_pwm.u_pwm_core.duty_active[4] VSS VDD DFCL11
+X_1491_ clknet_4_4_0_clk _0060_ net92 _0803_ u_pwm.u_pwm_core.duty_active[5] VSS VDD DFCL11
+X_1492_ clknet_4_5_0_clk _0061_ net92 _0802_ u_pwm.u_pwm_core.duty_active[6] VSS VDD DFCL11
+X_1493_ clknet_4_5_0_clk _0062_ net90 _0801_ u_pwm.u_pwm_core.duty_active[7] VSS VDD DFCL11
+X_1494_ clknet_4_6_0_clk _0063_ net85 _0800_ u_pwm.u_pwm_core.duty_active[8] VSS VDD DFCL11
+X_1495_ clknet_4_3_0_clk _0064_ net77 _0799_ u_pwm.u_pwm_core.duty_active[9] VSS VDD DFCL11
+X_1496_ clknet_4_3_0_clk _0065_ net84 _0798_ u_pwm.u_pwm_core.duty_active[10] VSS VDD DFCL11
+X_1497_ clknet_4_4_0_clk _0066_ net94 _0797_ u_pwm.u_pwm_core.duty_active[11] VSS VDD DFCL11
+X_1498_ clknet_4_7_0_clk _0067_ net86 _0796_ u_pwm.u_pwm_core.duty_active[12] VSS VDD DFCL11
+X_1499_ clknet_4_7_0_clk _0068_ net86 _0795_ u_pwm.u_pwm_core.duty_active[13] VSS VDD DFCL11
+X_1500_ clknet_4_5_0_clk _0069_ net90 _0794_ u_pwm.u_pwm_core.duty_active[14] VSS VDD DFCL11
+X_1501_ clknet_4_7_0_clk _0070_ net86 _0793_ u_pwm.u_pwm_core.duty_active[15] VSS VDD DFCL11
+X_1502_ clknet_4_9_0_clk _0071_ net98 _0792_ u_pwm.u_pwm_core.duty_active[16] VSS VDD DFCL11
+X_1503_ clknet_4_9_0_clk _0072_ net96 _0791_ u_pwm.u_pwm_core.duty_active[17] VSS VDD DFCL11
+X_1504_ clknet_4_9_0_clk _0073_ net96 _0790_ u_pwm.u_pwm_core.duty_active[18] VSS VDD DFCL11
+X_1505_ clknet_4_12_0_clk _0074_ net108 _0789_ u_pwm.u_pwm_core.duty_active[19] VSS VDD DFCL11
+X_1506_ clknet_4_13_0_clk _0075_ net107 _0788_ u_pwm.u_pwm_core.duty_active[20] VSS VDD DFCL11
+X_1507_ clknet_4_13_0_clk _0076_ net107 _0787_ u_pwm.u_pwm_core.duty_active[21] VSS VDD DFCL11
+X_1508_ clknet_4_13_0_clk _0077_ net107 _0786_ u_pwm.u_pwm_core.duty_active[22] VSS VDD DFCL11
+X_1509_ clknet_4_13_0_clk _0078_ net107 _0785_ u_pwm.u_pwm_core.duty_active[23] VSS VDD DFCL11
+X_1510_ clknet_4_6_0_clk _0079_ net110 _0784_ u_pwm.u_pwm_core.duty_active[24] VSS VDD DFCL11
+X_1511_ clknet_4_6_0_clk _0080_ net85 _0783_ u_pwm.u_pwm_core.duty_active[25] VSS VDD DFCL11
+X_1512_ clknet_4_4_0_clk _0081_ net88 _0782_ u_pwm.u_pwm_core.duty_active[26] VSS VDD DFCL11
+X_1513_ clknet_4_4_0_clk _0082_ net87 _0781_ u_pwm.u_pwm_core.duty_active[27] VSS VDD DFCL11
+X_1514_ clknet_4_7_0_clk _0083_ net86 _0780_ u_pwm.u_pwm_core.duty_active[28] VSS VDD DFCL11
+X_1515_ clknet_4_7_0_clk _0084_ net86 _0779_ u_pwm.u_pwm_core.duty_active[29] VSS VDD DFCL11
+X_1516_ clknet_4_7_0_clk _0085_ net86 _0778_ u_pwm.u_pwm_core.duty_active[30] VSS VDD DFCL11
+X_1517_ clknet_4_13_0_clk _0086_ net107 _0777_ u_pwm.u_pwm_core.duty_active[31] VSS VDD DFCL11
+X_1518_ clknet_4_9_0_clk _0087_ net111 _0776_ u_pwm.u_pwm_core.duty_active[32] VSS VDD DFCL11
+X_1519_ clknet_4_9_0_clk _0088_ net98 _0775_ u_pwm.u_pwm_core.duty_active[33] VSS VDD DFCL11
+X_1520_ clknet_4_12_0_clk _0089_ net111 _0774_ u_pwm.u_pwm_core.duty_active[34] VSS VDD DFCL11
+X_1521_ clknet_4_14_0_clk _0090_ net114 _0773_ u_pwm.u_pwm_core.duty_active[35] VSS VDD DFCL11
+X_1522_ clknet_4_15_0_clk _0091_ net114 _0772_ u_pwm.u_pwm_core.duty_active[36] VSS VDD DFCL11
+X_1523_ clknet_4_15_0_clk _0092_ net113 _0771_ u_pwm.u_pwm_core.duty_active[37] VSS VDD DFCL11
+X_1524_ clknet_4_15_0_clk _0093_ net113 _0770_ u_pwm.u_pwm_core.duty_active[38] VSS VDD DFCL11
+X_1525_ clknet_4_15_0_clk _0094_ net113 _0769_ u_pwm.u_pwm_core.duty_active[39] VSS VDD DFCL11
+X_1526_ clknet_4_12_0_clk _0095_ net109 _0768_ u_pwm.u_pwm_core.duty_active[40] VSS VDD DFCL11
+X_1527_ clknet_4_12_0_clk _0096_ net108 _0767_ u_pwm.u_pwm_core.duty_active[41] VSS VDD DFCL11
+X_1528_ clknet_4_12_0_clk _0097_ net108 _0766_ u_pwm.u_pwm_core.duty_active[42] VSS VDD DFCL11
+X_1529_ clknet_4_12_0_clk _0098_ net109 _0765_ u_pwm.u_pwm_core.duty_active[43] VSS VDD DFCL11
+X_1530_ clknet_4_13_0_clk _0099_ net121 _0764_ u_pwm.u_pwm_core.duty_active[44] VSS VDD DFCL11
+X_1531_ clknet_4_15_0_clk _0100_ net113 _0763_ u_pwm.u_pwm_core.duty_active[45] VSS VDD DFCL11
+X_1532_ clknet_4_15_0_clk _0101_ net113 _0762_ u_pwm.u_pwm_core.duty_active[46] VSS VDD DFCL11
+X_1533_ clknet_4_14_0_clk _0102_ net115 _0761_ u_pwm.u_pwm_core.duty_active[47] VSS VDD DFCL11
+X_1534_ clknet_4_8_0_clk _0103_ net95 _0760_ u_pwm.u_pwm_core.duty_active[48] VSS VDD DFCL11
+X_1535_ clknet_4_8_0_clk _0104_ net97 _0759_ u_pwm.u_pwm_core.duty_active[49] VSS VDD DFCL11
+X_1536_ clknet_4_8_0_clk _0105_ net97 _0758_ u_pwm.u_pwm_core.duty_active[50] VSS VDD DFCL11
+X_1537_ clknet_4_11_0_clk _0106_ net103 _0757_ u_pwm.u_pwm_core.duty_active[51] VSS VDD DFCL11
+X_1538_ clknet_4_11_0_clk _0107_ net112 _0756_ u_pwm.u_pwm_core.duty_active[52] VSS VDD DFCL11
+X_1539_ clknet_4_11_0_clk _0108_ net101 _0755_ u_pwm.u_pwm_core.duty_active[53] VSS VDD DFCL11
+X_1540_ clknet_4_11_0_clk _0109_ net112 _0754_ u_pwm.u_pwm_core.duty_active[54] VSS VDD DFCL11
+X_1541_ clknet_4_14_0_clk _0110_ net116 _0753_ u_pwm.u_pwm_core.duty_active[55] VSS VDD DFCL11
+X_1542_ clknet_4_8_0_clk _0111_ net96 _0752_ u_pwm.u_pwm_core.duty_active[56] VSS VDD DFCL11
+X_1543_ clknet_4_8_0_clk _0112_ net96 _0751_ u_pwm.u_pwm_core.duty_active[57] VSS VDD DFCL11
+X_1544_ clknet_4_10_0_clk _0113_ net96 _0750_ u_pwm.u_pwm_core.duty_active[58] VSS VDD DFCL11
+X_1545_ clknet_4_10_0_clk _0114_ net102 _0749_ u_pwm.u_pwm_core.duty_active[59] VSS VDD DFCL11
+X_1546_ clknet_4_10_0_clk _0115_ net102 _0748_ u_pwm.u_pwm_core.duty_active[60] VSS VDD DFCL11
+X_1547_ clknet_4_10_0_clk _0116_ net102 _0747_ u_pwm.u_pwm_core.duty_active[61] VSS VDD DFCL11
+X_1548_ clknet_4_10_0_clk _0117_ net102 _0746_ u_pwm.u_pwm_core.duty_active[62] VSS VDD DFCL11
+X_1549_ clknet_4_11_0_clk _0118_ net101 _0745_ u_pwm.u_pwm_core.duty_active[63] VSS VDD DFCL11
+X_1550_ clknet_4_0_0_clk _0119_ net76 _0744_ u_pwm.pwm_en VSS VDD DFCL11
+X_1551_ clknet_4_12_0_clk _0120_ net110 _0743_ u_pwm.duty[40] VSS VDD DFCL11
+X_1552_ clknet_4_9_0_clk _0121_ net98 _0742_ u_pwm.duty[41] VSS VDD DFCL11
+X_1553_ clknet_4_9_0_clk _0122_ net111 _0741_ u_pwm.duty[42] VSS VDD DFCL11
+X_1554_ clknet_4_12_0_clk _0123_ net110 _0740_ u_pwm.duty[43] VSS VDD DFCL11
+X_1555_ clknet_4_13_0_clk _0124_ net122 _0739_ u_pwm.duty[44] VSS VDD DFCL11
+X_1556_ clknet_4_14_0_clk _0125_ net114 _0738_ u_pwm.duty[45] VSS VDD DFCL11
+X_1557_ clknet_4_15_0_clk _0126_ net113 _0737_ u_pwm.duty[46] VSS VDD DFCL11
+X_1558_ clknet_4_14_0_clk _0127_ net115 _0736_ u_pwm.duty[47] VSS VDD DFCL11
+X_1559_ clknet_4_2_0_clk _0128_ net78 _0735_ u_pwm.prescaler[0] VSS VDD DFCL11
+X_1560_ clknet_4_2_0_clk _0129_ net80 _0734_ u_pwm.prescaler[1] VSS VDD DFCL11
+X_1561_ clknet_4_2_0_clk _0130_ net80 _0733_ u_pwm.prescaler[2] VSS VDD DFCL11
+X_1562_ clknet_4_0_0_clk _0131_ net77 _0732_ u_pwm.prescaler[3] VSS VDD DFCL11
+X_1563_ clknet_4_2_0_clk _0132_ net77 _0731_ u_pwm.prescaler[4] VSS VDD DFCL11
+X_1564_ clknet_4_3_0_clk _0133_ net77 _0730_ u_pwm.prescaler[5] VSS VDD DFCL11
+X_1565_ clknet_4_2_0_clk _0134_ net78 _0729_ u_pwm.prescaler[6] VSS VDD DFCL11
+X_1566_ clknet_4_2_0_clk _0135_ net78 _0728_ u_pwm.prescaler[7] VSS VDD DFCL11
+X_1567_ clknet_4_6_0_clk _0136_ net110 _0727_ u_pwm.duty[24] VSS VDD DFCL11
+X_1568_ clknet_4_3_0_clk _0137_ net82 _0726_ u_pwm.duty[25] VSS VDD DFCL11
+X_1569_ clknet_4_1_0_clk _0138_ net84 _0725_ u_pwm.duty[26] VSS VDD DFCL11
+X_1570_ clknet_4_4_0_clk _0139_ net88 _0724_ u_pwm.duty[27] VSS VDD DFCL11
+X_1571_ clknet_4_7_0_clk _0140_ net85 _0723_ u_pwm.duty[28] VSS VDD DFCL11
+X_1572_ clknet_4_5_0_clk _0141_ net87 _0722_ u_pwm.duty[29] VSS VDD DFCL11
+X_1573_ clknet_4_7_0_clk _0142_ net91 _0721_ u_pwm.duty[30] VSS VDD DFCL11
+X_1574_ clknet_4_13_0_clk _0143_ net122 _0720_ u_pwm.duty[31] VSS VDD DFCL11
+X_1575_ clknet_4_3_0_clk _0144_ net82 _0719_ u_pwm.duty[0] VSS VDD DFCL11
+X_1576_ clknet_4_1_0_clk _0145_ net82 _0718_ u_pwm.duty[1] VSS VDD DFCL11
+X_1577_ clknet_4_1_0_clk _0146_ net89 _0717_ u_pwm.duty[2] VSS VDD DFCL11
+X_1578_ clknet_4_6_0_clk _0147_ net85 _0716_ u_pwm.duty[3] VSS VDD DFCL11
+X_1579_ clknet_4_6_0_clk _0148_ net85 _0715_ u_pwm.duty[4] VSS VDD DFCL11
+X_1580_ clknet_4_5_0_clk _0149_ net93 _0714_ u_pwm.duty[5] VSS VDD DFCL11
+X_1581_ clknet_4_5_0_clk _0150_ net93 _0713_ u_pwm.duty[6] VSS VDD DFCL11
+X_1582_ clknet_4_5_0_clk _0151_ net90 _0712_ u_pwm.duty[7] VSS VDD DFCL11
+X_1583_ clknet_4_3_0_clk _0152_ net85 _0711_ u_pwm.duty[8] VSS VDD DFCL11
+X_1584_ clknet_4_1_0_clk _0153_ net82 _0710_ u_pwm.duty[9] VSS VDD DFCL11
+X_1585_ clknet_4_1_0_clk _0154_ net82 _0709_ u_pwm.duty[10] VSS VDD DFCL11
+X_1586_ clknet_4_4_0_clk _0155_ net94 _0708_ u_pwm.duty[11] VSS VDD DFCL11
+X_1587_ clknet_4_7_0_clk _0156_ net91 _0707_ u_pwm.duty[12] VSS VDD DFCL11
+X_1588_ clknet_4_7_0_clk _0157_ net91 _0706_ u_pwm.duty[13] VSS VDD DFCL11
+X_1589_ clknet_4_5_0_clk _0158_ net90 _0705_ u_pwm.duty[14] VSS VDD DFCL11
+X_1590_ clknet_4_7_0_clk _0159_ net91 _0704_ u_pwm.duty[15] VSS VDD DFCL11
+X_1591_ clknet_4_9_0_clk _0160_ net106 _0703_ u_pwm.duty[32] VSS VDD DFCL11
+X_1592_ clknet_4_9_0_clk _0161_ net98 _0702_ u_pwm.duty[33] VSS VDD DFCL11
+X_1593_ clknet_4_11_0_clk _0162_ net111 _0701_ u_pwm.duty[34] VSS VDD DFCL11
+X_1594_ clknet_4_14_0_clk _0163_ net115 _0700_ u_pwm.duty[35] VSS VDD DFCL11
+X_1595_ clknet_4_15_0_clk _0164_ net120 _0699_ u_pwm.duty[36] VSS VDD DFCL11
+X_1596_ clknet_4_15_0_clk _0165_ net118 _0698_ u_pwm.duty[37] VSS VDD DFCL11
+X_1597_ clknet_4_15_0_clk _0166_ net119 _0697_ u_pwm.duty[38] VSS VDD DFCL11
+X_1598_ clknet_4_15_0_clk _0167_ net118 _0696_ u_pwm.duty[39] VSS VDD DFCL11
+X_1599_ clknet_4_9_0_clk _0168_ net98 _0695_ u_pwm.duty[16] VSS VDD DFCL11
+X_1600_ clknet_4_8_0_clk _0169_ net98 _0694_ u_pwm.duty[17] VSS VDD DFCL11
+X_1601_ clknet_4_9_0_clk _0170_ net103 _0693_ u_pwm.duty[18] VSS VDD DFCL11
+X_1602_ clknet_4_12_0_clk _0171_ net108 _0692_ u_pwm.duty[19] VSS VDD DFCL11
+X_1603_ clknet_4_12_0_clk _0172_ net120 _0691_ u_pwm.duty[20] VSS VDD DFCL11
+X_1604_ clknet_4_13_0_clk _0173_ net119 _0690_ u_pwm.duty[21] VSS VDD DFCL11
+X_1605_ clknet_4_13_0_clk _0174_ net121 _0689_ u_pwm.duty[22] VSS VDD DFCL11
+X_1606_ clknet_4_13_0_clk _0175_ net119 _0817_ u_pwm.duty[23] VSS VDD DFCL11
+X_1607_ clknet_4_0_0_clk u_pwm.u_wr_toggle_sync.sync_ff1 net81 _0818_ u_pwm.u_wr_toggle_sync.sync_ff2 VSS VDD DFCL11
+X_1608_ clknet_4_0_0_clk u_pwm.u_spi.wr_toggle net81 _0688_ u_pwm.u_wr_toggle_sync.sync_ff1 VSS VDD DFCL11
+X_1609_ clknet_4_8_0_clk _0176_ net104 _0687_ u_pwm.duty[56] VSS VDD DFCL11
+X_1610_ clknet_4_8_0_clk _0177_ net104 _0686_ u_pwm.duty[57] VSS VDD DFCL11
+X_1611_ clknet_4_9_0_clk _0178_ net104 _0685_ u_pwm.duty[58] VSS VDD DFCL11
+X_1612_ clknet_4_11_0_clk _0179_ net103 _0684_ u_pwm.duty[59] VSS VDD DFCL11
+X_1613_ clknet_4_10_0_clk _0180_ net102 _0683_ u_pwm.duty[60] VSS VDD DFCL11
+X_1614_ clknet_4_11_0_clk _0181_ net101 _0682_ u_pwm.duty[61] VSS VDD DFCL11
+X_1615_ clknet_4_10_0_clk _0182_ net102 _0681_ u_pwm.duty[62] VSS VDD DFCL11
+X_1616_ clknet_4_11_0_clk _0183_ net101 _0680_ u_pwm.duty[63] VSS VDD DFCL11
+X_1617_ clknet_2_0__leaf_sclk mosi _0012_ _0679_ u_pwm.rd_addr[0] VSS VDD DFCL11
+X_1618_ clknet_2_0__leaf_sclk u_pwm.rd_addr[0] _0013_ _0678_ u_pwm.rd_addr[1] VSS VDD DFCL11
+X_1619_ clknet_2_0__leaf_sclk u_pwm.rd_addr[1] _0014_ _0677_ u_pwm.rd_addr[2] VSS VDD DFCL11
+X_1620_ clknet_2_1__leaf_sclk u_pwm.rd_addr[2] _0015_ _0676_ u_pwm.rd_addr[3] VSS VDD DFCL11
+X_1621_ clknet_2_1__leaf_sclk u_pwm.rd_addr[3] _0016_ _0675_ u_pwm.rd_addr[4] VSS VDD DFCL11
+X_1622_ clknet_2_0__leaf_sclk u_pwm.rd_addr[4] _0017_ _0674_ u_pwm.rd_addr[5] VSS VDD DFCL11
+X_1623_ clknet_2_3__leaf_sclk u_pwm.rd_addr[5] _0018_ _0673_ u_pwm.rd_addr[6] VSS VDD DFCL11
+X_1624_ clknet_2_3__leaf_sclk u_pwm.rd_addr[6] _0019_ _0672_ u_pwm.u_spi.shift_in[7] VSS VDD DFCL11
+X_1625_ clknet_2_0__leaf_sclk u_pwm.u_spi.shift_in[7] _0020_ _0671_ u_pwm.u_spi.shift_in[8] VSS VDD DFCL11
+X_1626_ clknet_2_0__leaf_sclk u_pwm.u_spi.shift_in[8] _0021_ _0670_ u_pwm.u_spi.shift_in[9] VSS VDD DFCL11
+X_1627_ clknet_2_1__leaf_sclk u_pwm.u_spi.shift_in[9] _0022_ _0669_ u_pwm.u_spi.shift_in[10] VSS VDD DFCL11
+X_1628_ clknet_2_0__leaf_sclk u_pwm.u_spi.shift_in[10] _0023_ _0668_ u_pwm.u_spi.shift_in[11] VSS VDD DFCL11
+X_1629_ clknet_2_0__leaf_sclk u_pwm.u_spi.shift_in[11] _0024_ _0667_ u_pwm.u_spi.shift_in[12] VSS VDD DFCL11
+X_1630_ clknet_2_0__leaf_sclk u_pwm.u_spi.shift_in[12] _0025_ _0666_ u_pwm.u_spi.shift_in[13] VSS VDD DFCL11
+X_1631_ clknet_2_2__leaf_sclk u_pwm.u_spi.shift_in[13] _0026_ _0665_ u_pwm.u_spi.shift_in[14] VSS VDD DFCL11
+X_1632_ _0028_ _0184_ _0027_ _0664_ u_pwm.u_spi.shift_out[0] VSS VDD DFCL11
+X_1633_ _0030_ _0185_ _0029_ _0663_ u_pwm.u_spi.shift_out[1] VSS VDD DFCL11
+X_1634_ _0032_ _0186_ _0031_ _0662_ u_pwm.u_spi.shift_out[2] VSS VDD DFCL11
+X_1635_ _0034_ _0187_ _0033_ _0661_ u_pwm.u_spi.shift_out[3] VSS VDD DFCL11
+X_1636_ _0036_ _0188_ _0035_ _0660_ u_pwm.u_spi.shift_out[4] VSS VDD DFCL11
+X_1637_ _0038_ _0189_ _0037_ _0659_ u_pwm.u_spi.shift_out[5] VSS VDD DFCL11
+X_1638_ _0040_ _0190_ _0039_ _0658_ u_pwm.u_spi.shift_out[6] VSS VDD DFCL11
+X_1639_ _0042_ _0191_ _0041_ _0657_ miso VSS VDD DFCL11
+X_1640_ clknet_2_0__leaf_sclk _0192_ rst_n _0656_ u_pwm.u_reg_bank.wr_addr[0] VSS VDD DFCL11
+X_1641_ clknet_2_1__leaf_sclk _0193_ rst_n _0655_ u_pwm.u_reg_bank.wr_addr[1] VSS VDD DFCL11
+X_1642_ clknet_2_1__leaf_sclk _0194_ rst_n _0654_ u_pwm.u_reg_bank.wr_addr[2] VSS VDD DFCL11
+X_1643_ clknet_2_1__leaf_sclk _0195_ rst_n _0653_ u_pwm.u_reg_bank.wr_addr[3] VSS VDD DFCL11
+X_1644_ clknet_2_0__leaf_sclk _0196_ rst_n _0652_ u_pwm.u_reg_bank.wr_addr[4] VSS VDD DFCL11
+X_1645_ clknet_2_0__leaf_sclk _0197_ rst_n _0651_ u_pwm.u_reg_bank.wr_addr[5] VSS VDD DFCL11
+X_1646_ clknet_2_0__leaf_sclk _0198_ rst_n _0650_ u_pwm.u_reg_bank.wr_addr[6] VSS VDD DFCL11
+X_1647_ clknet_2_2__leaf_sclk _0199_ rst_n _0649_ u_pwm.u_reg_bank.wr_data[0] VSS VDD DFCL11
+X_1648_ clknet_2_1__leaf_sclk _0200_ rst_n _0648_ u_pwm.u_reg_bank.wr_data[1] VSS VDD DFCL11
+X_1649_ clknet_2_1__leaf_sclk _0201_ rst_n _0647_ u_pwm.u_reg_bank.wr_data[2] VSS VDD DFCL11
+X_1650_ clknet_2_1__leaf_sclk _0202_ rst_n _0646_ u_pwm.u_reg_bank.wr_data[3] VSS VDD DFCL11
+X_1651_ clknet_2_1__leaf_sclk _0203_ rst_n _0645_ u_pwm.u_reg_bank.wr_data[4] VSS VDD DFCL11
+X_1652_ clknet_2_1__leaf_sclk _0204_ rst_n _0644_ u_pwm.u_reg_bank.wr_data[5] VSS VDD DFCL11
+X_1653_ clknet_2_1__leaf_sclk _0205_ rst_n _0643_ u_pwm.u_reg_bank.wr_data[6] VSS VDD DFCL11
+X_1654_ clknet_2_3__leaf_sclk _0206_ rst_n _0642_ u_pwm.u_reg_bank.wr_data[7] VSS VDD DFCL11
+X_1655_ clknet_2_2__leaf_sclk _0628_[0] _0043_ _0628_[0] u_pwm.u_spi.bit_cnt[0] VSS VDD DFCL11
+X_1656_ clknet_2_2__leaf_sclk _0629_[1] _0044_ _0641_ u_pwm.u_spi.bit_cnt[1] VSS VDD DFCL11
+X_1657_ clknet_2_2__leaf_sclk _0629_[2] _0045_ _0640_ u_pwm.u_spi.bit_cnt[2] VSS VDD DFCL11
+X_1658_ clknet_2_2__leaf_sclk _0629_[3] _0046_ _0819_ u_pwm.u_spi.bit_cnt[3] VSS VDD DFCL11
+X_1659_ clknet_4_0_0_clk u_pwm.u_rst_sync.rst_ff1 rst_n _0820_ u_pwm.u_rst_sync.rst_ff2 VSS VDD DFCL11
+X_1660_ clknet_4_0_0_clk VDD rst_n _0821_ u_pwm.u_rst_sync.rst_ff1 VSS VDD DFCL11
+X_1661_ clknet_4_0_0_clk u_pwm.u_wr_toggle_sync.sync_ff2 net81 _0639_ u_pwm.wr_toggle_seen VSS VDD DFCL11
+X_1662_ clknet_2_0__leaf_sclk _0207_ rst_n _0010_ u_pwm.u_spi.wr_toggle VSS VDD DFCL11
+X_1663_ clknet_4_10_0_clk _0009_ net105 _0822_ u_pwm.u_pwm_core.wrap VSS VDD DFCL11
+X_1664_ clknet_4_5_0_clk u_pwm.u_pwm_core.pwm_next[0] net90 _0823_ pwm_out[0] VSS VDD DFCL11
+X_1665_ clknet_4_7_0_clk u_pwm.u_pwm_core.pwm_next[1] net90 _0824_ pwm_out[1] VSS VDD DFCL11
+X_1666_ clknet_4_13_0_clk u_pwm.u_pwm_core.pwm_next[2] net122 _0825_ pwm_out[2] VSS VDD DFCL11
+X_1667_ clknet_4_13_0_clk u_pwm.u_pwm_core.pwm_next[3] net119 _0826_ pwm_out[3] VSS VDD DFCL11
+X_1668_ clknet_4_15_0_clk u_pwm.u_pwm_core.pwm_next[4] net118 _0827_ pwm_out[4] VSS VDD DFCL11
+X_1669_ clknet_4_15_0_clk u_pwm.u_pwm_core.pwm_next[5] net118 _0828_ pwm_out[5] VSS VDD DFCL11
+X_1670_ clknet_4_14_0_clk u_pwm.u_pwm_core.pwm_next[6] net112 _0829_ pwm_out[6] VSS VDD DFCL11
+X_1671_ clknet_4_10_0_clk u_pwm.u_pwm_core.pwm_next[7] net124 _0830_ pwm_out[7] VSS VDD DFCL11
+X_1672_ clknet_4_0_0_clk _0008_ net83 _0831_ sync VSS VDD DFCL11
+X_1673_ clknet_4_2_0_clk _0000_ net79 _0832_ u_pwm.u_pwm_core.prescale_count[0] VSS VDD DFCL11
+X_1674_ clknet_4_2_0_clk _0001_ net79 _0833_ u_pwm.u_pwm_core.prescale_count[1] VSS VDD DFCL11
+X_1675_ clknet_4_2_0_clk _0002_ net79 _0834_ u_pwm.u_pwm_core.prescale_count[2] VSS VDD DFCL11
+X_1676_ clknet_4_2_0_clk _0003_ net79 _0835_ u_pwm.u_pwm_core.prescale_count[3] VSS VDD DFCL11
+X_1677_ clknet_4_2_0_clk _0004_ net79 _0836_ u_pwm.u_pwm_core.prescale_count[4] VSS VDD DFCL11
+X_1678_ clknet_4_2_0_clk _0005_ net78 _0837_ u_pwm.u_pwm_core.prescale_count[5] VSS VDD DFCL11
+X_1679_ clknet_4_8_0_clk _0006_ net79 _0838_ u_pwm.u_pwm_core.prescale_count[6] VSS VDD DFCL11
+X_1680_ clknet_4_8_0_clk _0007_ net95 _0638_ u_pwm.u_pwm_core.prescale_count[7] VSS VDD DFCL11
+X_1681_ clknet_4_8_0_clk _0208_ net99 _0637_ u_pwm.u_pwm_core.phase[0] VSS VDD DFCL11
+X_1682_ clknet_4_8_0_clk _0209_ net99 _0636_ u_pwm.u_pwm_core.phase[1] VSS VDD DFCL11
+X_1683_ clknet_4_8_0_clk _0210_ net99 _0635_ u_pwm.u_pwm_core.phase[2] VSS VDD DFCL11
+X_1684_ clknet_4_8_0_clk _0211_ net97 _0634_ u_pwm.u_pwm_core.phase[3] VSS VDD DFCL11
+X_1685_ clknet_4_10_0_clk _0212_ net124 _0633_ u_pwm.u_pwm_core.phase[4] VSS VDD DFCL11
+X_1686_ clknet_4_10_0_clk _0213_ net124 _0632_ u_pwm.u_pwm_core.phase[5] VSS VDD DFCL11
+X_1687_ clknet_4_10_0_clk _0214_ net124 _0631_ u_pwm.u_pwm_core.phase[6] VSS VDD DFCL11
+X_1688_ clknet_4_10_0_clk _0215_ net124 _0630_ u_pwm.u_pwm_core.phase[7] VSS VDD DFCL11
+X_1689_ VDD VSS VDDCON
+Xdrv_pwm[0].u_drv pwm_out[0] pwm_pn[0] VDD VSS INVR05
+Xdrv_pwm[1].u_drv pwm_out[1] pwm_pn[1] VDD VSS INVR05
+Xdrv_pwm[2].u_drv pwm_out[2] pwm_pn[2] VDD VSS INVR05
+Xdrv_pwm[3].u_drv pwm_out[3] pwm_pn[3] VDD VSS INVR05
+Xdrv_pwm[4].u_drv pwm_out[4] pwm_pn[4] VDD VSS INVR05
+Xdrv_pwm[5].u_drv pwm_out[5] pwm_pn[5] VDD VSS INVR05
+Xdrv_pwm[6].u_drv pwm_out[6] pwm_pn[6] VDD VSS INVR05
+Xdrv_pwm[7].u_drv pwm_out[7] pwm_pn[7] VDD VSS INVR05
+Xu_drv_miso miso miso_pn VDD VSS INVR05
+Xu_drv_sync sync sync_pn VDD VSS INVR05
+Xfanout1 net23 net1 VDD VSS CDRI01
+Xmax_cap2 net3 net2 VDD VSS CDRI01
+Xwire3 net6 net3 VDD VSS CDRI01
+Xmax_cap4 net5 net4 VDD VSS CDRI01
+Xmax_cap5 net6 net5 VDD VSS CDRI01
+Xmax_cap6 net1 net6 VDD VSS CDRI01
+Xmax_cap7 net1 net7 VDD VSS CDRI01
+Xfanout8 net24 net8 VDD VSS CDRI01
+Xmax_cap9 net11 net9 VDD VSS CDRI01
+Xmax_cap10 net11 net10 VDD VSS CDRI01
+Xwire11 net13 net11 VDD VSS CDRI01
+Xmax_cap12 net13 net12 VDD VSS CDRI01
+Xmax_cap13 net14 net13 VDD VSS CDRI01
+Xmax_cap14 net15 net14 VDD VSS CDRI01
+Xwire15 net8 net15 VDD VSS CDRI01
+Xfanout16 net24 net16 VDD VSS CDRI01
+Xwire17 net19 net17 VDD VSS CDRI01
+Xmax_cap18 net19 net18 VDD VSS CDRI01
+Xwire19 net21 net19 VDD VSS CDRI01
+Xmax_cap20 net21 net20 VDD VSS CDRI01
+Xmax_cap21 net16 net21 VDD VSS CDRI01
+Xfanout22 _0610_ net22 VDD VSS CDRI01
+Xmax_cap23 net25 net23 VDD VSS CDRI01
+Xwire24 net26 net24 VDD VSS CDRI01
+Xmax_cap25 net26 net25 VDD VSS CDRI01
+Xmax_cap26 net22 net26 VDD VSS CDRI01
+Xwire27 net28 net27 VDD VSS CDRI01
+Xwire28 _0627_ net28 VDD VSS CDRI01
+Xmax_cap29 net30 net29 VDD VSS CDRI01
+Xmax_cap30 _0626_ net30 VDD VSS CDRI01
+Xmax_cap31 net32 net31 VDD VSS CDRI01
+Xmax_cap32 net33 net32 VDD VSS CDRI01
+Xwire33 _0625_ net33 VDD VSS CDRI01
+Xwire34 net35 net34 VDD VSS CDRI01
+Xmax_cap35 _0622_ net35 VDD VSS CDRI01
+Xmax_cap36 _0619_ net36 VDD VSS CDRI01
+Xmax_cap37 _0619_ net37 VDD VSS CDRI01
+Xmax_cap38 _0618_ net38 VDD VSS CDRI01
+Xwire39 net41 net39 VDD VSS CDRI01
+Xmax_cap40 net41 net40 VDD VSS CDRI01
+Xwire41 _0615_ net41 VDD VSS CDRI01
+Xwire42 net43 net42 VDD VSS CDRI01
+Xmax_cap43 _0609_ net43 VDD VSS CDRI01
+Xwire44 _0293_ net44 VDD VSS CDRI01
+Xwire45 _0291_ net45 VDD VSS CDRI01
+Xmax_cap46 _0291_ net46 VDD VSS CDRI01
+Xmax_cap47 _0289_ net47 VDD VSS CDRI01
+Xmax_cap48 _0287_ net48 VDD VSS CDRI01
+Xmax_cap49 _0287_ net49 VDD VSS CDRI01
+Xmax_cap50 _0284_ net50 VDD VSS CDRI01
+Xmax_cap51 net52 net51 VDD VSS CDRI01
+Xwire52 _0280_ net52 VDD VSS CDRI01
+Xwire53 _0277_ net53 VDD VSS CDRI01
+Xwire54 _0273_ net54 VDD VSS CDRI01
+Xmax_cap55 _0273_ net55 VDD VSS CDRI01
+Xwire56 _0270_ net56 VDD VSS CDRI01
+Xmax_cap57 net58 net57 VDD VSS CDRI01
+Xmax_cap58 net60 net58 VDD VSS CDRI01
+Xmax_cap59 _0216_ net59 VDD VSS CDRI01
+Xmax_cap60 _0216_ net60 VDD VSS CDRI01
+Xmax_cap61 _0624_ net61 VDD VSS CDRI01
+Xmax_cap62 _0624_ net62 VDD VSS CDRI01
+Xmax_cap63 _0251_ net63 VDD VSS CDRI01
+Xwire64 _0250_ net64 VDD VSS CDRI01
+Xwire65 _0249_ net65 VDD VSS CDRI01
+Xmax_cap66 _0248_ net66 VDD VSS CDRI01
+Xwire67 _0247_ net67 VDD VSS CDRI01
+Xwire68 _0246_ net68 VDD VSS CDRI01
+Xwire69 _0245_ net69 VDD VSS CDRI01
+Xwire70 _0244_ net70 VDD VSS CDRI01
+Xwire71 _0243_ net71 VDD VSS CDRI01
+Xwire72 _0242_ net72 VDD VSS CDRI01
+Xwire73 u_pwm.u_pwm_core.phase[6] net73 VDD VSS CDRI01
+Xwire74 u_pwm.u_pwm_core.phase[3] net74 VDD VSS CDRI01
+Xmax_cap75 u_pwm.u_spi.wr_toggle net75 VDD VSS CDRI01
+Xfanout76 net83 net76 VDD VSS CDRI01
+Xwire77 net80 net77 VDD VSS CDRI01
+Xmax_cap78 net80 net78 VDD VSS CDRI01
+Xmax_cap79 net76 net79 VDD VSS CDRI01
+Xmax_cap80 net76 net80 VDD VSS CDRI01
+Xfanout81 net127 net81 VDD VSS CDRI01
+Xwire82 net83 net82 VDD VSS CDRI01
+Xwire83 net81 net83 VDD VSS CDRI01
+Xfanout84 net89 net84 VDD VSS CDRI01
+Xwire85 net84 net85 VDD VSS CDRI01
+Xwire86 net87 net86 VDD VSS CDRI01
+Xmax_cap87 net88 net87 VDD VSS CDRI01
+Xmax_cap88 net84 net88 VDD VSS CDRI01
+Xfanout89 net126 net89 VDD VSS CDRI01
+Xmax_cap90 net93 net90 VDD VSS CDRI01
+Xmax_cap91 net92 net91 VDD VSS CDRI01
+Xmax_cap92 net93 net92 VDD VSS CDRI01
+Xmax_cap93 net94 net93 VDD VSS CDRI01
+Xmax_cap94 net89 net94 VDD VSS CDRI01
+Xfanout95 net100 net95 VDD VSS CDRI01
+Xmax_cap96 net97 net96 VDD VSS CDRI01
+Xmax_cap97 net99 net97 VDD VSS CDRI01
+Xwire98 net95 net98 VDD VSS CDRI01
+Xmax_cap99 net95 net99 VDD VSS CDRI01
+Xfanout100 net125 net100 VDD VSS CDRI01
+Xmax_cap101 net103 net101 VDD VSS CDRI01
+Xmax_cap102 net103 net102 VDD VSS CDRI01
+Xwire103 net104 net103 VDD VSS CDRI01
+Xmax_cap104 net105 net104 VDD VSS CDRI01
+Xmax_cap105 net100 net105 VDD VSS CDRI01
+Xfanout106 net117 net106 VDD VSS CDRI01
+Xwire107 net109 net107 VDD VSS CDRI01
+Xmax_cap108 net109 net108 VDD VSS CDRI01
+Xmax_cap109 net110 net109 VDD VSS CDRI01
+Xmax_cap110 net106 net110 VDD VSS CDRI01
+Xmax_cap111 net106 net111 VDD VSS CDRI01
+Xfanout112 net123 net112 VDD VSS CDRI01
+Xwire113 net114 net113 VDD VSS CDRI01
+Xmax_cap114 net115 net114 VDD VSS CDRI01
+Xmax_cap115 net116 net115 VDD VSS CDRI01
+Xmax_cap116 net112 net116 VDD VSS CDRI01
+Xfanout117 net126 net117 VDD VSS CDRI01
+Xmax_cap118 net120 net118 VDD VSS CDRI01
+Xmax_cap119 net120 net119 VDD VSS CDRI01
+Xmax_cap120 net121 net120 VDD VSS CDRI01
+Xmax_cap121 net122 net121 VDD VSS CDRI01
+Xwire122 net123 net122 VDD VSS CDRI01
+Xmax_cap123 net117 net123 VDD VSS CDRI01
+Xwire124 net125 net124 VDD VSS CDRI01
+Xwire125 u_pwm.u_rst_sync.rst_ff2 net125 VDD VSS CDRI01
+Xwire126 net127 net126 VDD VSS CDRI01
+Xmax_cap127 u_pwm.u_rst_sync.rst_ff2 net127 VDD VSS CDRI01
+Xmax_cap128 u_pwm.u_spi.bit_cnt[3] net128 VDD VSS CDRI01
+Xwire129 net132 net129 VDD VSS CDRI01
+Xmax_cap130 net132 net130 VDD VSS CDRI01
+Xmax_cap131 net132 net131 VDD VSS CDRI01
+Xwire132 net135 net132 VDD VSS CDRI01
+Xmax_cap133 net135 net133 VDD VSS CDRI01
+Xmax_cap134 net135 net134 VDD VSS CDRI01
+Xwire135 net137 net135 VDD VSS CDRI01
+Xmax_cap136 net137 net136 VDD VSS CDRI01
+Xmax_cap137 net138 net137 VDD VSS CDRI01
+Xwire138 net140 net138 VDD VSS CDRI01
+Xmax_cap139 net140 net139 VDD VSS CDRI01
+Xwire140 u_pwm.u_reg_bank.wr_data[7] net140 VDD VSS CDRI01
+Xwire141 net143 net141 VDD VSS CDRI01
+Xmax_cap142 net143 net142 VDD VSS CDRI01
+Xmax_cap143 u_pwm.u_reg_bank.wr_data[7] net143 VDD VSS CDRI01
+Xwire144 net147 net144 VDD VSS CDRI01
+Xmax_cap145 net147 net145 VDD VSS CDRI01
+Xmax_cap146 net147 net146 VDD VSS CDRI01
+Xwire147 net149 net147 VDD VSS CDRI01
+Xmax_cap148 net149 net148 VDD VSS CDRI01
+Xmax_cap149 net150 net149 VDD VSS CDRI01
+Xwire150 net152 net150 VDD VSS CDRI01
+Xmax_cap151 net152 net151 VDD VSS CDRI01
+Xmax_cap152 net153 net152 VDD VSS CDRI01
+Xwire153 u_pwm.u_reg_bank.wr_data[6] net153 VDD VSS CDRI01
+Xwire154 net156 net154 VDD VSS CDRI01
+Xmax_cap155 net156 net155 VDD VSS CDRI01
+Xwire156 net158 net156 VDD VSS CDRI01
+Xmax_cap157 net158 net157 VDD VSS CDRI01
+Xmax_cap158 u_pwm.u_reg_bank.wr_data[6] net158 VDD VSS CDRI01
+Xmax_cap159 net160 net159 VDD VSS CDRI01
+Xwire160 net162 net160 VDD VSS CDRI01
+Xmax_cap161 net162 net161 VDD VSS CDRI01
+Xmax_cap162 net163 net162 VDD VSS CDRI01
+Xwire163 net165 net163 VDD VSS CDRI01
+Xmax_cap164 net165 net164 VDD VSS CDRI01
+Xmax_cap165 net166 net165 VDD VSS CDRI01
+Xwire166 net169 net166 VDD VSS CDRI01
+Xmax_cap167 net169 net167 VDD VSS CDRI01
+Xmax_cap168 net169 net168 VDD VSS CDRI01
+Xwire169 u_pwm.u_reg_bank.wr_data[5] net169 VDD VSS CDRI01
+Xwire170 net172 net170 VDD VSS CDRI01
+Xmax_cap171 net172 net171 VDD VSS CDRI01
+Xmax_cap172 u_pwm.u_reg_bank.wr_data[5] net172 VDD VSS CDRI01
+Xwire173 net175 net173 VDD VSS CDRI01
+Xmax_cap174 net175 net174 VDD VSS CDRI01
+Xwire175 u_pwm.u_reg_bank.wr_data[4] net175 VDD VSS CDRI01
+Xmax_cap176 u_pwm.u_reg_bank.wr_data[4] net176 VDD VSS CDRI01
+Xwire177 net180 net177 VDD VSS CDRI01
+Xmax_cap178 net180 net178 VDD VSS CDRI01
+Xmax_cap179 net180 net179 VDD VSS CDRI01
+Xwire180 net183 net180 VDD VSS CDRI01
+Xmax_cap181 net183 net181 VDD VSS CDRI01
+Xmax_cap182 net183 net182 VDD VSS CDRI01
+Xwire183 net186 net183 VDD VSS CDRI01
+Xmax_cap184 net186 net184 VDD VSS CDRI01
+Xmax_cap185 net186 net185 VDD VSS CDRI01
+Xwire186 net187 net186 VDD VSS CDRI01
+Xmax_cap187 u_pwm.u_reg_bank.wr_data[4] net187 VDD VSS CDRI01
+Xmax_cap188 net189 net188 VDD VSS CDRI01
+Xwire189 u_pwm.u_reg_bank.wr_data[3] net189 VDD VSS CDRI01
+Xmax_cap190 net191 net190 VDD VSS CDRI01
+Xwire191 net194 net191 VDD VSS CDRI01
+Xmax_cap192 net194 net192 VDD VSS CDRI01
+Xmax_cap193 net194 net193 VDD VSS CDRI01
+Xwire194 net196 net194 VDD VSS CDRI01
+Xmax_cap195 net196 net195 VDD VSS CDRI01
+Xmax_cap196 net197 net196 VDD VSS CDRI01
+Xwire197 net200 net197 VDD VSS CDRI01
+Xmax_cap198 net200 net198 VDD VSS CDRI01
+Xmax_cap199 net200 net199 VDD VSS CDRI01
+Xwire200 u_pwm.u_reg_bank.wr_data[3] net200 VDD VSS CDRI01
+Xmax_cap201 net202 net201 VDD VSS CDRI01
+Xwire202 net205 net202 VDD VSS CDRI01
+Xmax_cap203 net205 net203 VDD VSS CDRI01
+Xmax_cap204 net205 net204 VDD VSS CDRI01
+Xwire205 net207 net205 VDD VSS CDRI01
+Xmax_cap206 net207 net206 VDD VSS CDRI01
+Xwire207 net210 net207 VDD VSS CDRI01
+Xmax_cap208 net210 net208 VDD VSS CDRI01
+Xmax_cap209 net210 net209 VDD VSS CDRI01
+Xwire210 u_pwm.u_reg_bank.wr_data[2] net210 VDD VSS CDRI01
+Xmax_cap211 net212 net211 VDD VSS CDRI01
+Xwire212 net214 net212 VDD VSS CDRI01
+Xmax_cap213 net214 net213 VDD VSS CDRI01
+Xmax_cap214 u_pwm.u_reg_bank.wr_data[2] net214 VDD VSS CDRI01
+Xwire215 net225 net215 VDD VSS CDRI01
+Xmax_cap216 net217 net216 VDD VSS CDRI01
+Xwire217 net223 net217 VDD VSS CDRI01
+Xmax_cap218 net223 net218 VDD VSS CDRI01
+Xmax_cap219 net220 net219 VDD VSS CDRI01
+Xwire220 net222 net220 VDD VSS CDRI01
+Xmax_cap221 net222 net221 VDD VSS CDRI01
+Xmax_cap222 net223 net222 VDD VSS CDRI01
+Xwire223 net225 net223 VDD VSS CDRI01
+Xmax_cap224 net225 net224 VDD VSS CDRI01
+Xwire225 u_pwm.u_reg_bank.wr_data[1] net225 VDD VSS CDRI01
+Xmax_cap226 u_pwm.u_reg_bank.wr_data[1] net226 VDD VSS CDRI01
+Xmax_cap227 u_pwm.u_reg_bank.wr_data[1] net227 VDD VSS CDRI01
+Xmax_cap228 net229 net228 VDD VSS CDRI01
+Xwire229 net232 net229 VDD VSS CDRI01
+Xmax_cap230 net232 net230 VDD VSS CDRI01
+Xmax_cap231 net232 net231 VDD VSS CDRI01
+Xwire232 net241 net232 VDD VSS CDRI01
+Xmax_cap233 net234 net233 VDD VSS CDRI01
+Xwire234 net238 net234 VDD VSS CDRI01
+Xmax_cap235 net238 net235 VDD VSS CDRI01
+Xmax_cap236 net237 net236 VDD VSS CDRI01
+Xwire237 net240 net237 VDD VSS CDRI01
+Xmax_cap238 net240 net238 VDD VSS CDRI01
+Xmax_cap239 net240 net239 VDD VSS CDRI01
+Xwire240 net241 net240 VDD VSS CDRI01
+Xwire241 u_pwm.u_reg_bank.wr_data[0] net241 VDD VSS CDRI01
+Xmax_cap242 u_pwm.u_reg_bank.wr_data[0] net242 VDD VSS CDRI01
+Xmax_cap243 u_pwm.u_reg_bank.wr_addr[3] net243 VDD VSS CDRI01
+Xmax_cap244 u_pwm.u_reg_bank.wr_addr[2] net244 VDD VSS CDRI01
+Xmax_cap245 u_pwm.u_reg_bank.wr_addr[1] net245 VDD VSS CDRI01
+Xmax_cap246 u_pwm.u_reg_bank.wr_addr[0] net246 VDD VSS CDRI01
+Xmax_cap247 u_pwm.u_spi.shift_in[13] net247 VDD VSS CDRI01
+Xmax_cap248 u_pwm.u_spi.shift_in[12] net248 VDD VSS CDRI01
+Xmax_cap249 u_pwm.u_spi.shift_in[11] net249 VDD VSS CDRI01
+Xmax_cap250 u_pwm.u_spi.shift_in[10] net250 VDD VSS CDRI01
+Xmax_cap251 u_pwm.u_spi.shift_in[9] net251 VDD VSS CDRI01
+Xmax_cap252 u_pwm.u_spi.shift_in[8] net252 VDD VSS CDRI01
+Xmax_cap253 u_pwm.u_spi.shift_in[7] net253 VDD VSS CDRI01
+Xmax_cap254 u_pwm.rd_addr[6] net254 VDD VSS CDRI01
+Xmax_cap255 u_pwm.rd_addr[5] net255 VDD VSS CDRI01
+Xmax_cap256 u_pwm.rd_addr[4] net256 VDD VSS CDRI01
+Xmax_cap257 u_pwm.rd_addr[3] net257 VDD VSS CDRI01
+Xmax_cap258 u_pwm.rd_addr[2] net258 VDD VSS CDRI01
+Xmax_cap259 u_pwm.rd_addr[1] net259 VDD VSS CDRI01
+Xmax_cap260 u_pwm.rd_addr[1] net260 VDD VSS CDRI01
+Xmax_cap261 net262 net261 VDD VSS CDRI01
+Xmax_cap262 u_pwm.rd_addr[0] net262 VDD VSS CDRI01
+Xmax_cap263 net264 net263 VDD VSS CDRI01
+Xwire264 u_pwm.duty[63] net264 VDD VSS CDRI01
+Xwire265 u_pwm.duty[62] net265 VDD VSS CDRI01
+Xmax_cap266 u_pwm.duty[62] net266 VDD VSS CDRI01
+Xmax_cap267 net268 net267 VDD VSS CDRI01
+Xwire268 u_pwm.duty[61] net268 VDD VSS CDRI01
+Xmax_cap269 net270 net269 VDD VSS CDRI01
+Xwire270 u_pwm.duty[60] net270 VDD VSS CDRI01
+Xmax_cap271 net272 net271 VDD VSS CDRI01
+Xwire272 u_pwm.duty[59] net272 VDD VSS CDRI01
+Xmax_cap273 net274 net273 VDD VSS CDRI01
+Xwire274 u_pwm.duty[58] net274 VDD VSS CDRI01
+Xmax_cap275 net276 net275 VDD VSS CDRI01
+Xwire276 u_pwm.duty[57] net276 VDD VSS CDRI01
+Xmax_cap277 net278 net277 VDD VSS CDRI01
+Xwire278 u_pwm.duty[56] net278 VDD VSS CDRI01
+Xmax_cap279 u_pwm.duty[23] net279 VDD VSS CDRI01
+Xmax_cap280 u_pwm.duty[23] net280 VDD VSS CDRI01
+Xmax_cap281 net282 net281 VDD VSS CDRI01
+Xwire282 u_pwm.duty[22] net282 VDD VSS CDRI01
+Xmax_cap283 net284 net283 VDD VSS CDRI01
+Xwire284 u_pwm.duty[21] net284 VDD VSS CDRI01
+Xmax_cap285 u_pwm.duty[20] net285 VDD VSS CDRI01
+Xmax_cap286 net287 net286 VDD VSS CDRI01
+Xwire287 u_pwm.duty[19] net287 VDD VSS CDRI01
+Xmax_cap288 net289 net288 VDD VSS CDRI01
+Xwire289 u_pwm.duty[18] net289 VDD VSS CDRI01
+Xmax_cap290 net291 net290 VDD VSS CDRI01
+Xwire291 u_pwm.duty[17] net291 VDD VSS CDRI01
+Xmax_cap292 net293 net292 VDD VSS CDRI01
+Xwire293 u_pwm.duty[16] net293 VDD VSS CDRI01
+Xwire294 u_pwm.duty[39] net294 VDD VSS CDRI01
+Xmax_cap295 u_pwm.duty[39] net295 VDD VSS CDRI01
+Xmax_cap296 u_pwm.duty[38] net296 VDD VSS CDRI01
+Xmax_cap297 u_pwm.duty[38] net297 VDD VSS CDRI01
+Xmax_cap298 net299 net298 VDD VSS CDRI01
+Xwire299 u_pwm.duty[37] net299 VDD VSS CDRI01
+Xwire300 u_pwm.duty[36] net300 VDD VSS CDRI01
+Xmax_cap301 u_pwm.duty[36] net301 VDD VSS CDRI01
+Xmax_cap302 net303 net302 VDD VSS CDRI01
+Xwire303 u_pwm.duty[35] net303 VDD VSS CDRI01
+Xmax_cap304 net305 net304 VDD VSS CDRI01
+Xwire305 u_pwm.duty[34] net305 VDD VSS CDRI01
+Xmax_cap306 u_pwm.duty[33] net306 VDD VSS CDRI01
+Xmax_cap307 u_pwm.duty[33] net307 VDD VSS CDRI01
+Xmax_cap308 net309 net308 VDD VSS CDRI01
+Xwire309 u_pwm.duty[32] net309 VDD VSS CDRI01
+Xmax_cap310 u_pwm.duty[15] net310 VDD VSS CDRI01
+Xmax_cap311 u_pwm.duty[15] net311 VDD VSS CDRI01
+Xmax_cap312 u_pwm.duty[14] net312 VDD VSS CDRI01
+Xmax_cap313 u_pwm.duty[14] net313 VDD VSS CDRI01
+Xmax_cap314 net315 net314 VDD VSS CDRI01
+Xwire315 u_pwm.duty[13] net315 VDD VSS CDRI01
+Xmax_cap316 u_pwm.duty[12] net316 VDD VSS CDRI01
+Xmax_cap317 net318 net317 VDD VSS CDRI01
+Xwire318 u_pwm.duty[11] net318 VDD VSS CDRI01
+Xmax_cap319 net320 net319 VDD VSS CDRI01
+Xwire320 u_pwm.duty[10] net320 VDD VSS CDRI01
+Xwire321 u_pwm.duty[9] net321 VDD VSS CDRI01
+Xmax_cap322 u_pwm.duty[9] net322 VDD VSS CDRI01
+Xmax_cap323 u_pwm.duty[8] net323 VDD VSS CDRI01
+Xmax_cap324 u_pwm.duty[7] net324 VDD VSS CDRI01
+Xmax_cap325 u_pwm.duty[7] net325 VDD VSS CDRI01
+Xwire326 u_pwm.duty[6] net326 VDD VSS CDRI01
+Xmax_cap327 u_pwm.duty[6] net327 VDD VSS CDRI01
+Xmax_cap328 net329 net328 VDD VSS CDRI01
+Xwire329 u_pwm.duty[5] net329 VDD VSS CDRI01
+Xmax_cap330 net331 net330 VDD VSS CDRI01
+Xwire331 u_pwm.duty[4] net331 VDD VSS CDRI01
+Xmax_cap332 net333 net332 VDD VSS CDRI01
+Xwire333 u_pwm.duty[3] net333 VDD VSS CDRI01
+Xmax_cap334 u_pwm.duty[2] net334 VDD VSS CDRI01
+Xwire335 u_pwm.duty[1] net335 VDD VSS CDRI01
+Xmax_cap336 u_pwm.duty[1] net336 VDD VSS CDRI01
+Xmax_cap337 net338 net337 VDD VSS CDRI01
+Xwire338 u_pwm.duty[0] net338 VDD VSS CDRI01
+Xwire339 u_pwm.duty[31] net339 VDD VSS CDRI01
+Xmax_cap340 u_pwm.duty[31] net340 VDD VSS CDRI01
+Xwire341 u_pwm.duty[30] net341 VDD VSS CDRI01
+Xmax_cap342 u_pwm.duty[30] net342 VDD VSS CDRI01
+Xwire343 u_pwm.duty[29] net343 VDD VSS CDRI01
+Xmax_cap344 u_pwm.duty[29] net344 VDD VSS CDRI01
+Xmax_cap345 u_pwm.duty[28] net345 VDD VSS CDRI01
+Xmax_cap346 net347 net346 VDD VSS CDRI01
+Xwire347 u_pwm.duty[27] net347 VDD VSS CDRI01
+Xmax_cap348 net349 net348 VDD VSS CDRI01
+Xwire349 u_pwm.duty[26] net349 VDD VSS CDRI01
+Xmax_cap350 u_pwm.duty[25] net350 VDD VSS CDRI01
+Xmax_cap351 u_pwm.duty[24] net351 VDD VSS CDRI01
+Xmax_cap352 u_pwm.prescaler[6] net352 VDD VSS CDRI01
+Xmax_cap353 u_pwm.prescaler[5] net353 VDD VSS CDRI01
+Xwire354 u_pwm.prescaler[4] net354 VDD VSS CDRI01
+Xmax_cap355 u_pwm.prescaler[3] net355 VDD VSS CDRI01
+Xmax_cap356 u_pwm.prescaler[2] net356 VDD VSS CDRI01
+Xmax_cap357 u_pwm.prescaler[1] net357 VDD VSS CDRI01
+Xmax_cap358 u_pwm.prescaler[0] net358 VDD VSS CDRI01
+Xmax_cap359 net360 net359 VDD VSS CDRI01
+Xwire360 u_pwm.duty[47] net360 VDD VSS CDRI01
+Xmax_cap361 net362 net361 VDD VSS CDRI01
+Xwire362 u_pwm.duty[46] net362 VDD VSS CDRI01
+Xmax_cap363 net364 net363 VDD VSS CDRI01
+Xwire364 u_pwm.duty[45] net364 VDD VSS CDRI01
+Xmax_cap365 net366 net365 VDD VSS CDRI01
+Xwire366 u_pwm.duty[44] net366 VDD VSS CDRI01
+Xmax_cap367 net368 net367 VDD VSS CDRI01
+Xwire368 u_pwm.duty[43] net368 VDD VSS CDRI01
+Xmax_cap369 u_pwm.duty[42] net369 VDD VSS CDRI01
+Xmax_cap370 u_pwm.duty[41] net370 VDD VSS CDRI01
+Xmax_cap371 u_pwm.duty[40] net371 VDD VSS CDRI01
+Xwire372 net376 net372 VDD VSS CDRI01
+Xmax_cap373 net376 net373 VDD VSS CDRI01
+Xwire374 net375 net374 VDD VSS CDRI01
+Xmax_cap375 u_pwm.pwm_en net375 VDD VSS CDRI01
+Xmax_cap376 u_pwm.pwm_en net376 VDD VSS CDRI01
+Xmax_cap377 u_pwm.u_pwm_core.duty_active[63] net377 VDD VSS CDRI01
+Xmax_cap378 u_pwm.u_pwm_core.duty_active[61] net378 VDD VSS CDRI01
+Xmax_cap379 u_pwm.u_pwm_core.duty_active[60] net379 VDD VSS CDRI01
+Xmax_cap380 u_pwm.u_pwm_core.duty_active[59] net380 VDD VSS CDRI01
+Xmax_cap381 u_pwm.u_pwm_core.duty_active[58] net381 VDD VSS CDRI01
+Xmax_cap382 u_pwm.u_pwm_core.duty_active[55] net382 VDD VSS CDRI01
+Xmax_cap383 u_pwm.u_pwm_core.duty_active[54] net383 VDD VSS CDRI01
+Xmax_cap384 u_pwm.u_pwm_core.duty_active[53] net384 VDD VSS CDRI01
+Xmax_cap385 u_pwm.u_pwm_core.duty_active[52] net385 VDD VSS CDRI01
+Xwire386 u_pwm.u_pwm_core.duty_active[50] net386 VDD VSS CDRI01
+Xwire387 u_pwm.u_pwm_core.duty_active[48] net387 VDD VSS CDRI01
+Xmax_cap388 u_pwm.u_pwm_core.duty_active[47] net388 VDD VSS CDRI01
+Xmax_cap389 u_pwm.u_pwm_core.duty_active[45] net389 VDD VSS CDRI01
+Xmax_cap390 u_pwm.u_pwm_core.duty_active[44] net390 VDD VSS CDRI01
+Xmax_cap391 u_pwm.u_pwm_core.duty_active[43] net391 VDD VSS CDRI01
+Xmax_cap392 u_pwm.u_pwm_core.duty_active[42] net392 VDD VSS CDRI01
+Xmax_cap393 u_pwm.u_pwm_core.duty_active[41] net393 VDD VSS CDRI01
+Xmax_cap394 u_pwm.u_pwm_core.duty_active[39] net394 VDD VSS CDRI01
+Xmax_cap395 u_pwm.u_pwm_core.duty_active[38] net395 VDD VSS CDRI01
+Xmax_cap396 u_pwm.u_pwm_core.duty_active[37] net396 VDD VSS CDRI01
+Xmax_cap397 u_pwm.u_pwm_core.duty_active[36] net397 VDD VSS CDRI01
+Xmax_cap398 u_pwm.u_pwm_core.duty_active[35] net398 VDD VSS CDRI01
+Xmax_cap399 u_pwm.u_pwm_core.duty_active[34] net399 VDD VSS CDRI01
+Xmax_cap400 u_pwm.u_pwm_core.duty_active[33] net400 VDD VSS CDRI01
+Xmax_cap401 u_pwm.u_pwm_core.duty_active[31] net401 VDD VSS CDRI01
+Xmax_cap402 u_pwm.u_pwm_core.duty_active[30] net402 VDD VSS CDRI01
+Xmax_cap403 u_pwm.u_pwm_core.duty_active[29] net403 VDD VSS CDRI01
+Xmax_cap404 u_pwm.u_pwm_core.duty_active[28] net404 VDD VSS CDRI01
+Xmax_cap405 u_pwm.u_pwm_core.duty_active[27] net405 VDD VSS CDRI01
+Xmax_cap406 u_pwm.u_pwm_core.duty_active[26] net406 VDD VSS CDRI01
+Xmax_cap407 u_pwm.u_pwm_core.duty_active[25] net407 VDD VSS CDRI01
+Xmax_cap408 u_pwm.u_pwm_core.duty_active[23] net408 VDD VSS CDRI01
+Xmax_cap409 u_pwm.u_pwm_core.duty_active[22] net409 VDD VSS CDRI01
+Xmax_cap410 u_pwm.u_pwm_core.duty_active[21] net410 VDD VSS CDRI01
+Xmax_cap411 u_pwm.u_pwm_core.duty_active[20] net411 VDD VSS CDRI01
+Xmax_cap412 u_pwm.u_pwm_core.duty_active[18] net412 VDD VSS CDRI01
+Xmax_cap413 u_pwm.u_pwm_core.duty_active[17] net413 VDD VSS CDRI01
+Xmax_cap414 u_pwm.u_pwm_core.duty_active[15] net414 VDD VSS CDRI01
+Xmax_cap415 u_pwm.u_pwm_core.duty_active[14] net415 VDD VSS CDRI01
+Xmax_cap416 u_pwm.u_pwm_core.duty_active[13] net416 VDD VSS CDRI01
+Xmax_cap417 u_pwm.u_pwm_core.duty_active[12] net417 VDD VSS CDRI01
+Xmax_cap418 u_pwm.u_pwm_core.duty_active[11] net418 VDD VSS CDRI01
+Xmax_cap419 u_pwm.u_pwm_core.duty_active[10] net419 VDD VSS CDRI01
+Xmax_cap420 u_pwm.u_pwm_core.duty_active[9] net420 VDD VSS CDRI01
+Xmax_cap421 u_pwm.u_pwm_core.duty_active[7] net421 VDD VSS CDRI01
+Xmax_cap422 u_pwm.u_pwm_core.duty_active[6] net422 VDD VSS CDRI01
+Xmax_cap423 u_pwm.u_pwm_core.duty_active[5] net423 VDD VSS CDRI01
+Xmax_cap424 u_pwm.u_pwm_core.duty_active[4] net424 VDD VSS CDRI01
+Xmax_cap425 u_pwm.u_pwm_core.duty_active[3] net425 VDD VSS CDRI01
+Xmax_cap426 u_pwm.u_pwm_core.duty_active[2] net426 VDD VSS CDRI01
+Xmax_cap427 u_pwm.u_pwm_core.duty_active[1] net427 VDD VSS CDRI01
+Xwire428 u_pwm.duty[55] net428 VDD VSS CDRI01
+Xmax_cap429 u_pwm.duty[55] net429 VDD VSS CDRI01
+Xmax_cap430 net431 net430 VDD VSS CDRI01
+Xwire431 u_pwm.duty[54] net431 VDD VSS CDRI01
+Xmax_cap432 net433 net432 VDD VSS CDRI01
+Xwire433 u_pwm.duty[53] net433 VDD VSS CDRI01
+Xmax_cap434 net435 net434 VDD VSS CDRI01
+Xwire435 u_pwm.duty[52] net435 VDD VSS CDRI01
+Xmax_cap436 net437 net436 VDD VSS CDRI01
+Xwire437 u_pwm.duty[51] net437 VDD VSS CDRI01
+Xmax_cap438 net439 net438 VDD VSS CDRI01
+Xwire439 u_pwm.duty[50] net439 VDD VSS CDRI01
+Xmax_cap440 net441 net440 VDD VSS CDRI01
+Xwire441 u_pwm.duty[49] net441 VDD VSS CDRI01
+Xmax_cap442 net443 net442 VDD VSS CDRI01
+Xwire443 u_pwm.duty[48] net443 VDD VSS CDRI01
+Xfanout444 _0231_ net444 VDD VSS CDRI01
+Xwire445 net446 net445 VDD VSS CDRI01
+Xmax_cap446 net444 net446 VDD VSS CDRI01
+Xmax_cap447 net444 net447 VDD VSS CDRI01
+Xmax_cap448 _0231_ net448 VDD VSS CDRI01
+Xclkbuf_0_clk clk clknet_0_clk VDD VSS CDRI01
+Xclkbuf_4_0_0_clk clknet_0_clk clknet_4_0_0_clk VDD VSS CDRI01
+Xclkbuf_4_1_0_clk clknet_0_clk clknet_4_1_0_clk VDD VSS CDRI01
+Xclkbuf_4_2_0_clk clknet_0_clk clknet_4_2_0_clk VDD VSS CDRI01
+Xclkbuf_4_3_0_clk clknet_0_clk clknet_4_3_0_clk VDD VSS CDRI01
+Xclkbuf_4_4_0_clk clknet_0_clk clknet_4_4_0_clk VDD VSS CDRI01
+Xclkbuf_4_5_0_clk clknet_0_clk clknet_4_5_0_clk VDD VSS CDRI01
+Xclkbuf_4_6_0_clk clknet_0_clk clknet_4_6_0_clk VDD VSS CDRI01
+Xclkbuf_4_7_0_clk clknet_0_clk clknet_4_7_0_clk VDD VSS CDRI01
+Xclkbuf_4_8_0_clk clknet_0_clk clknet_4_8_0_clk VDD VSS CDRI01
+Xclkbuf_4_9_0_clk clknet_0_clk clknet_4_9_0_clk VDD VSS CDRI01
+Xclkbuf_4_10_0_clk clknet_0_clk clknet_4_10_0_clk VDD VSS CDRI01
+Xclkbuf_4_11_0_clk clknet_0_clk clknet_4_11_0_clk VDD VSS CDRI01
+Xclkbuf_4_12_0_clk clknet_0_clk clknet_4_12_0_clk VDD VSS CDRI01
+Xclkbuf_4_13_0_clk clknet_0_clk clknet_4_13_0_clk VDD VSS CDRI01
+Xclkbuf_4_14_0_clk clknet_0_clk clknet_4_14_0_clk VDD VSS CDRI01
+Xclkbuf_4_15_0_clk clknet_0_clk clknet_4_15_0_clk VDD VSS CDRI01
+Xclkbuf_0_sclk sclk clknet_0_sclk VDD VSS CDRI01
+Xclkbuf_2_0__f_sclk clknet_0_sclk clknet_2_0__leaf_sclk VDD VSS CDRI01
+Xclkbuf_2_1__f_sclk clknet_0_sclk clknet_2_1__leaf_sclk VDD VSS CDRI01
+Xclkbuf_2_2__f_sclk clknet_0_sclk clknet_2_2__leaf_sclk VDD VSS CDRI01
+Xclkbuf_2_3__f_sclk clknet_0_sclk clknet_2_3__leaf_sclk VDD VSS CDRI01
+.ENDS pwm8_spi_core

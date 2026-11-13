@@ -1,0 +1,43 @@
+# synth_pwm8_core.ys - Yosys synthesis of pwm8_spi_core (design + INVR05 pad drivers) onto SCL C1D cells
+# This is the netlist that gets placed and routed inside the 3 mm frame; pads are added at layout level.
+# Run from the project root:  yosys -l syn/synth.log syn/synth_pwm8_core.ys
+# Liberty path assumes the PDK is unzipped at /home/ayush-jain/scl/my_dtech (edit if moved).
+
+# Standard cells as black boxes, so pin directions are known (INVR05 instances stay as written)
+read_liberty -lib /home/ayush-jain/scl/my_dtech/Open_Source_SCL_1.2micron_PDK_digital/open_source_scl_c1d/open_pdks/sclc1d/digital_c1d/lib/c1d_core_typ.lib
+
+# Plain Verilog-2005 RTL: the design, then the P&R wrapper
+read_verilog rtl/cdc_sync.v
+read_verilog rtl/reset_sync.v
+read_verilog rtl/spi_slave.v
+read_verilog rtl/reg_bank.v
+read_verilog rtl/pwm_core.v
+read_verilog rtl/pwm8_spi_top.v
+read_verilog rtl/chip/pwm8_spi_core.v
+
+# Generic synthesis, flattened into one module
+hierarchy -check -top pwm8_spi_core
+synth -flatten -top pwm8_spi_core
+
+# Flip-flops -> DFCL11 (async clear); logic -> C1D gates.
+# ABC maps only to cells that pass the routing-LEF audit: syn/c1d_core_typ_routable.lib = SCL lib minus syn/dont_use.txt
+# (built by syn/filter_lib.py; cells whose pins have no DRC-legal via site, see flow/gen_route_lef.py).
+dfflibmap -liberty /home/ayush-jain/scl/my_dtech/Open_Source_SCL_1.2micron_PDK_digital/open_source_scl_c1d/open_pdks/sclc1d/digital_c1d/lib/c1d_core_typ.lib
+abc -liberty syn/c1d_core_typ_routable.lib
+
+# NND301 -> AND301 + INVR01 (see syn/map_nnd301.v)
+techmap -map syn/map_nnd301.v
+
+# Stop if any cell that failed the routing-LEF audit (syn/dont_use.txt) was used
+select -assert-none t:LTPC11 t:ADOR16 t:NND300 t:NND501 t:NND701 t:NOR601 t:NOR701 t:NOR801 t:OR3101 t:OR4101 t:OR5101 t:OR7101 t:OR8101 t:AND401 t:AND501 t:AND601 t:AND701 t:AND801 t:MX4122
+
+# Constants (the reset synchronizer's D input) become real tie cells
+hilomap -hicell VDDCON TIEHI -locell VSSCON TIELO
+
+# Clean up, check, report
+opt_clean -purge
+check -assert
+stat -liberty /home/ayush-jain/scl/my_dtech/Open_Source_SCL_1.2micron_PDK_digital/open_source_scl_c1d/open_pdks/sclc1d/digital_c1d/lib/c1d_core_typ.lib
+
+# Gate-level netlist for simulation, STA and place-and-route
+write_verilog -noattr syn/pwm8_core_netlist.v

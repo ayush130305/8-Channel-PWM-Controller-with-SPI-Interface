@@ -1,0 +1,99 @@
+Startpoint: _1561_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _1491_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock source latency
+   0.000    0.000 ^ clk (in)
+   2.016    2.016 ^ clkbuf_0_clk/Q (CDRI01)
+   1.461    3.477 ^ clkbuf_4_2_0_clk/Q (CDRI01)
+   0.000    3.477 ^ _1561_/C (DFCL11)
+   3.347    6.824 v _1561_/Q (DFCL11)
+   2.004    8.828 ^ _1196_/OUT1 (XOR201)
+   0.504    9.331 v _1197_/OUT1 (ADNR01)
+   0.554    9.885 ^ _1198_/OUT1 (ORND01)
+   1.303   11.188 ^ _1202_/OUT1 (AND301)
+   1.152   12.340 v _1206_/OUT1 (ORND01)
+   1.480   13.820 ^ _1209_/OUT1 (ADNR01)
+   2.250   16.071 v _1244_/OUT1 (NOR501)
+   1.011   17.081 v _1246_/OUT1 (AND301)
+   0.709   17.790 ^ _1247_/OUT1 (INVR01)
+   1.152   18.942 v _1265_/OUT1 (ORND01)
+   1.031   19.973 v fanout22/Q (CDRI01)
+   0.999   20.971 v max_cap26/Q (CDRI01)
+   0.969   21.941 v wire24/Q (CDRI01)
+   0.890   22.831 v fanout8/Q (CDRI01)
+   0.992   23.823 v wire15/Q (CDRI01)
+   0.965   24.788 v max_cap14/Q (CDRI01)
+   1.070   25.858 v max_cap13/Q (CDRI01)
+   1.106   26.964 v wire11/Q (CDRI01)
+   0.981   27.945 v max_cap10/Q (CDRI01)
+   0.818   28.763 ^ _1271_/OUT1 (MX2101)
+   0.000   28.763 ^ _1491_/D (DFCL11)
+           28.763   data arrival time
+
+ 100.000  100.000   clock CLK (rise edge)
+   0.000  100.000   clock source latency
+   0.000  100.000 ^ clk (in)
+   2.016  102.016 ^ clkbuf_0_clk/Q (CDRI01)
+   1.312  103.327 ^ clkbuf_4_4_0_clk/Q (CDRI01)
+   0.000  103.328 ^ _1491_/C (DFCL11)
+   0.000  103.328   clock reconvergence pessimism
+  -1.354  101.974   library setup time
+          101.974   data required time
+-----------------------------------------------------------
+          101.974   data required time
+          -28.763   data arrival time
+-----------------------------------------------------------
+           73.210   slack (MET)
+
+
+Startpoint: _1619_ (rising edge-triggered flip-flop clocked by SCLK)
+Endpoint: _1639_ (rising edge-triggered flip-flop clocked by SCLK')
+Path Group: SCLK
+Path Type: max
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock source latency
+   0.000    0.000 ^ sclk (in)
+   0.932    0.932 ^ clkbuf_0_sclk/Q (CDRI01)
+   1.145    2.077 ^ clkbuf_2_0__f_sclk/Q (CDRI01)
+   0.000    2.077 ^ _1619_/C (DFCL11)
+   3.375    5.452 v _1619_/Q (DFCL11)
+   1.291    6.744 v max_cap258/Q (CDRI01)
+   0.543    7.287 ^ _0872_/OUT1 (INVR01)
+   0.729    8.016 v _0899_/OUT1 (NOR200)
+   0.519    8.535 ^ _0900_/OUT1 (NND201)
+   2.033   10.568 v _0904_/OUT1 (NOR201)
+   0.969   11.537 v max_cap48/Q (CDRI01)
+   1.031   12.568 ^ _0905_/OUT1 (ADNR01)
+   2.329   14.897 v _0913_/OUT1 (NND601)
+   0.931   15.828 ^ _0914_/OUT1 (NOR300)
+   0.868   16.696 v _0915_/OUT1 (NOR200)
+   0.549   17.245 ^ _0916_/OUT1 (NOR200)
+   1.068   18.313 v _0917_/OUT1 (NOR200)
+   0.000   18.313 v _1639_/D (DFCL11)
+           18.313   data arrival time
+
+ 200.000  200.000   clock SCLK' (rise edge)
+   0.000  200.000   clock source latency
+   0.000  200.000 v sclk (in)
+   1.073  201.073 v clkbuf_0_sclk/Q (CDRI01)
+   1.076  202.149 v clkbuf_2_2__f_sclk/Q (CDRI01)
+   0.440  202.589 ^ _1473_/OUT1 (INVR01)
+   0.000  202.589 ^ _1639_/C (DFCL11)
+   0.000  202.589   clock reconvergence pessimism
+  -1.119  201.470   library setup time
+          201.470   data required time
+-----------------------------------------------------------
+          201.470   data required time
+          -18.313   data arrival time
+-----------------------------------------------------------
+          183.157   slack (MET)
+
+

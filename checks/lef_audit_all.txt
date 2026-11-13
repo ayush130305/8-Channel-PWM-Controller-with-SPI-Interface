@@ -1,0 +1,63 @@
+INVR01  OK
+INVR02  OK
+INVR03  OK
+INVR05  OK
+INVR06  OK
+LTCH11  OK  [pin D: metal2-only access (lane x=18.90 up)]
+LTCL11  OK  [pin Q: metal2-only access (lane x=56.70 up); pin D: metal2-only access (lane x=18.90 up)]
+LTPC11  pin CLRB: NO legal access (no via1 site, no metal2 lane)
+LTPR11  OK  [pin D: metal2-only access (lane x=18.90 up)]
+ADNR01  OK
+ADOR16  pin A: 130 of 154 via positions illegal (SCL deck rules); pin A: NO legal access (no via1 site, no metal2 lane); pin D: NO legal access (no via1 site, no metal2 lane); pin E: NO legal access (no via1 site, no metal2 lane)
+CDRI02  OK
+DEC24H  OK  [pin Q1: metal2-only access (lane x=25.80 up); pin Q3: metal2-only access (lane x=98.70 up)]
+DEC24L  OK  [pin EN: metal2-only access (lane x=18.90 up); pin Q3: metal2-only access (lane x=30.50 up)]
+NND300  pin IN1: 110 of 111 via positions illegal (SCL deck rules); pin IN1: NO legal access (no via1 site, no metal2 lane)
+NND301  OK
+NND401  OK
+NND501  pin IN1: 68 of 69 via positions illegal (SCL deck rules); pin IN1: NO legal access (no via1 site, no metal2 lane)
+NND601  OK
+NND701  pin IN5: NO legal access (no via1 site, no metal2 lane)
+NOR200  OK
+NOR300  OK
+NOR301  OK
+NOR401  OK
+NOR501  OK
+NOR601  pin IN3: 1 of 63 via positions illegal (SCL deck rules)
+NOR701  pin IN6: 97 of 97 via positions illegal (SCL deck rules); pin IN6: NO legal access (no via1 site, no metal2 lane)
+NOR801  pin IN6: NO legal access (no via1 site, no metal2 lane); pin OUT1: metal2-only access (lane x=35.70 up)
+OR3101  pin IN1: NO legal access (no via1 site, no metal2 lane); pin IN2: 2 of 359 via positions illegal (SCL deck rules)
+OR4101  pin IN2: 52 of 52 via positions illegal (SCL deck rules); pin IN2: NO legal access (no via1 site, no metal2 lane)
+OR5101  pin IN1: NO legal access (no via1 site, no metal2 lane)
+OR7101  pin IN1: 94 of 101 via positions illegal (SCL deck rules); pin IN1: NO legal access (no via1 site, no metal2 lane)
+OR8101  pin IN3: 246 of 247 via positions illegal (SCL deck rules); pin IN3: NO legal access (no via1 site, no metal2 lane)
+ORND01  OK
+TBUF01  OK
+TINV01  OK
+XNR201  OK
+AND301  OK
+AND401  pin IN1: 68 of 101 via positions illegal (SCL deck rules)
+AND501  pin IN5: 87 of 89 via positions illegal (SCL deck rules); pin IN5: NO legal access (no via1 site, no metal2 lane)
+AND601  pin IN1: NO legal access (no via1 site, no metal2 lane); pin IN2: 115 of 117 via positions illegal (SCL deck rules); pin IN2: NO legal access (no via1 site, no metal2 lane)
+AND701  pin IN7: NO legal access (no via1 site, no metal2 lane)
+AND801  pin IN6: NO legal access (no via1 site, no metal2 lane)
+AND201  OK
+OR2101  OK
+NND201  OK
+NOR201  OK
+INVR04  OK
+AOI401  OK
+MX201B  OK  [pin D0: metal2-only access (lane x=13.70 up); pin D1: metal2-only access (lane x=30.50 up)]
+MX4122  pin D0: NO legal access (no via1 site, no metal2 lane); pin OUT1: metal2-only access (lane x=94.50 up)
+MX2101  OK  [pin D0: metal2-only access (lane x=13.70 up); pin OUT1: metal2-only access (lane x=22.10 up)]
+CDRI01  OK
+DFPC11  OK  [pin PRB: metal2-only access (lane x=42.60 down); pin CLRB: metal2-only access (lane x=56.70 down)]
+XOR201  OK
+DFCL11  OK  [pin D: metal2-only access (lane x=18.40 up); pin CLRB: metal2-only access (lane x=49.20 up)]
+DFFL11  OK  [pin D: metal2-only access (lane x=18.90 up)]
+DFPR11  OK  [pin D: metal2-only access (lane x=18.90 up); pin PRB: metal2-only access (lane x=37.80 up)]
+VDDCON  OK
+VSSCON  OK
+PDDR02  OK  [pin P_EN: metal2-only access (lane x=13.25 up)]
+PDDR04  OK  [pin D: metal2-only access (lane x=6.30 up); pin P_EN: metal2-only access (lane x=14.70 up)]
+AUDIT: 19 of 62 cells with issues

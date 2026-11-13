@@ -1,0 +1,66 @@
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[0] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[1] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[2] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[3] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[4] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[5] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[6] in scope tb_pwm8_spi_top.dut.u_core.
+SDF WARNING: tb/tb_pwm8_spi_top.v:65: Cannot find drv_pwm[7] in scope tb_pwm8_spi_top.dut.u_core.
+clk 10.0 MHz, sclk 2.5 MHz
+ok   miso with cs_n high after reset = 0
+ok   ID = a5
+ok   to 0 after a read (ID ends in 1) = 0
+ok   unmapped 0x55 = 0
+ok   unmapped 0x7F = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   reset value = 0
+ok   PRESC = 3c
+ok   DUTYn = 11
+ok   DUTYn = 22
+ok   DUTYn = 33
+ok   DUTYn = 44
+ok   DUTYn = 55
+ok   DUTYn = 66
+ok   DUTYn = 77
+ok   DUTYn = 88
+ok   ID after write = a5
+ok   unmapped after write = 0
+ok   DUTY7 untouched = 88
+ok   CTRL after writing FE = 0
+ok   PWM still off (bit 0 = 0) = 0
+ok   CTRL after writing FF = 1
+ok   CTRL after writing 00 = 0
+ok   DUTY0 after aborted frame = 11
+ok   b2b ID read = a5
+ok   b2b read of earlier write = 5a
+ok   outputs while disabled = 0
+ok   period (clk) = 100
+ok   ch0 high (64) = 40
+ok   ch3 high (200) = c8
+ok   ch7 high (255) = ff
+ok   ch1 output (duty 0) = 0
+ok   ch0 after duty write (16) = 10
+ok   ch0 never between old/new = 1
+ok   period with PRESC=1 = 200
+ok   ch0 high with PRESC=1 = 20
+ok   outputs after disable = 0
+ok   sync while disabled = 0
+ok   pwm_out cleared at once by reset = 0
+ok   lk-domain reset asserted at once = 0
+ok   still in reset after 1 clk edge = 0
+ok   out of reset after 2 clk edges = 1
+ok   CTRL after reset = 0
+ok   DUTY0 after reset = 0
+ok   ID after reset = a5
+ok   write works after reset = 3c
+Largest delays seen: sclk fall -> miso 6.46 ns, clk -> clk-domain reset release 6.43 ns (tolerance 25.0 ns)
+ALL TESTS PASSED: 54 checks, 0 errors
+tb/tb_pwm8_spi_top.v:251: $finish called at 1110675000 (1ps)

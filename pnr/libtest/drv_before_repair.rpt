@@ -1,0 +1,60 @@
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+u0/OUT1                                10.00   10.06   -0.06 (VIOLATED)
+u115/IN4                               10.00   10.06   -0.06 (VIOLATED)
+u116/IN1                               10.00   10.06   -0.06 (VIOLATED)
+u128/IN1                               10.00   10.06   -0.06 (VIOLATED)
+u141/B                                 10.00   10.06   -0.06 (VIOLATED)
+u158/IN3                               10.00   10.06   -0.06 (VIOLATED)
+u159/IN2                               10.00   10.06   -0.06 (VIOLATED)
+u160/IN1                               10.00   10.06   -0.06 (VIOLATED)
+u17/IN2                                10.00   10.06   -0.06 (VIOLATED)
+u176/IN1                               10.00   10.06   -0.06 (VIOLATED)
+u20/IN6                                10.00   10.06   -0.06 (VIOLATED)
+u23/IN1                                10.00   10.06   -0.06 (VIOLATED)
+u29/B                                  10.00   10.06   -0.06 (VIOLATED)
+u30/A                                  10.00   10.06   -0.06 (VIOLATED)
+u5/IN2                                 10.00   10.06   -0.06 (VIOLATED)
+u6/C                                   10.00   10.06   -0.06 (VIOLATED)
+u71/IN4                                10.00   10.06   -0.06 (VIOLATED)
+u72/IN1                                10.00   10.06   -0.06 (VIOLATED)
+u73/IN1                                10.00   10.06   -0.06 (VIOLATED)
+u97/C                                  10.00   10.06   -0.06 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+u10/Q                                    20     29     -9 (VIOLATED)
+u3/OUT1                                  20     28     -8 (VIOLATED)
+u0/OUT1                                  20     27     -7 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+u3/OUT1                                 0.81    2.26   -1.45 (VIOLATED)
+u0/OUT1                                 0.81    1.96   -1.16 (VIOLATED)
+u10/Q                                   0.81    1.92   -1.12 (VIOLATED)
+u12/OUT1                                0.81    1.62   -0.81 (VIOLATED)
+u15/OUT1                                0.81    1.45   -0.64 (VIOLATED)
+u21/OUT1                                0.81    1.44   -0.63 (VIOLATED)
+u6/OUT1                                 0.81    1.41   -0.60 (VIOLATED)
+u25/OUT1                                0.81    1.32   -0.51 (VIOLATED)
+u75/OUT1                                0.81    1.12   -0.32 (VIOLATED)
+u173/Q                                  0.81    1.12   -0.32 (VIOLATED)
+u174/OUT1                               0.81    1.11   -0.31 (VIOLATED)
+u172/Q                                  0.81    1.09   -0.28 (VIOLATED)
+u79/OUT1                                0.81    1.07   -0.26 (VIOLATED)
+u175/OUT1                               0.81    1.05   -0.24 (VIOLATED)
+u129/OUT1                               0.81    1.04   -0.23 (VIOLATED)
+u26/OUT1                                0.81    1.04   -0.23 (VIOLATED)
+u22/OUT1                                0.81    0.95   -0.14 (VIOLATED)
+u18/OUT1                                0.81    0.91   -0.11 (VIOLATED)
+u177/OUT1                               1.24    1.33   -0.09 (VIOLATED)
+u130/OUT1                               0.81    0.86   -0.06 (VIOLATED)
+u80/OUT1                                0.81    0.84   -0.04 (VIOLATED)
+u8/QB                                   0.81    0.81   -0.01 (VIOLATED)
+

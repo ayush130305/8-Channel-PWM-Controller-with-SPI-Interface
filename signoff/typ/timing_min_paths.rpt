@@ -1,0 +1,66 @@
+Startpoint: _1660_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _1659_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock source latency
+   0.000    0.000 ^ clk (in)
+   2.063    2.063 ^ clkbuf_0_clk/Q (CDRI01)
+   1.333    3.396 ^ clkbuf_4_0_0_clk/Q (CDRI01)
+   0.001    3.397 ^ _1660_/C (DFCL11)
+   2.410    5.807 ^ _1660_/Q (DFCL11)
+   0.000    5.807 ^ _1659_/D (DFCL11)
+            5.807   data arrival time
+
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock source latency
+   0.000    0.000 ^ clk (in)
+   2.063    2.063 ^ clkbuf_0_clk/Q (CDRI01)
+   1.333    3.396 ^ clkbuf_4_0_0_clk/Q (CDRI01)
+   0.001    3.397 ^ _1659_/C (DFCL11)
+   0.000    3.397   clock reconvergence pessimism
+   0.258    3.655   library hold time
+            3.655   data required time
+-----------------------------------------------------------
+            3.655   data required time
+           -5.807   data arrival time
+-----------------------------------------------------------
+            2.152   slack (MET)
+
+
+Startpoint: _1655_ (rising edge-triggered flip-flop clocked by SCLK)
+Endpoint: _1655_ (rising edge-triggered flip-flop clocked by SCLK)
+Path Group: SCLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock source latency
+   0.000    0.000 ^ sclk (in)
+   0.852    0.852 ^ clkbuf_0_sclk/Q (CDRI01)
+   0.902    1.754 ^ clkbuf_2_2__f_sclk/Q (CDRI01)
+   0.000    1.754 ^ _1655_/C (DFCL11)
+   2.218    3.972 ^ _1655_/QB (DFCL11)
+   0.000    3.972 ^ _1655_/D (DFCL11)
+            3.972   data arrival time
+
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock source latency
+   0.000    0.000 ^ sclk (in)
+   0.852    0.852 ^ clkbuf_0_sclk/Q (CDRI01)
+   0.902    1.754 ^ clkbuf_2_2__f_sclk/Q (CDRI01)
+   0.000    1.754 ^ _1655_/C (DFCL11)
+   0.000    1.754   clock reconvergence pessimism
+   0.232    1.986   library hold time
+            1.986   data required time
+-----------------------------------------------------------
+            1.986   data required time
+           -3.972   data arrival time
+-----------------------------------------------------------
+            1.986   slack (MET)
+
+

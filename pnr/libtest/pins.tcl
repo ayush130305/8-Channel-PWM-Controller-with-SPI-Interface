@@ -1,0 +1,16 @@
+place_pin -pin_name {clk} -layer metal2 -location {120.000 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {rst_n} -layer metal2 -location {149.400 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {in0} -layer metal2 -location {178.800 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {in1} -layer metal2 -location {208.200 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {in2} -layer metal2 -location {237.600 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {in3} -layer metal2 -location {267.000 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {in4} -layer metal2 -location {296.400 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {in5} -layer metal2 -location {325.800 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out0} -layer metal2 -location {355.200 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out1} -layer metal2 -location {384.600 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out2} -layer metal2 -location {414.000 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out3} -layer metal2 -location {443.400 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out4} -layer metal2 -location {472.800 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out5} -layer metal2 -location {502.200 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out6} -layer metal2 -location {531.600 0.000} -pin_size {3 6} -force_to_die_boundary
+place_pin -pin_name {out7} -layer metal2 -location {561.000 0.000} -pin_size {3 6} -force_to_die_boundary

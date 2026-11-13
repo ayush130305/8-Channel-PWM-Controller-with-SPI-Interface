@@ -1,0 +1,163 @@
+Startpoint: _1418_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _1417_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _1418_/C (DFCL11)
+   1.270    1.270 ^ _1418_/Q (DFCL11)
+   0.000    1.270 ^ _1417_/D (DFCL11)
+            1.270   data arrival time
+
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000   clock reconvergence pessimism
+            0.000 ^ _1417_/C (DFCL11)
+   0.175    0.175   library hold time
+            0.175   data required time
+-----------------------------------------------------------
+            0.175   data required time
+           -1.270   data arrival time
+-----------------------------------------------------------
+            1.095   slack (MET)
+
+
+Startpoint: _1470_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _1469_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _1470_/C (DFCL11)
+   1.270    1.270 ^ _1470_/Q (DFCL11)
+   0.000    1.270 ^ _1469_/D (DFCL11)
+            1.270   data arrival time
+
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000   clock reconvergence pessimism
+            0.000 ^ _1469_/C (DFCL11)
+   0.175    0.175   library hold time
+            0.175   data required time
+-----------------------------------------------------------
+            0.175   data required time
+           -1.270   data arrival time
+-----------------------------------------------------------
+            1.095   slack (MET)
+
+
+Startpoint: _1417_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _1471_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _1417_/C (DFCL11)
+   1.346    1.346 ^ _1417_/Q (DFCL11)
+   0.000    1.346 ^ _1471_/D (DFCL11)
+            1.346   data arrival time
+
+   0.000    0.000   clock CLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000   clock reconvergence pessimism
+            0.000 ^ _1471_/C (DFCL11)
+   0.205    0.205   library hold time
+            0.205   data required time
+-----------------------------------------------------------
+            0.205   data required time
+           -1.346   data arrival time
+-----------------------------------------------------------
+            1.141   slack (MET)
+
+
+Startpoint: _1465_ (rising edge-triggered flip-flop clocked by SCLK)
+Endpoint: _1465_ (rising edge-triggered flip-flop clocked by SCLK)
+Path Group: SCLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _1465_/C (DFCL11)
+   1.046    1.046 ^ _1465_/QB (DFCL11)
+   0.000    1.046 ^ _1465_/D (DFCL11)
+            1.046   data arrival time
+
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000   clock reconvergence pessimism
+            0.000 ^ _1465_/C (DFCL11)
+   0.202    0.202   library hold time
+            0.202   data required time
+-----------------------------------------------------------
+            0.202   data required time
+           -1.046   data arrival time
+-----------------------------------------------------------
+            0.844   slack (MET)
+
+
+Startpoint: _1472_ (rising edge-triggered flip-flop clocked by SCLK)
+Endpoint: _1472_ (rising edge-triggered flip-flop clocked by SCLK)
+Path Group: SCLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _1472_/C (DFCL11)
+   1.607    1.607 ^ _1472_/QB (DFCL11)
+   0.340    1.947 ^ _1238_/OUT1 (MX2101)
+   0.000    1.947 ^ _1472_/D (DFCL11)
+            1.947   data arrival time
+
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000   clock reconvergence pessimism
+            0.000 ^ _1472_/C (DFCL11)
+   0.818    0.818   library hold time
+            0.818   data required time
+-----------------------------------------------------------
+            0.818   data required time
+           -1.947   data arrival time
+-----------------------------------------------------------
+            1.129   slack (MET)
+
+
+Startpoint: _1435_ (rising edge-triggered flip-flop clocked by SCLK)
+Endpoint: _1436_ (rising edge-triggered flip-flop clocked by SCLK)
+Path Group: SCLK
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _1435_/C (DFCL11)
+   1.935    1.935 ^ _1435_/Q (DFCL11)
+   0.000    1.935 ^ _1436_/D (DFCL11)
+            1.935   data arrival time
+
+   0.000    0.000   clock SCLK (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000   clock reconvergence pessimism
+            0.000 ^ _1436_/C (DFCL11)
+   0.580    0.580   library hold time
+            0.580   data required time
+-----------------------------------------------------------
+            0.580   data required time
+           -1.935   data arrival time
+-----------------------------------------------------------
+            1.355   slack (MET)
+
+

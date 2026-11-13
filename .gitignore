@@ -1,0 +1,29 @@
+# Editor / OS junk
+*~
+.DS_Store
+__pycache__/
+~$*
+
+# SCL-owned or SCL-derived data: never publish (see README "Not in this repo")
+*.gds
+!layout/art/*.gds
+*.odb
+*.vvp
+*.lvsdb
+extracted.cir
+*.lib
+*.lef
+pnr/lef/
+layout/frame/
+gds/
+lvs/core_cells.cdl
+images/6_cells/
+
+# NIELIT / SCL submission paperwork and personal data
+FORM_VALUES.md
+docs/EMAIL_NIELIT_pwm8.txt
+docs/SILICON_NO_REQUISITION_pwm8.md
+docs/Tapeout_Submission_*
+
+# Stale experiment files
+lvs/r0_*
